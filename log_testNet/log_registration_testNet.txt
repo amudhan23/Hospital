@@ -1,0 +1,817 @@
+ party : govtAuthority 2020/05/07 02:57:53 Time govtAuthority_DeploySystemUsersInfo : 1m47.325310817s 
+
+ party : govtAuthority 2020/05/07 02:57:53 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x04160d8cfe68a99ba1076d4681f5d2b0417715ba96a83b06dec949bdfef27ec2  contractAddress_registration :  0xF77db3631C84Bd6546d219De6eD934b722b045C6 
+
+ party : govtAuthority 2020/05/07 02:58:22 Time govtAuthority_DeployingPHA2 : 28.357563536s 
+
+ party : govtAuthority 2020/05/07 02:58:22 Tx govtAuthority_DeployingPHA2 :  3085645  txHash :  0xcbd226fa9ad253b03bd302b5ebe49b1bc9bafa9e6cdfde1ae0e094ae1b7aa7fb  contractAddress_P_HA_2 :  0x5866b1192292569c040F5f144e2c259b8143f8D6 
+
+ party : govtAuthority 2020/05/07 02:58:37 Time govtAuthority_DeployingPHA1 : 14.890380416s 
+
+ party : govtAuthority 2020/05/07 02:58:37 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0x4d3ae7c7d03744276469f5c5441969de0e74abd274268050474df98b877d120a  contractAddress_P_HA_1 :  0xeE1802dF5c3861c04FD9dD945F0670B9DAA088bE 
+
+ party : govtAuthority 2020/05/07 02:59:02 Time govtAuthority_DeployingPDBO : 25.040348359s 
+
+ party : govtAuthority 2020/05/07 02:59:02 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x75fc3e3df187c41d8b4bfb19dde1c7a043d147cc2a8ea5dcdcb8eec6477c2cd5  con_address_P_DBO :  0xCbdf58437B22AF1f1552eAC4C93A4B1cCb927bFA 
+
+ party : govtAuthority 2020/05/07 02:59:36 Time govtAuthority_DeployingPIC : 34.910478281s 
+
+ party : govtAuthority 2020/05/07 02:59:36 Tx govtAuthority_DeployingPIC :  2732193  txHash :  0x6cd3d7fc4c80386a83e6d078bc17244073477e374645ed3c66a11aed7d95a237  con_address_P_IC :  0x7Dd52214D0421eA605FE6B5F305e0ce985bC51B3 
+
+ party : GovtAuthority 2020/05/07 02:59:57 Time GovtAuthority_DeployingSCRCDBO : 20.167651692s 
+
+ party : GovtAuthority 2020/05/07 02:59:57 Tx GovtAuthority_DeploySCRCDBO :  610256  txHash :  0xa2dd410b05ef6213459c98c505d08c791e9ee91c383ea47085466ffb289034e1  con_address_RC_DBO :  0xc37dbaCdb596045a790dff41914113055101aa70 
+
+ party : Patient 2020/05/07 03:01:32 Time Patient_Registration : 1m35.014408007s 
+
+ party : Patient 2020/05/07 03:01:32 Tx Patient_Registration :  212253  txHash :  0x6918787c96bfd49c0644538c71991c36b8e68228e1a4a544d287b62974e02f2c 
+
+ party : Hospital 2020/05/07 03:02:33 Time Hospital_Registration : 1m1.844494797s 
+
+ party : Hospital 2020/05/07 03:02:33 Tx Hospital_Registration :  147977  txHash :  0x656e90265c3dbb8da243b0defe77eec5dfe87280484fd047a2c55adc8e1c484e 
+
+ party : GovtAuthority 2020/05/07 03:02:55 Time DataBaseOwner_Registration : 21.196130264s 
+
+ party : GovtAuthority 2020/05/07 03:02:55 Tx DataBaseOwner_Registration :  150081  txHash :  0x1b275cfd8423125ac804cc0c661fa5d16f185b7286b4b35dacee9bd6f7a565ee 
+
+ party : GovtAuthority 2020/05/07 03:03:46 Time InsuranceCompany_Registration : 51.151576485s 
+
+ party : GovtAuthority 2020/05/07 03:03:46 Tx InsuranceCompany_Registration :  149388  txHash :  0xabd01a71d4260d9606efb7dbac84b03edb1b42a90a8fa448132f1d102e49e02a 
+
+ party : GovtAuthority 2020/05/07 03:03:52 Time ResearchCommunity_registration : 6.086477523s 
+
+ party : GovtAuthority 2020/05/07 03:03:52 Tx ResearchCommunity_registration :  150054  txHash :  0x45431c7e4069fb76ef4a00991619e9716c4133e7d945489b4418430c41154eb3 
+
+ party : govtAuthority 2020/05/07 03:41:46 Time govtAuthority_DeploySystemUsersInfo : 19.053788586s 
+
+ party : govtAuthority 2020/05/07 03:41:46 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0xb4353edc3f88c27670dc63bfba7a217c099f3a4572927085b8f22dc8aedefd40  contractAddress_registration :  0x38fe2c6f73496fb8a590B4d75A6aea080626f0e7 
+
+ party : govtAuthority 2020/05/07 03:42:52 Time govtAuthority_DeployingPHA2 : 1m5.400752371s 
+
+ party : govtAuthority 2020/05/07 03:42:52 Tx govtAuthority_DeployingPHA2 :  3085645  txHash :  0x64392a3f7c6ef67ddc9b945c773e3dfc9a2c0b10c3d47fa09913a3c5c8590fe3  contractAddress_P_HA_2 :  0xF11C993A0CDb9A758a134a5C31b4C331Fbb76074 
+
+ party : govtAuthority 2020/05/07 03:43:25 Time govtAuthority_DeployingPHA1 : 33.014835534s 
+
+ party : govtAuthority 2020/05/07 03:43:25 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0x930aea1d76bd0421ef3d51d123fefaef41aff215bfa16929752ba5747cd9ca41  contractAddress_P_HA_1 :  0x8922F25c8bB7d2969D1e00576b36d9ff93922EbE 
+
+ party : govtAuthority 2020/05/07 03:43:57 Time govtAuthority_DeployingPDBO : 32.660900162s 
+
+ party : govtAuthority 2020/05/07 03:43:57 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0xb2a2e79f5b391d038dac00b263540953f5432f2b2c0dea5e4641ab21f7248439  con_address_P_DBO :  0xD43966909a71F09347273947e0F4Bc70Da15b0c0 
+
+ party : govtAuthority 2020/05/07 03:44:59 Time govtAuthority_DeployingPIC : 1m1.510076827s 
+
+ party : govtAuthority 2020/05/07 03:44:59 Tx govtAuthority_DeployingPIC :  2732193  txHash :  0x2b603af9aa8492b9221c18070ef2625cb3ba268cb14bd084549cd977b0694374  con_address_P_IC :  0x060023fCb74A497A8aBc9FB3DE91D060e4Db603f 
+
+ party : GovtAuthority 2020/05/07 03:45:25 Time GovtAuthority_DeployingSCRCDBO : 26.217261824s 
+
+ party : GovtAuthority 2020/05/07 03:45:25 Tx GovtAuthority_DeploySCRCDBO :  610256  txHash :  0x8de07ed4166309310aede0be3609fd24448a4d96cd0d2a1a3eea76275ee66674  con_address_RC_DBO :  0x9Aed622495B6B587908316FC5818d46ED9667185 
+
+ party : Patient 2020/05/07 03:46:01 Time Patient_Registration : 35.857838543s 
+
+ party : Patient 2020/05/07 03:46:01 Tx Patient_Registration :  212253  txHash :  0x846b961dec5c14c1c5b866636cb500e1c1b5a7af4a4b64ca490e0c0eab84f35f 
+
+ party : Hospital 2020/05/07 03:46:17 Time Hospital_Registration : 15.83146185s 
+
+ party : Hospital 2020/05/07 03:46:17 Tx Hospital_Registration :  147977  txHash :  0x5362497dcefeeebc8c6753c10712c0a13d3070537effb69dce8ee8822fde9cff 
+
+ party : GovtAuthority 2020/05/07 03:46:38 Time DataBaseOwner_Registration : 20.929165804s 
+
+ party : GovtAuthority 2020/05/07 03:46:38 Tx DataBaseOwner_Registration :  150081  txHash :  0xf17eb7ea63ea66f38d5d589b1564e7cd16b546bfb25be48e21521738da3af904 
+
+ party : GovtAuthority 2020/05/07 03:46:54 Time InsuranceCompany_Registration : 16.863204048s 
+
+ party : GovtAuthority 2020/05/07 03:46:54 Tx InsuranceCompany_Registration :  149388  txHash :  0x720caf6f4f6a26ed2f5f3e530dee622033789913352e49171b37e410ee4317bb 
+
+ party : GovtAuthority 2020/05/07 03:47:19 Time ResearchCommunity_registration : 24.198503501s 
+
+ party : GovtAuthority 2020/05/07 03:47:19 Tx ResearchCommunity_registration :  150054  txHash :  0x6a0b3c7df0c1aeafe3650007e273ff80158f88c4f996793bb77076d01d755af1 
+
+ party : govtAuthority 2020/05/12 21:26:33 Time govtAuthority_DeploySystemUsersInfo : 18.170928021s 
+
+ party : govtAuthority 2020/05/12 21:26:33 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0xb7a5310b4949b2b2cebe8aa32647c47cd981776e7d76b2f63abc47a66bdaa113  contractAddress_registration :  0xA8C8d1F6E143935E71af3F9F8487e805645aD08f 
+
+ party : govtAuthority 2020/05/12 21:26:57 Time govtAuthority_DeployingPHA2 : 23.211152263s 
+
+ party : govtAuthority 2020/05/12 21:26:57 Tx govtAuthority_DeployingPHA2 :  3085645  txHash :  0x17e2c56f1eecbb6c79e3c11e5a1074017a43804d9c056ee46fc917556c51c151  contractAddress_P_HA_2 :  0x7159a071ccDA9789a660Ba2E8af292994Ba9c5c5 
+
+ party : govtAuthority 2020/05/12 21:27:23 Time govtAuthority_DeployingPHA1 : 26.320287127s 
+
+ party : govtAuthority 2020/05/12 21:27:23 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0xdf599e9421a2294b42362782afea5b741b3c30a18333e8b9ff084e5a7ccf17dd  contractAddress_P_HA_1 :  0x7cc4f05bc50B9f5C075dBF3a62638185B77cE597 
+
+ party : govtAuthority 2020/05/12 21:27:39 Time govtAuthority_DeployingPDBO : 16.416160126s 
+
+ party : govtAuthority 2020/05/12 21:27:39 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0xaffaa77fb915cff80b553a74e21a2c0b1400f4599b72ca9155ff6a41dc9f0686  con_address_P_DBO :  0x6116579fbE2A29aa71013201ce19d15BEA830773 
+
+ party : govtAuthority 2020/05/12 21:28:06 Time govtAuthority_DeployingPIC : 26.557047076s 
+
+ party : govtAuthority 2020/05/12 21:28:06 Tx govtAuthority_DeployingPIC :  2732193  txHash :  0x41ae79fb643a4a6b6d1113e2c1106aacb289e20bf873926fef2e9083cc52ac06  con_address_P_IC :  0xe7a1b8F3f250bF245bbdB08f1631Fc8A89eE8fE6 
+
+ party : GovtAuthority 2020/05/12 21:28:25 Time GovtAuthority_DeployingSCRCDBO : 19.216101808s 
+
+ party : GovtAuthority 2020/05/12 21:28:25 Tx GovtAuthority_DeploySCRCDBO :  610256  txHash :  0xea61e3a12aaac9d7dcd76385e541a54dfe7093dce8720b01d6a722f64627551e  con_address_RC_DBO :  0x3666174B4EA5905007D0D4E208fc485cFd53181D 
+
+ party : Patient 2020/05/12 21:29:30 Time Patient_Registration : 1m4.816731169s 
+
+ party : Patient 2020/05/12 21:29:30 Tx Patient_Registration :  212253  txHash :  0x272d062efad804a570315dfd5c32415a08b706257aeda6757347ac324b160392 
+
+ party : Hospital 2020/05/12 21:29:36 Time Hospital_Registration : 5.775958623s 
+
+ party : Hospital 2020/05/12 21:29:36 Tx Hospital_Registration :  147977  txHash :  0x1c6a6423c41b03551277ec6298651f9827febd5c7eb1c3e4af97eb69f1b05be7 
+
+ party : GovtAuthority 2020/05/12 21:29:51 Time DataBaseOwner_Registration : 15.01161935s 
+
+ party : GovtAuthority 2020/05/12 21:29:51 Tx DataBaseOwner_Registration :  150081  txHash :  0xb443e86df0e33e92637b62743e916f48b31374c9205f03c986492401ca9586f7 
+
+ party : GovtAuthority 2020/05/12 21:35:48 Time InsuranceCompany_Registration : 5m56.834166283s 
+
+ party : GovtAuthority 2020/05/12 21:35:48 Tx InsuranceCompany_Registration :  149388  txHash :  0x927cc11bfceb6736200389c2dc79633d444bbb221db5b9ba212f02b02ed6d23c 
+
+ party : GovtAuthority 2020/05/12 21:37:08 Time ResearchCommunity_registration : 1m20.44414278s 
+
+ party : GovtAuthority 2020/05/12 21:37:08 Tx ResearchCommunity_registration :  150054  txHash :  0xfe57a22ae29510cfa9eebc9c2e2bddb4ec0c1642350401fd51723c8a7cf42f35 
+
+ party : govtAuthority 2020/05/13 19:35:13 Time govtAuthority_DeploySystemUsersInfo : 5.657391936s 
+
+ party : govtAuthority 2020/05/13 19:35:13 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x8a646e6e30d4233550258d39881d89edcd92c31372089a8bf3be269d8a995de8  contractAddress_registration :  0xC4e35667C23E2857055afe9f0c0d7919Fc252799 
+
+ party : govtAuthority 2020/05/13 19:35:17 Time govtAuthority_DeployingPHA2 : 3.446340858s 
+
+ party : govtAuthority 2020/05/13 19:35:17 Tx govtAuthority_DeployingPHA2 :  3085645  txHash :  0xfd6567f725791bda3e0693d532a93f1786d4b5f45ffc225ed3ebcda818a22c6f  contractAddress_P_HA_2 :  0x80021aF0c10FafCe6C7fA4131da0C7eCD49A3172 
+
+ party : govtAuthority 2020/05/13 19:35:28 Time govtAuthority_DeployingPHA1 : 11.258041468s 
+
+ party : govtAuthority 2020/05/13 19:35:28 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0xcf77e60338e100f0fe9dfcec936934da621e07e164cac3f24aa6bc52ee7ce140  contractAddress_P_HA_1 :  0xC09281f480E22D4f128281F94F83D0857a61c0F9 
+
+ party : govtAuthority 2020/05/13 19:35:36 Time govtAuthority_DeployingPDBO : 8.375648245s 
+
+ party : govtAuthority 2020/05/13 19:35:36 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x6420fad406d598437607a71e058a1d86a598dbdbdb9d162eef8755bd98555762  con_address_P_DBO :  0x73a9A4656c18b95F278F4fB10618e672439397BF 
+
+ party : govtAuthority 2020/05/13 19:35:48 Time govtAuthority_DeployingPIC : 11.764738371s 
+
+ party : govtAuthority 2020/05/13 19:35:48 Tx govtAuthority_DeployingPIC :  2732193  txHash :  0xeff7a41f1c721e893194a6013cc880204384078fda7529ce9399058ea0a2307b  con_address_P_IC :  0xaF52d02D9dB4620e87B778EA4EeDFebE9c1b9366 
+
+ party : GovtAuthority 2020/05/13 19:36:02 Time GovtAuthority_DeployingSCRCDBO : 13.972939465s 
+
+ party : GovtAuthority 2020/05/13 19:36:02 Tx GovtAuthority_DeploySCRCDBO :  610256  txHash :  0x55e53e347a553eae1ce280dc7f241c4ae7883060178b2d0725588a9cf86b8b88  con_address_RC_DBO :  0xfb7F2134c2b314811DB92FF0b2b499121398297c 
+
+ party : Patient 2020/05/13 19:36:39 Time Patient_Registration : 36.778898815s 
+
+ party : Patient 2020/05/13 19:36:39 Tx Patient_Registration :  212253  txHash :  0x728b6d8f80c8544e613fed12e4df8692d2330ecc9b212eed68c35c33458e8bca 
+
+ party : Hospital 2020/05/13 19:36:49 Time Hospital_Registration : 10.505434053s 
+
+ party : Hospital 2020/05/13 19:36:49 Tx Hospital_Registration :  147977  txHash :  0x3690d092b50a3d069e6470807f829f6d3c28d8b5fc6d95526405fceea12ec86b 
+
+ party : GovtAuthority 2020/05/13 19:36:58 Time DataBaseOwner_Registration : 9.006849474s 
+
+ party : GovtAuthority 2020/05/13 19:36:58 Tx DataBaseOwner_Registration :  150081  txHash :  0x28723772372f7677cc969bf8ea1dd3c7851d29ab12be2176170710911f763f04 
+
+ party : GovtAuthority 2020/05/13 19:37:24 Time InsuranceCompany_Registration : 26.009259058s 
+
+ party : GovtAuthority 2020/05/13 19:37:24 Tx InsuranceCompany_Registration :  149388  txHash :  0x510f5c3f376560ac8282e1a9f5964b08363400ad550ebd0267cb843b7afe314f 
+
+ party : GovtAuthority 2020/05/13 19:37:41 Time ResearchCommunity_registration : 16.994917102s 
+
+ party : GovtAuthority 2020/05/13 19:37:41 Tx ResearchCommunity_registration :  150054  txHash :  0x163ddd44fc1a07923ebc9dc07ac2f2602f1fbd497d830c1d87674a006d42a0a2 
+
+ party : govtAuthority 2020/05/13 20:08:42 Time govtAuthority_DeploySystemUsersInfo : 36.165192886s 
+
+ party : govtAuthority 2020/05/13 20:08:42 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x00560ce42a8d0b6e600975b3e70f0a14c05b54f360110072373a8c64bbfc5d4b  contractAddress_registration :  0x959db771FBbF15DD7d013cBc019C4C5E2462736a 
+
+ party : govtAuthority 2020/05/13 20:09:04 Time govtAuthority_DeployingPHA2 : 21.669049208s 
+
+ party : govtAuthority 2020/05/13 20:09:04 Tx govtAuthority_DeployingPHA2 :  3085645  txHash :  0x6bef68d97edd39d1da0bcf730c47a26d64ca00bc2614f2ae7a296d68226c5022  contractAddress_P_HA_2 :  0xaeCB1c0eD53DC603155a20EeC5E0E4D78C053c50 
+
+ party : govtAuthority 2020/05/13 20:09:44 Time govtAuthority_DeployingPHA1 : 40.616028352s 
+
+ party : govtAuthority 2020/05/13 20:09:44 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0x3f1414a4126e1ba852b7c075b3f546b9031224f6a25f40ad620a9d794ab23c62  contractAddress_P_HA_1 :  0x540562F5f90e57806689AF17abB12D377927540b 
+
+ party : govtAuthority 2020/05/13 20:09:55 Time govtAuthority_DeployingPDBO : 10.940899297s 
+
+ party : govtAuthority 2020/05/13 20:09:55 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x13c2b9277598757f270d1e3f95ddb82021735c043d89b43d87a52d034fe0dd69  con_address_P_DBO :  0xf9d114b8BF5d91C3044713d1855B93eBc3e2C432 
+
+ party : govtAuthority 2020/05/13 20:10:32 Time govtAuthority_DeployingPIC : 36.887097081s 
+
+ party : govtAuthority 2020/05/13 20:10:32 Tx govtAuthority_DeployingPIC :  2732193  txHash :  0x00847fee0b1d4c1a23c65daffec5ec5edc0175f0a960ad4dfe3ad9b2c88a5d3f  con_address_P_IC :  0xeF6C2B92e145FBFA12c29E4F96d378b7F9084f45 
+
+ party : GovtAuthority 2020/05/13 20:10:56 Time GovtAuthority_DeployingSCRCDBO : 23.507557381s 
+
+ party : GovtAuthority 2020/05/13 20:10:56 Tx GovtAuthority_DeploySCRCDBO :  610256  txHash :  0x2eda837d16b58b2779be2e5ac1f3e27690def307eb44ad46082f16ad06106c66  con_address_RC_DBO :  0x16aB2Dd9bA70F17ff10217d86E464eF18586362f 
+
+ party : Patient 2020/05/13 20:11:03 Time Patient_Registration : 7.718479583s 
+
+ party : Patient 2020/05/13 20:11:03 Tx Patient_Registration :  212253  txHash :  0xb533a57e999c43bb90f44badf4d5c6f857788d88ac8fe530e9ca1341c94769b0 
+
+ party : Hospital 2020/05/13 20:11:12 Time Hospital_Registration : 8.125154698s 
+
+ party : Hospital 2020/05/13 20:11:12 Tx Hospital_Registration :  147977  txHash :  0xba5e5b546176bb3734bf61882886696bd0b97481cf7e820bd405439329b4a7b6 
+
+ party : GovtAuthority 2020/05/13 20:11:25 Time DataBaseOwner_Registration : 13.79370954s 
+
+ party : GovtAuthority 2020/05/13 20:11:25 Tx DataBaseOwner_Registration :  150081  txHash :  0xc880642d3a59c334fec423b317cc01df2b92546929696365e72cdb7187f3342e 
+
+ party : GovtAuthority 2020/05/13 20:11:30 Time InsuranceCompany_Registration : 4.762598238s 
+
+ party : GovtAuthority 2020/05/13 20:11:30 Tx InsuranceCompany_Registration :  149388  txHash :  0xee5ca8a35a78dea34f94c1f1506eb42dc7ef89b40ab4378d4afbcb7c743cae13 
+
+ party : GovtAuthority 2020/05/13 20:11:39 Time ResearchCommunity_registration : 9.160761146s 
+
+ party : GovtAuthority 2020/05/13 20:11:39 Tx ResearchCommunity_registration :  150054  txHash :  0x3f61af00076b30b8cb2484066ec05bdd6d8a3ecaa7cad4a0bf7b766c6089cf72 
+
+ party : govtAuthority 2020/05/13 23:24:21 Time govtAuthority_DeploySystemUsersInfo : 1h0m28.082534719s 
+
+ party : govtAuthority 2020/05/13 23:24:21 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0xba8f0af7a9826053edd766196b1b196bb09345f03be0b342e9467a58a6f64ca0  contractAddress_registration :  0x90D46c38D3C1dA9395B891013AAe427f9aBD86EA 
+
+ party : govtAuthority 2020/05/14 00:18:46 Time govtAuthority_DeploySystemUsersInfo : 38m41.106000359s 
+
+ party : govtAuthority 2020/05/14 00:18:46 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0xc113f2444b9a715309c25390b748b31085c43913ef4505890bbf5521df560d23  contractAddress_registration :  0x6993d850DE0707C1C2E8a30554d5Bde4b858aC46 
+
+ party : govtAuthority 2020/05/14 00:19:06 Time govtAuthority_DeployingPHA2 : 19.990819324s 
+
+ party : govtAuthority 2020/05/14 00:19:06 Tx govtAuthority_DeployingPHA2 :  3085645  txHash :  0x1374c08de65043c04dab17d0763dea4733ccf38ba430b4882e68c6906c3e037d  contractAddress_P_HA_2 :  0x01f0192B5c699041b60fb7d072F7bE2437838632 
+
+ party : govtAuthority 2020/05/14 00:19:13 Time govtAuthority_DeployingPHA1 : 7.100986386s 
+
+ party : govtAuthority 2020/05/14 00:19:13 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0x1b3d2ca388f69952eaa268863fe60f28b2ccdcefbb5044db616316ff02868a20  contractAddress_P_HA_1 :  0x5a69Ca8Ea078Aa01e3Fad3e9457Db606f7e08D5D 
+
+ party : govtAuthority 2020/05/14 00:19:18 Time govtAuthority_DeployingPDBO : 5.501818895s 
+
+ party : govtAuthority 2020/05/14 00:19:18 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x96ce721b4d552b78e5fe80d500e986b46bc71bd0da436a6970d5506edd97dd0c  con_address_P_DBO :  0x317e667ce09532741574F9c882cA172ABd5bce73 
+
+ party : govtAuthority 2020/05/14 00:19:25 Time govtAuthority_DeployingPIC : 6.157519699s 
+
+ party : govtAuthority 2020/05/14 00:19:25 Tx govtAuthority_DeployingPIC :  2732193  txHash :  0xa53bdca89065954e6cb9cf0fbbbb332fe49b14b94c9464c2b4d31e63f3e0de69  con_address_P_IC :  0x2c5743e8aDA3a0fc040b2DE83db8Bd891058420B 
+
+ party : GovtAuthority 2020/05/14 00:19:30 Time GovtAuthority_DeployingSCRCDBO : 5.109313223s 
+
+ party : GovtAuthority 2020/05/14 00:19:30 Tx GovtAuthority_DeploySCRCDBO :  610256  txHash :  0x18b66623d211d274a665d04d82413ec52df17706754c2672d9d74dd91f395fec  con_address_RC_DBO :  0xBF5629300E91D092ee5e36dc775DD8482fC7b162 
+
+ party : Patient 2020/05/14 00:19:35 Time Patient_Registration : 5.784707177s 
+
+ party : Patient 2020/05/14 00:19:35 Tx Patient_Registration :  212253  txHash :  0xd219d24bbf1db8f4b19fb5ea88465936e6f60fdda7ae477d9684dcccf09d7a21 
+
+ party : Hospital 2020/05/14 00:19:44 Time Hospital_Registration : 8.848190012s 
+
+ party : Hospital 2020/05/14 00:19:44 Tx Hospital_Registration :  147977  txHash :  0xd9ceb569e4b4a3e40c52981b42d098fea282e718a1f34e54d27cef2ca7c6daf9 
+
+ party : GovtAuthority 2020/05/14 00:20:07 Time DataBaseOwner_Registration : 22.820214117s 
+
+ party : GovtAuthority 2020/05/14 00:20:07 Tx DataBaseOwner_Registration :  150081  txHash :  0x00c0c672587c44274cfc5cf391d008e9fcdc5c6d947438af6a106dfda569b452 
+
+ party : GovtAuthority 2020/05/14 00:20:29 Time InsuranceCompany_Registration : 21.954323496s 
+
+ party : GovtAuthority 2020/05/14 00:20:29 Tx InsuranceCompany_Registration :  149388  txHash :  0x92afb8f91c746111e1b6d2509d47f5035e4dc097cb25e371685cb03f26ab0efb 
+
+ party : GovtAuthority 2020/05/14 00:20:49 Time ResearchCommunity_registration : 20.14377524s 
+
+ party : GovtAuthority 2020/05/14 00:20:49 Tx ResearchCommunity_registration :  150054  txHash :  0x62b1031f9b77da5a9006c9992433d793e8938835e070e20cc3732da280249775 
+
+ party : govtAuthority 2020/05/14 18:43:21 Time govtAuthority_DeploySystemUsersInfo : 16.407512643s 
+
+ party : govtAuthority 2020/05/14 18:43:21 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x3be1136d2f761e4e5a57cfc29092f513c820a2de8c49ad0d260552dde517304a  contractAddress_registration :  0x38E08fBD55547A87Fd8b2f501f1faE0AF0761d56 
+
+ party : govtAuthority 2020/05/14 18:43:45 Time govtAuthority_DeployingPHA2 : 24.487534394s 
+
+ party : govtAuthority 2020/05/14 18:43:45 Tx govtAuthority_DeployingPHA2 :  3085645  txHash :  0x55e60186b0ccf92f61730b002081b0188c53f35bd7a92cf62912c984f5a1c395  contractAddress_P_HA_2 :  0x1a87B935c42f7FB395ef553A9D113Ee4671e23eB 
+
+ party : govtAuthority 2020/05/14 18:43:54 Time govtAuthority_DeployingPHA1 : 8.836148137s 
+
+ party : govtAuthority 2020/05/14 18:43:54 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0x8ce01fdfcb20219ed084ad3b7b89b3e5cc9a3ddae7bd0a3df5a40c7f937bf690  contractAddress_P_HA_1 :  0xe79978d4D6CB8052C9de6581dcd7f0E96c221fb7 
+
+ party : govtAuthority 2020/05/14 18:44:08 Time govtAuthority_DeployingPDBO : 14.246916275s 
+
+ party : govtAuthority 2020/05/14 18:44:08 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x3176008506d22cf316a4b0118989590ff61a4e66ced156afa0198ecaed5d4227  con_address_P_DBO :  0xB3897f960605db34617c4423cB7a498068f503D8 
+
+ party : govtAuthority 2020/05/14 18:44:15 Time govtAuthority_DeployingPIC : 6.242435477s 
+
+ party : govtAuthority 2020/05/14 18:44:15 Tx govtAuthority_DeployingPIC :  2732193  txHash :  0x7aa356f846c2d76210c9d18fd67cf8bb32a1b4c50f743b06c6c221dabe426673  con_address_P_IC :  0x85ce6d9F5a0EEE61de62455cBF4fFA84EC8843A5 
+
+ party : GovtAuthority 2020/05/14 18:44:24 Time GovtAuthority_DeployingSCRCDBO : 9.284429991s 
+
+ party : GovtAuthority 2020/05/14 18:44:24 Tx GovtAuthority_DeploySCRCDBO :  610256  txHash :  0xaf348b888d0b9e87da44571c265ba054a5cad4d11b3616269f80a3925d8ae83c  con_address_RC_DBO :  0xC59bbCDD39b45A96Fc2183157B2aFAd90848d337 
+
+ party : Patient 2020/05/14 18:44:41 Time Patient_Registration : 17.164317443s 
+
+ party : Patient 2020/05/14 18:44:41 Tx Patient_Registration :  212253  txHash :  0x60d2ca949920ce79c05d5e4a4458e34207fbded97dce18b8883934f221ad847b 
+
+ party : Hospital 2020/05/14 18:44:47 Time Hospital_Registration : 5.867059899s 
+
+ party : Hospital 2020/05/14 18:44:47 Tx Hospital_Registration :  147977  txHash :  0xec7b0608422671b8bf3929a2f02d3be1f3d15af45ae778baf7e445504c95ffd1 
+
+ party : GovtAuthority 2020/05/14 18:45:12 Time DataBaseOwner_Registration : 24.920018297s 
+
+ party : GovtAuthority 2020/05/14 18:45:12 Tx DataBaseOwner_Registration :  150081  txHash :  0xe01afd217911478dd7ff68c4266283c3a979ea4946ce44cb2ae38cb069464fec 
+
+ party : GovtAuthority 2020/05/14 18:45:26 Time InsuranceCompany_Registration : 14.076852839s 
+
+ party : GovtAuthority 2020/05/14 18:45:26 Tx InsuranceCompany_Registration :  149388  txHash :  0x3db228ff4c4aa9d39ccb3fd837560dafd1e20d4c43e88f57c905deafa4a7e81c 
+
+ party : GovtAuthority 2020/05/14 18:45:38 Time ResearchCommunity_registration : 11.890259992s 
+
+ party : GovtAuthority 2020/05/14 18:45:38 Tx ResearchCommunity_registration :  150054  txHash :  0x93275b16fcdc78a81c2c408751a96a4a81330f5578afb5a6da0e988ab89e2f94 
+
+ party : govtAuthority 2020/05/14 20:55:20 Time govtAuthority_DeploySystemUsersInfo : 18.671446325s 
+
+ party : govtAuthority 2020/05/14 20:55:20 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x2d69edd35311a6a367368e69c66f7a55767f7c639d6a469e791b0472945c9e14  contractAddress_registration :  0x5307cEa3ad3a93802Acdec7D53F8372D62ef880c 
+
+ party : govtAuthority 2020/05/14 20:56:10 Time govtAuthority_DeployingPHA2 : 50.773445816s 
+
+ party : govtAuthority 2020/05/14 20:56:10 Tx govtAuthority_DeployingPHA2 :  3085645  txHash :  0xbc30ae714780ec0b493c3b4bf05b2db89ff7a2ece1414357a3c5932b9dfe75e7  contractAddress_P_HA_2 :  0x7ede06aE7616F972254bb3DCd54607f436D2efd1 
+
+ party : govtAuthority 2020/05/14 20:56:41 Time govtAuthority_DeployingPHA1 : 30.413939076s 
+
+ party : govtAuthority 2020/05/14 20:56:41 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0x97800083a564713e885e49a6b8fbf6191e903ee03736c1f91c2374200db929a3  contractAddress_P_HA_1 :  0x241eEB5BFaff0CE542ee39291096e4dCa270D52d 
+
+ party : govtAuthority 2020/05/14 20:57:02 Time govtAuthority_DeployingPDBO : 20.975684755s 
+
+ party : govtAuthority 2020/05/14 20:57:02 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x2a0fd9f56cfa439c4c775019f7feb119d74ed9731c4b058a30dfdff50cf1dbfd  con_address_P_DBO :  0x8082Ec16D6bAeA9Ce6c5A777FCB2c824d832DD1A 
+
+ party : govtAuthority 2020/05/14 20:57:30 Time govtAuthority_DeployingPIC : 28.208912761s 
+
+ party : govtAuthority 2020/05/14 20:57:30 Tx govtAuthority_DeployingPIC :  2732193  txHash :  0x9383ee68894e75f4bf2760117fbb10f3bf1b54d35a555eafdfb9de7f90a234f9  con_address_P_IC :  0x086F2E53e163551415687919ebAA58ff78c55C0A 
+
+ party : GovtAuthority 2020/05/14 20:57:46 Time GovtAuthority_DeployingSCRCDBO : 16.273950408s 
+
+ party : GovtAuthority 2020/05/14 20:57:46 Tx GovtAuthority_DeploySCRCDBO :  610256  txHash :  0xcbc735ba8a40aa401e7d6690b9b729b78277c14faffccae452d7763bf36f270c  con_address_RC_DBO :  0x4f89C38815a44E79B7dAE53Af3F82b921e418572 
+
+ party : Patient 2020/05/14 20:57:51 Time Patient_Registration : 4.865746509s 
+
+ party : Patient 2020/05/14 20:57:51 Tx Patient_Registration :  212253  txHash :  0x5518861683af562efd74805cfe86067c2e305c0e1dfb053ecae0a4fd5a46eaeb 
+
+ party : Hospital 2020/05/14 20:58:20 Time Hospital_Registration : 28.437999259s 
+
+ party : Hospital 2020/05/14 20:58:20 Tx Hospital_Registration :  147977  txHash :  0x6b738c500ff524a1a341f90b0d64cd3dc3089856f0618a0c9507e4a06738b3a3 
+
+ party : GovtAuthority 2020/05/14 20:59:16 Time DataBaseOwner_Registration : 56.81753248s 
+
+ party : GovtAuthority 2020/05/14 20:59:16 Tx DataBaseOwner_Registration :  150081  txHash :  0xef345f0e69d413253a48ec94bdb27c575e395860da50ace422dfe41305223991 
+
+ party : GovtAuthority 2020/05/14 21:00:07 Time InsuranceCompany_Registration : 50.922859216s 
+
+ party : GovtAuthority 2020/05/14 21:00:07 Tx InsuranceCompany_Registration :  149388  txHash :  0x441a2c6e26862b98ae5ea6708b324ea1a728963148de05397a516a14cc005646 
+
+ party : GovtAuthority 2020/05/14 21:00:16 Time ResearchCommunity_registration : 9.192495562s 
+
+ party : GovtAuthority 2020/05/14 21:00:16 Tx ResearchCommunity_registration :  150054  txHash :  0x69e7540868bb36590cbc0af898fd01ea7a3192ebd190e0759b462d7de5df2bda 
+
+ party : govtAuthority 2020/05/16 00:18:29 Time govtAuthority_DeploySystemUsersInfo : 14.500343983s 
+
+ party : govtAuthority 2020/05/16 00:18:29 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x4b404808c77ba8f9c45d72be858a8100c7014bcce19a49eb20a06f63b2cca40d  contractAddress_registration :  0x6bF12eE4819Baa4708c6640736613a7995813a30 
+
+ party : govtAuthority 2020/05/16 00:18:50 Time govtAuthority_DeployingPHA2 : 20.528787947s 
+
+ party : govtAuthority 2020/05/16 00:18:50 Tx govtAuthority_DeployingPHA2 :  3085645  txHash :  0xd0d131bde33f5d450aca3af255039677779b3d25c6184dbe9885640107a08cd0  contractAddress_P_HA_2 :  0x3DDc52A09EA9DF95150854C741f8c161815764e8 
+
+ party : govtAuthority 2020/05/16 00:19:46 Time govtAuthority_DeployingPHA1 : 56.346177876s 
+
+ party : govtAuthority 2020/05/16 00:19:46 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0x94987a9ea11da65a5b25b8d31b50fcfe612cdd42449d3800447a209ebcd9a6d5  contractAddress_P_HA_1 :  0xE6e0516dC24e5c7336BAbd09880455E5796D9338 
+
+ party : govtAuthority 2020/05/16 00:19:57 Time govtAuthority_DeployingPDBO : 10.978402046s 
+
+ party : govtAuthority 2020/05/16 00:19:57 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x9eac2c3e39d7a69774b62a88a66cb1de12a910c4fa8aadf0c571cc11b1736f78  con_address_P_DBO :  0x6067B29AbcEb361e5b1518c05faF13E998C15e87 
+
+ party : govtAuthority 2020/05/16 00:20:35 Time govtAuthority_DeployingPIC : 37.829259991s 
+
+ party : govtAuthority 2020/05/16 00:20:35 Tx govtAuthority_DeployingPIC :  2732193  txHash :  0x0ea435cd79b8c247408374bf723cbc6893bf1e6bebd5536265a4483a3327ef86  con_address_P_IC :  0xd6c61D85fb5E558c579f1BD73Ce6f86Eb2121Df7 
+
+ party : GovtAuthority 2020/05/16 00:21:06 Time GovtAuthority_DeployingSCRCDBO : 30.889840457s 
+
+ party : GovtAuthority 2020/05/16 00:21:06 Tx GovtAuthority_DeploySCRCDBO :  610256  txHash :  0x4bb84a7f7993797178cc305c6dbd3eb345a2f1eef922c6b253b8d557b838d3c4  con_address_RC_DBO :  0xD4f30E6761351021307F156beCe26d95E1941E97 
+
+ party : Patient 2020/05/16 00:21:35 Time Patient_Registration : 29.251064465s 
+
+ party : Patient 2020/05/16 00:21:35 Tx Patient_Registration :  212253  txHash :  0x3cd69158679004117313cbd83507ed01b5f2b78a1f11a90e6cc4a5fc76fafe29 
+
+ party : Hospital 2020/05/16 00:21:48 Time Hospital_Registration : 13.137670028s 
+
+ party : Hospital 2020/05/16 00:21:48 Tx Hospital_Registration :  147977  txHash :  0x9cdfb5bab24fe1cbe0f512b6d680737367b6ef351575d07d33848bb35f971380 
+
+ party : GovtAuthority 2020/05/16 00:22:19 Time DataBaseOwner_Registration : 30.665462754s 
+
+ party : GovtAuthority 2020/05/16 00:22:19 Tx DataBaseOwner_Registration :  150081  txHash :  0x76189c0815ab8ebfc48575c0de4733139c9abd2e6f65e09a667a65c38b72935b 
+
+ party : GovtAuthority 2020/05/16 00:22:49 Time InsuranceCompany_Registration : 30.211477706s 
+
+ party : GovtAuthority 2020/05/16 00:22:49 Tx InsuranceCompany_Registration :  149388  txHash :  0x6d2533afc65c043bc97fb405c3ac0c4c45c30a62ce78f8f399c4949d2f740ecd 
+
+ party : GovtAuthority 2020/05/16 00:23:18 Time ResearchCommunity_registration : 29.002128966s 
+
+ party : GovtAuthority 2020/05/16 00:23:18 Tx ResearchCommunity_registration :  150054  txHash :  0x2c78617a0db68cc0370668812d13ecfe433d57575121d87e59dc17aa7fda8877 
+
+ party : govtAuthority 2020/05/16 02:59:21 Time govtAuthority_DeploySystemUsersInfo : 51.31583328s 
+
+ party : govtAuthority 2020/05/16 02:59:21 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0xb0658d765a5cf6825fbaf2bf3a435eaa50d635c5679baea371ce62ee90c64452  contractAddress_registration :  0x140A5Ba915a63A7b1E1C5B391837d23327c40530 
+
+ party : govtAuthority 2020/05/16 02:59:49 Time govtAuthority_DeployingPHA2 : 27.740403373s 
+
+ party : govtAuthority 2020/05/16 02:59:49 Tx govtAuthority_DeployingPHA2 :  3085645  txHash :  0xce26be1aa89c5fc9ec8955961d48e516c80d7d0ae77af320cc0a9eb378d63c07  contractAddress_P_HA_2 :  0x4ED7A7c2e7350da07cC3fF875DE6c9085EeE434F 
+
+ party : govtAuthority 2020/05/16 03:00:06 Time govtAuthority_DeployingPHA1 : 16.885006257s 
+
+ party : govtAuthority 2020/05/16 03:00:06 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0x7e49f367d95c26e9d1ace284eae5795b568958a703cfc15867f2b0dca27ae347  contractAddress_P_HA_1 :  0xE79FABaAF275f8928A99eF1C32d5cfA24b2F9EE0 
+
+ party : govtAuthority 2020/05/16 03:00:53 Time govtAuthority_DeployingPDBO : 47.043456664s 
+
+ party : govtAuthority 2020/05/16 03:00:53 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x35ac0a579b78076f10d14333e248e9232508bc406e9d8a76f4c10dd46fda8409  con_address_P_DBO :  0x2EDfcD4Bca638F6a70E29255729c5E762B54ca88 
+
+ party : govtAuthority 2020/05/16 03:01:14 Time govtAuthority_DeployingPIC : 21.446648197s 
+
+ party : govtAuthority 2020/05/16 03:01:14 Tx govtAuthority_DeployingPIC :  2732193  txHash :  0x100c18cbe1f1243215ec70f623bfb7ffc50ab952e9eba9433f93957c5d7def94  con_address_P_IC :  0x280086cBf0Fd7477345aBCEDb09af8a03ec8a705 
+
+ party : GovtAuthority 2020/05/16 03:02:01 Time GovtAuthority_DeployingSCRCDBO : 46.769827896s 
+
+ party : GovtAuthority 2020/05/16 03:02:01 Tx GovtAuthority_DeploySCRCDBO :  610256  txHash :  0xfa2b581da2174308368e9a2cf968efb8f9dc67946f3313628cdb8a308929f28f  con_address_RC_DBO :  0xf6eE5079B38605F36909c8B706a57B5895D05D7b 
+
+ party : Patient 2020/05/16 03:02:21 Time Patient_Registration : 20.391020046s 
+
+ party : Patient 2020/05/16 03:02:21 Tx Patient_Registration :  212253  txHash :  0xa930e55339cdcdc3f6c9112217e7e1fa83b3a26ac76434055377a111fc0c9c81 
+
+ party : Hospital 2020/05/16 03:02:41 Time Hospital_Registration : 19.379334974s 
+
+ party : Hospital 2020/05/16 03:02:41 Tx Hospital_Registration :  147977  txHash :  0x2e0c0471dd775e83e62043510c9af9bc26fed326ed2ef8a51103f586b22b7824 
+
+ party : GovtAuthority 2020/05/16 03:03:42 Time DataBaseOwner_Registration : 1m1.046461625s 
+
+ party : GovtAuthority 2020/05/16 03:03:42 Tx DataBaseOwner_Registration :  150081  txHash :  0xbbc525b14b7f1d708c06a1b10011ea0857ff7c57a9da992f325d6d18deb173d8 
+
+ party : GovtAuthority 2020/05/16 03:04:06 Time InsuranceCompany_Registration : 23.776283457s 
+
+ party : GovtAuthority 2020/05/16 03:04:06 Tx InsuranceCompany_Registration :  149388  txHash :  0x15194ef772552915096b535c4becfaf12638d034e163d27e53c695a6c8bc8078 
+
+ party : GovtAuthority 2020/05/16 03:04:33 Time ResearchCommunity_registration : 27.601588022s 
+
+ party : GovtAuthority 2020/05/16 03:04:33 Tx ResearchCommunity_registration :  150054  txHash :  0xfa3932e2c148e3a60b0f94bf3aacde0c03520ec66833168d2f31ddb491f7b2b6 
+
+ party : govtAuthority 2020/05/16 03:16:07 Time govtAuthority_DeploySystemUsersInfo : 11.458141529s 
+
+ party : govtAuthority 2020/05/16 03:16:07 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x0927b405f35d70f26a0719629c744008e8815d1e1172838e87253cb4d4719e7a  contractAddress_registration :  0xDd8e2ee65B02C111F965FA8A12250494B56883CF 
+
+ party : govtAuthority 2020/05/16 03:16:34 Time govtAuthority_DeployingPHA2 : 27.078160331s 
+
+ party : govtAuthority 2020/05/16 03:16:34 Tx govtAuthority_DeployingPHA2 :  3085645  txHash :  0x00f5fb399c6ababd46f4934bee145c1776077007e351a7ac38ef98802f1bf7e1  contractAddress_P_HA_2 :  0x3Ae9653E4aA8fe32Ae3FBF4c7aa757E192b26F7c 
+
+ party : govtAuthority 2020/05/16 03:17:00 Time govtAuthority_DeployingPHA1 : 26.369067991s 
+
+ party : govtAuthority 2020/05/16 03:17:00 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0xd47bfc84bbeb49ba5bfde4b0c9daf308d4089b32e3d7ff2b547486be913f2385  contractAddress_P_HA_1 :  0xc2D9e45A78BDfdC8EBe9Ff891EEdA99249008D73 
+
+ party : govtAuthority 2020/05/16 03:17:32 Time govtAuthority_DeployingPDBO : 31.567794518s 
+
+ party : govtAuthority 2020/05/16 03:17:32 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x51e7c7a254d2869fec563c0be277b433ad2f6e8ef2b844875e1c44529096b0f5  con_address_P_DBO :  0x80f6353148F4A9D81119A574fFCB2E8F812aC4F2 
+
+ party : govtAuthority 2020/05/16 03:18:01 Time govtAuthority_DeployingPIC : 28.964249478s 
+
+ party : govtAuthority 2020/05/16 03:18:01 Tx govtAuthority_DeployingPIC :  2732193  txHash :  0xf9f4fadeb45790b85d5df7e62d9fc5f75bad281810bba4086e3a1670e42c420e  con_address_P_IC :  0x426eb80741e988a35704AaB0783A73D5466f98A1 
+
+ party : GovtAuthority 2020/05/16 03:18:16 Time GovtAuthority_DeployingSCRCDBO : 15.655993145s 
+
+ party : GovtAuthority 2020/05/16 03:18:16 Tx GovtAuthority_DeploySCRCDBO :  602310  txHash :  0xd2d5895cf543a626cc2b0bc06be6accc95ccdb61b0aec209e064281285a21bfe  con_address_RC_DBO :  0xe75318eF7060E7fF350773F20Ad959bef5dD3Ca4 
+
+ party : Patient 2020/05/16 03:19:17 Time Patient_Registration : 1m0.505379485s 
+
+ party : Patient 2020/05/16 03:19:17 Tx Patient_Registration :  212253  txHash :  0x79f931d5aeb542bffdaf53699894e1f8241c9e1078e579bacbfc5d92a36190ca 
+
+ party : Hospital 2020/05/16 03:19:25 Time Hospital_Registration : 8.171114359s 
+
+ party : Hospital 2020/05/16 03:19:25 Tx Hospital_Registration :  147977  txHash :  0xd6324b964335154b83b41b624ef8bb2d79f842364615665d0fb2615acb3f4af6 
+
+ party : GovtAuthority 2020/05/16 03:19:36 Time DataBaseOwner_Registration : 11.119484551s 
+
+ party : GovtAuthority 2020/05/16 03:19:36 Tx DataBaseOwner_Registration :  150081  txHash :  0x687c1db34d8aaaa03753baf135c06d8355e15f9669362ec317991804a464b241 
+
+ party : GovtAuthority 2020/05/16 03:19:46 Time InsuranceCompany_Registration : 9.346757193s 
+
+ party : GovtAuthority 2020/05/16 03:19:46 Tx InsuranceCompany_Registration :  149388  txHash :  0x6fce113f87c9d5d8e27fff20766d6efd1999dda3c94ff200747764bba0ff69a7 
+
+ party : GovtAuthority 2020/05/16 03:20:26 Time ResearchCommunity_registration : 40.260183409s 
+
+ party : GovtAuthority 2020/05/16 03:20:26 Tx ResearchCommunity_registration :  150054  txHash :  0xb0e4e2daea1230e641215462a8b0dbfbe6c88c3777fddebb1686502cbb0a372d 
+
+ party : govtAuthority 2020/05/18 19:27:45 Time govtAuthority_DeploySystemUsersInfo : 18.145113285s 
+
+ party : govtAuthority 2020/05/18 19:27:45 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x8a8d08a70ad59e6e9bb523b32190f816dadd00be29e84ba76406a5401eea517f  contractAddress_registration :  0x173F124d39d931A9E059aCf5e1582B8Da4146E20 
+
+ party : govtAuthority 2020/05/18 19:28:20 Time govtAuthority_DeployingPHA2 : 34.807716121s 
+
+ party : govtAuthority 2020/05/18 19:28:20 Tx govtAuthority_DeployingPHA2 :  3086941  txHash :  0x67e7f3e7558cc24ebdeb74c00d4c66ad6768e36614ff8a63e7b531a58aa22e59  contractAddress_P_HA_2 :  0xBE81379B07bB206A91676a0E5CA200f549E8f3B4 
+
+ party : govtAuthority 2020/05/18 19:28:41 Time govtAuthority_DeployingPHA1 : 21.271618654s 
+
+ party : govtAuthority 2020/05/18 19:28:41 Tx govtAuthority_DeployingPHA1 :  5260316  txHash :  0x971e1a884bf16ac878c50957510a16888941af7a06ce3928cc26a5242a211789  contractAddress_P_HA_1 :  0x1Ce16c103ab7e9BFD656E1150C59C87020aFE398 
+
+ party : govtAuthority 2020/05/18 19:29:20 Time govtAuthority_DeployingPDBO : 38.918713258s 
+
+ party : govtAuthority 2020/05/18 19:29:20 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0xba5105283ef059cd7c6f66c44f5c035e2bf714feefe1dea5eee0ea38ad821383  con_address_P_DBO :  0x2fe46904B6eC9C5c6a6e57D3540BF3B35E08431D 
+
+ party : govtAuthority 2020/05/18 19:29:32 Time govtAuthority_DeployingPIC : 12.161841548s 
+
+ party : govtAuthority 2020/05/18 19:29:32 Tx govtAuthority_DeployingPIC :  2756607  txHash :  0x75397fd0f8f172adfd1668fe374d9f3aaf7a2988cdb7c6b359e05e3a57e90c08  con_address_P_IC :  0x4b3b997e5A3f5D3419bbf558096814063A39781D 
+
+ party : GovtAuthority 2020/05/18 19:29:46 Time GovtAuthority_DeployingSCRCDBO : 13.860165236s 
+
+ party : GovtAuthority 2020/05/18 19:29:46 Tx GovtAuthority_DeploySCRCDBO :  602310  txHash :  0xcb09ec4d0ffb493bc7aa2518206aa2b5f995b1076553b5b113f112e4e9d2789e  con_address_RC_DBO :  0x45Ef3e08efD3237a3C7F59B4f3928F3B88c0194c 
+
+ party : Patient 2020/05/18 19:30:57 Time Patient_Registration : 1m11.367846268s 
+
+ party : Patient 2020/05/18 19:30:57 Tx Patient_Registration :  212253  txHash :  0xa333d2e7277bc88b8eb0dc1fe8c58ee002f5c1a692c23c36e07ae3bbe91c67da 
+
+ party : Hospital 2020/05/18 19:31:18 Time Hospital_Registration : 20.297413752s 
+
+ party : Hospital 2020/05/18 19:31:18 Tx Hospital_Registration :  147977  txHash :  0xdfb963a318985eb283e1b2bfed7f0b81621390816e7cebb1dbe9ba8398583955 
+
+ party : GovtAuthority 2020/05/18 19:31:28 Time DataBaseOwner_Registration : 10.981190626s 
+
+ party : GovtAuthority 2020/05/18 19:31:28 Tx DataBaseOwner_Registration :  150081  txHash :  0x70916531dfc5ff4f5995174e01c4420a59d1e95b41ad06e521dd3767d98046db 
+
+ party : GovtAuthority 2020/05/18 19:31:46 Time InsuranceCompany_Registration : 17.373847129s 
+
+ party : GovtAuthority 2020/05/18 19:31:46 Tx InsuranceCompany_Registration :  149388  txHash :  0x224cd61ae9e505571bea85b198f7259ef899ee2a1588ce49fb047350bff5b2e1 
+
+ party : GovtAuthority 2020/05/18 19:32:21 Time ResearchCommunity_registration : 35.305421752s 
+
+ party : GovtAuthority 2020/05/18 19:32:21 Tx ResearchCommunity_registration :  150054  txHash :  0x6f2c3b139a5509e488a26a583bde4274127a1d5009fe3e68f0f5322f6694adf0 
+
+ party : govtAuthority 2020/05/18 19:40:01 Time govtAuthority_DeploySystemUsersInfo : 24.639274872s 
+
+ party : govtAuthority 2020/05/18 19:40:01 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x3320517fe7109fe3e2b9ca3f024a11d3fcec4451c692bc8feb4d4d18080f9886  contractAddress_registration :  0xE3F7C437eC17c792c2B1da9568eB54d37Fac99Ff 
+
+ party : govtAuthority 2020/05/18 19:40:35 Time govtAuthority_DeployingPHA2 : 34.233628348s 
+
+ party : govtAuthority 2020/05/18 19:40:35 Tx govtAuthority_DeployingPHA2 :  3086941  txHash :  0x59894c9b1db72f88261280071e5d5c54e2138e85f3a12636e53b58aa9564fc19  contractAddress_P_HA_2 :  0xBe4c6808A3eB8894990B39ce8c35FA4FA2f2c4c0 
+
+ party : govtAuthority 2020/05/18 19:42:36 Time govtAuthority_DeployingPHA1 : 2m1.173648498s 
+
+ party : govtAuthority 2020/05/18 19:42:36 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0x5f5b5bdf0033eb567c9d9339fec950d5ffb2f489e52f4386c84e95af625a64e1  contractAddress_P_HA_1 :  0xb8cB870104D39d4fC583F328EC253263feD17B56 
+
+ party : govtAuthority 2020/05/18 19:43:13 Time govtAuthority_DeployingPDBO : 36.793049507s 
+
+ party : govtAuthority 2020/05/18 19:43:13 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x634d349dafa202275db2f9b76ac9d66ed99316be87237fdeb35d60e8f1b6e579  con_address_P_DBO :  0xBa724b59a3D8944FC264Ee8a75Ff274e7A369a0E 
+
+ party : govtAuthority 2020/05/18 19:43:38 Time govtAuthority_DeployingPIC : 24.657105331s 
+
+ party : govtAuthority 2020/05/18 19:43:38 Tx govtAuthority_DeployingPIC :  2756607  txHash :  0x99763f746b6b63a3a2ce8a0b1210417a235d805a2e017a24e7d51b41142170be  con_address_P_IC :  0xDdEe53b5fe1C77EA8e5Cad74412c271ed045D0b0 
+
+ party : GovtAuthority 2020/05/18 19:44:15 Time GovtAuthority_DeployingSCRCDBO : 37.393614247s 
+
+ party : GovtAuthority 2020/05/18 19:44:15 Tx GovtAuthority_DeploySCRCDBO :  602310  txHash :  0x8fbc8a758cddb85528a1263f687b6b9a2ea37aa80aff10a544b244d1a09b6674  con_address_RC_DBO :  0x88aE9B62b46dC4e94CBc6a33Ac423bDB894f225a 
+
+ party : Patient 2020/05/18 19:44:26 Time Patient_Registration : 10.641774039s 
+
+ party : Patient 2020/05/18 19:44:26 Tx Patient_Registration :  212253  txHash :  0xe5c9e18210dfea34d4200072b2336b931244caaf588df60c3d34547d8d261ecc 
+
+ party : Hospital 2020/05/18 19:45:16 Time Hospital_Registration : 50.735515007s 
+
+ party : Hospital 2020/05/18 19:45:16 Tx Hospital_Registration :  147977  txHash :  0x7f4b5dd534a39256ae3835a7bc4385ecc7ccff328862e0e2490ecaee357d2828 
+
+ party : GovtAuthority 2020/05/18 19:45:28 Time DataBaseOwner_Registration : 11.190026641s 
+
+ party : GovtAuthority 2020/05/18 19:45:28 Tx DataBaseOwner_Registration :  150081  txHash :  0x4381aaaaeaa2412466981f538cd6a35f36ad5b7a14fe03273f55ff21e3ec4cb3 
+
+ party : GovtAuthority 2020/05/18 19:45:54 Time InsuranceCompany_Registration : 26.549818562s 
+
+ party : GovtAuthority 2020/05/18 19:45:54 Tx InsuranceCompany_Registration :  149388  txHash :  0x6f3e61c7d026020959cf09083335cfc4f2ca61ca5e6d60ea03f31d40129462e6 
+
+ party : GovtAuthority 2020/05/18 19:46:08 Time ResearchCommunity_registration : 14.118731862s 
+
+ party : GovtAuthority 2020/05/18 19:46:08 Tx ResearchCommunity_registration :  150054  txHash :  0x88ebedc87235f0b0bafe177267c94279496aaf634f4a08c96927f2841e430411 
+
+ party : govtAuthority 2020/05/18 19:48:43 Time govtAuthority_DeploySystemUsersInfo : 50.664714405s 
+
+ party : govtAuthority 2020/05/18 19:48:43 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x692bdb75801a08157a838161846e031349306c389f2bf9410489c3091fa36687  contractAddress_registration :  0x5a818296705cC24Feec4CfEAF1DfdaE056fEf037 
+
+ party : govtAuthority 2020/05/18 19:48:51 Time govtAuthority_DeployingPHA2 : 8.536697214s 
+
+ party : govtAuthority 2020/05/18 19:48:51 Tx govtAuthority_DeployingPHA2 :  3086941  txHash :  0xc8fdf283623fcf2ab8eaf475ada33143b13ecd49b9bbee8d2b689b1e3aeb5d0f  contractAddress_P_HA_2 :  0x7b88e153aC1b2BCA865CD58E1082f50Ed69f4c3c 
+
+ party : govtAuthority 2020/05/18 19:49:11 Time govtAuthority_DeployingPHA1 : 19.771179757s 
+
+ party : govtAuthority 2020/05/18 19:49:11 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0xc0e51a04671d3643f9626f57ad9873328fd35e9cb22263b389814d1badb7f51d  contractAddress_P_HA_1 :  0x9528dA5753ae928Eb1e0284C7b1771e2FC17a766 
+
+ party : govtAuthority 2020/05/18 19:49:58 Time govtAuthority_DeployingPDBO : 47.419658192s 
+
+ party : govtAuthority 2020/05/18 19:49:58 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x97c010974b169fbcedfd35bd422ef6e9ce6df0f98a958cb9d77b9f8d8a2109f9  con_address_P_DBO :  0xC062E1eF5EdB815bcF5B93C6BaD497ABCA407f31 
+
+ party : govtAuthority 2020/05/18 19:50:06 Time govtAuthority_DeployingPIC : 7.943246252s 
+
+ party : govtAuthority 2020/05/18 19:50:06 Tx govtAuthority_DeployingPIC :  2756607  txHash :  0x628231d39bbc931cd73509a54e39b85e0bafa3c64012412facf68353747902ff  con_address_P_IC :  0xD519535972d006DD72AbBd60453Ae78747065B5e 
+
+ party : GovtAuthority 2020/05/18 19:51:11 Time GovtAuthority_DeployingSCRCDBO : 1m5.116506422s 
+
+ party : GovtAuthority 2020/05/18 19:51:11 Tx GovtAuthority_DeploySCRCDBO :  602310  txHash :  0xf9b334615223ae140932ddd7423b85161a425ce528d38ef3386e003a8e196caa  con_address_RC_DBO :  0xafb22029C41cA8a4c04D0a07284d2b2c257aE723 
+
+ party : Patient 2020/05/18 19:51:56 Time Patient_Registration : 44.42470562s 
+
+ party : Patient 2020/05/18 19:51:56 Tx Patient_Registration :  212253  txHash :  0xcca26b52681c8ded019bf0d1531f131abac72b5b8e7f271b1942d39588833c34 
+
+ party : Hospital 2020/05/18 19:52:13 Time Hospital_Registration : 17.010534674s 
+
+ party : Hospital 2020/05/18 19:52:13 Tx Hospital_Registration :  147977  txHash :  0xdb1759b5c9c8cf3fafdcd1cf11896e40aadfcaee6fd316a52f5b702ea1b0f822 
+
+ party : GovtAuthority 2020/05/18 19:52:43 Time DataBaseOwner_Registration : 30.147423259s 
+
+ party : GovtAuthority 2020/05/18 19:52:43 Tx DataBaseOwner_Registration :  150081  txHash :  0x3683006edaca4659fc5cce0a830b5c4b5955dd779f0f16f72f63d5215f0c68c1 
+
+ party : GovtAuthority 2020/05/18 19:53:00 Time InsuranceCompany_Registration : 17.279733059s 
+
+ party : GovtAuthority 2020/05/18 19:53:00 Tx InsuranceCompany_Registration :  149388  txHash :  0xed182fffa81001069a4654c525162c9fd9544b0c6a07a550b0d07a2ceefed170 
+
+ party : GovtAuthority 2020/05/18 19:53:30 Time ResearchCommunity_registration : 29.331753685s 
+
+ party : GovtAuthority 2020/05/18 19:53:30 Tx ResearchCommunity_registration :  150054  txHash :  0x51f2c7bcab1adfccc3a758bd537e84b4191a6970cb7d065d7e708ff21c6c367d 
+
+ party : govtAuthority 2020/05/18 20:11:51 Time govtAuthority_DeploySystemUsersInfo : 44.815011865s 
+
+ party : govtAuthority 2020/05/18 20:11:51 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0xb866a6a638f7905c8c62167e942f47c97cb9c3f298d3431a66920511bc04c844  contractAddress_registration :  0xE41aa08471a7b0DA9c52ee4A53cbba82e7f6B1bc 
+
+ party : govtAuthority 2020/05/18 20:12:23 Time govtAuthority_DeployingPHA2 : 32.154111526s 
+
+ party : govtAuthority 2020/05/18 20:12:23 Tx govtAuthority_DeployingPHA2 :  3086941  txHash :  0xec7c735ff81b941d31696a6867cd668d94bb1d088b7e289211d847a278780e04  contractAddress_P_HA_2 :  0xE38712B1C8f5C2797504D836af4B649C4b9b8ccB 
+
+ party : govtAuthority 2020/05/18 20:13:09 Time govtAuthority_DeployingPHA1 : 46.083573373s 
+
+ party : govtAuthority 2020/05/18 20:13:09 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0x7f587481356f231c002098e311fbeb8de65344f46b3c547ac17632dcc0b8fa79  contractAddress_P_HA_1 :  0xA75B7737F458BD3031601B464586734B905ee615 
+
+ party : govtAuthority 2020/05/18 20:13:27 Time govtAuthority_DeployingPDBO : 17.744675647s 
+
+ party : govtAuthority 2020/05/18 20:13:27 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x37c778b5b71328e4aa78fa99d5c0c21f15d66eddd02f55ef5a5e2c58c0346608  con_address_P_DBO :  0x5d3E10306B8D48440A7F14571cCD9B2f788Bcd11 
+
+ party : govtAuthority 2020/05/18 20:13:53 Time govtAuthority_DeployingPIC : 26.494609372s 
+
+ party : govtAuthority 2020/05/18 20:13:53 Tx govtAuthority_DeployingPIC :  2756607  txHash :  0x7e0c68a93cd29674f5fa883f8d7228277f3c82a10316275998ca9783a1a8a5ba  con_address_P_IC :  0x35DCEc8f2F9e3a8a6055E91F376Ff1AEc3476420 
+
+ party : GovtAuthority 2020/05/18 20:14:02 Time GovtAuthority_DeployingSCRCDBO : 9.118105483s 
+
+ party : GovtAuthority 2020/05/18 20:14:02 Tx GovtAuthority_DeploySCRCDBO :  602310  txHash :  0x0e79f0796e378df082e2708ee7b50417e8485094a6665b731eb6ee754422f69e  con_address_RC_DBO :  0xAE4180388d96d69241Cd560dfD95EcDC2347fE7a 
+
+ party : Patient 2020/05/18 20:14:45 Time Patient_Registration : 42.31762723s 
+
+ party : Patient 2020/05/18 20:14:45 Tx Patient_Registration :  212253  txHash :  0xbc34e8e15568f97253c5e16f5de77dde3364ef3714f77a9c9adc64c4a3216461 
+
+ party : Hospital 2020/05/18 20:14:57 Time Hospital_Registration : 12.215786879s 
+
+ party : Hospital 2020/05/18 20:14:57 Tx Hospital_Registration :  147977  txHash :  0x04b568b09db99f161e4e99256d701d08a65378dfd5dbf55a5f276ec56c4709c0 
+
+ party : GovtAuthority 2020/05/18 20:15:32 Time DataBaseOwner_Registration : 34.861702452s 
+
+ party : GovtAuthority 2020/05/18 20:15:32 Tx DataBaseOwner_Registration :  150081  txHash :  0x6113580f732ae6e65f749fd1af771ecb183497dff9ba1f67824497d8a6e0edda 
+
+ party : GovtAuthority 2020/05/18 20:15:46 Time InsuranceCompany_Registration : 13.939784108s 
+
+ party : GovtAuthority 2020/05/18 20:15:46 Tx InsuranceCompany_Registration :  149388  txHash :  0x1536cd75a1c7833251f2cb3bcedf8485934705d3dd3a461b5e604c8e3095fa19 
+
+ party : GovtAuthority 2020/05/18 20:16:46 Time ResearchCommunity_registration : 59.893517123s 
+
+ party : GovtAuthority 2020/05/18 20:16:46 Tx ResearchCommunity_registration :  150054  txHash :  0x400eff212ce87423286d2ef55a28b11ba01157a15c630c371fae4c1c13dd10e9 
+
+ party : govtAuthority 2020/05/19 04:00:13 Time govtAuthority_DeploySystemUsersInfo : 6m16.897108189s 
+
+ party : govtAuthority 2020/05/19 04:00:13 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0xb6bb25a2379b3d0bd9fca47366727884eedc95b3dd984dc55d2d5ae680c77ff3  contractAddress_registration :  0x9F37B6c760b5ED899d441C29289C697abcD946Fb 
+
+ party : govtAuthority 2020/05/19 04:00:44 Time govtAuthority_DeployingPHA2 : 30.518621979s 
+
+ party : govtAuthority 2020/05/19 04:00:44 Tx govtAuthority_DeployingPHA2 :  3086941  txHash :  0xce7c40fb6ffe5ef6df5b99e3b3b0dd04d566be044f928ba303a438a81b877720  contractAddress_P_HA_2 :  0x7a5F7E3b9A656Cf7e5082D8399fFf516f5bEd3cE 
+
+ party : govtAuthority 2020/05/19 04:01:08 Time govtAuthority_DeployingPHA1 : 23.962536981s 
+
+ party : govtAuthority 2020/05/19 04:01:08 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0x9a3f194609616bd34921347d973f19e5a49a83634266d48ef7c90881dcdb8605  contractAddress_P_HA_1 :  0x4d471fA50711Ac9AebfA2bdC6E71817C61A00919 
+
+ party : govtAuthority 2020/05/19 04:01:24 Time govtAuthority_DeployingPDBO : 15.665617736s 
+
+ party : govtAuthority 2020/05/19 04:01:24 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0xc4b1291a588cd0f7e06a5d2611b4ad6b496f71cb6ca9ade92ccaca812d9b81d0  con_address_P_DBO :  0x514840Dbe05c5f1D355Ace443533813bDb92922d 
+
+ party : govtAuthority 2020/05/19 04:01:51 Time govtAuthority_DeployingPIC : 27.547050815s 
+
+ party : govtAuthority 2020/05/19 04:01:51 Tx govtAuthority_DeployingPIC :  2756607  txHash :  0x9d78859b9ba4b97537279a6a1a6b9e66c571e1fad179f0a30c7b2efb4f1ced92  con_address_P_IC :  0x79168c7573e81a370a043797dF8335283deD8772 
+
+ party : GovtAuthority 2020/05/19 04:02:15 Time GovtAuthority_DeployingSCRCDBO : 23.857826524s 
+
+ party : GovtAuthority 2020/05/19 04:02:15 Tx GovtAuthority_DeploySCRCDBO :  602310  txHash :  0x4eeff950aaa43600275c51c7097f1ea5052eb4340a41543befe9d3c62f4e0a30  con_address_RC_DBO :  0xd9e508b916f5203651057F59b2E066fE748D178C 
+
+ party : govtAuthority 2020/05/19 04:02:45 Time govtAuthority_DeploySystemUsersInfo : 27.48285945s 
+
+ party : govtAuthority 2020/05/19 04:02:45 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x28ab8d1efc8fd12c46dba3df96f80407a929090300f825a1e4fb98bc9b46ebdc  contractAddress_registration :  0x503781681d4AF8E612f50b396EB1Cd07A2Fd8051 
+
+ party : govtAuthority 2020/05/19 04:03:26 Time govtAuthority_DeployingPHA2 : 40.143882839s 
+
+ party : govtAuthority 2020/05/19 04:03:26 Tx govtAuthority_DeployingPHA2 :  3086941  txHash :  0xb420dc8f60e9e876da23b295cabda2e58ea46636ea9e8deb6592ed00782c943d  contractAddress_P_HA_2 :  0xcb1Fb9d59DE599135c2e971c5D2100F54bb2428C 
+
+ party : govtAuthority 2020/05/19 04:04:20 Time govtAuthority_DeployingPHA1 : 54.275842118s 
+
+ party : govtAuthority 2020/05/19 04:04:20 Tx govtAuthority_DeployingPHA1 :  5260316  txHash :  0xd3778672fd4f11e6aaf1beef5feefbea2c627f905f0a96845a0820f782f601a4  contractAddress_P_HA_1 :  0x7a3E7548E534e354d090243A38d5708E48f1558c 
+
+ party : govtAuthority 2020/05/19 04:04:46 Time govtAuthority_DeployingPDBO : 25.718069077s 
+
+ party : govtAuthority 2020/05/19 04:04:46 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0xf592fb264a0c668fefba76f694ba076b0b49332305c273c86f18429b1404808a  con_address_P_DBO :  0xdcdA97CB1d10F31c52D18d2D63BCA6E0D9fb8dB6 
+
+ party : govtAuthority 2020/05/19 04:05:23 Time govtAuthority_DeployingPIC : 37.866011708s 
+
+ party : govtAuthority 2020/05/19 04:05:23 Tx govtAuthority_DeployingPIC :  2756607  txHash :  0xbac57376de58b740ca67b045155d611ee3efe2b1a4bfce9695e79c8e8878885c  con_address_P_IC :  0x343CE3A589c5909D23042538DCf1572aD405E636 
+
+ party : GovtAuthority 2020/05/19 04:05:58 Time GovtAuthority_DeployingSCRCDBO : 34.304160609s 
+
+ party : GovtAuthority 2020/05/19 04:05:58 Tx GovtAuthority_DeploySCRCDBO :  602310  txHash :  0x9bb0c7f8206b8abc89a4e078b16a171baab625dd40c73d2691c7156588292616  con_address_RC_DBO :  0xF2D6FBfB40BDDa079d51DAeAe08370B4D98f8Ea1 
+
+ party : Patient 2020/05/19 04:06:06 Time Patient_Registration : 7.93759842s 
+
+ party : Patient 2020/05/19 04:06:06 Tx Patient_Registration :  212253  txHash :  0x418f78f4f10139241086b95a75c93cfd950926211780c06dbdba7bb60d29ae9d 
+
+ party : Hospital 2020/05/19 04:06:18 Time Hospital_Registration : 11.926057678s 
+
+ party : Hospital 2020/05/19 04:06:18 Tx Hospital_Registration :  147977  txHash :  0x20726acedd2dfe9a2cb4a5622b0f246463b786030812c63eec434a90ca3623c3 
+
+ party : GovtAuthority 2020/05/19 04:06:40 Time DataBaseOwner_Registration : 22.834807297s 
+
+ party : GovtAuthority 2020/05/19 04:06:40 Tx DataBaseOwner_Registration :  150081  txHash :  0x454673fe725503ee17a47c9233c14877894c36fcb10bac6a0b9107164e218a85 
+
+ party : GovtAuthority 2020/05/19 04:06:45 Time InsuranceCompany_Registration : 4.914595474s 
+
+ party : GovtAuthority 2020/05/19 04:06:45 Tx InsuranceCompany_Registration :  149388  txHash :  0xa30e5d2b4818554fca03e182585e0cb13a827de8d8d220acdeb30183cdd5f5a4 
+
+ party : GovtAuthority 2020/05/19 04:07:14 Time ResearchCommunity_registration : 28.467317834s 
+
+ party : GovtAuthority 2020/05/19 04:07:14 Tx ResearchCommunity_registration :  150054  txHash :  0xf975f04a1b600cc6ab2de09322e9d22ff6099e177892767b465179307558d298 
+
+ party : govtAuthority 2020/05/19 04:15:40 Time govtAuthority_DeploySystemUsersInfo : 58.725534192s 
+
+ party : govtAuthority 2020/05/19 04:15:40 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x7adfe4258b01b38094a3aa59ec260e3513fed36c3f58fced8cca7576009ebb5a  contractAddress_registration :  0x24ff8a5F59C5cd579ABEdA9276F350228d38783A 
+
+ party : govtAuthority 2020/05/19 04:15:55 Time govtAuthority_DeployingPHA2 : 15.052682408s 
+
+ party : govtAuthority 2020/05/19 04:15:55 Tx govtAuthority_DeployingPHA2 :  3086941  txHash :  0x4d4f4834011bf5dc3727fdb96f030d7bb894cb74492d18972b3d0de7c9a340b2  contractAddress_P_HA_2 :  0x9a963399880C4b4BE0f4EB5B298E2EA868cF2BD2 
+
+ party : govtAuthority 2020/05/19 04:17:45 Time govtAuthority_DeploySystemUsersInfo : 1m0.569365619s 
+
+ party : govtAuthority 2020/05/19 04:17:45 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x67cd887bf97f7637a63040a4c36984e7c5cc2091462b6251b9efc663f9ff1b40  contractAddress_registration :  0x9980c26477C1cf6e762D221dC1F8F0eb3d80b832 
+
+ party : govtAuthority 2020/05/19 04:21:46 Time govtAuthority_DeploySystemUsersInfo : 2m4.652626599s 
+
+ party : govtAuthority 2020/05/19 04:21:46 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x1e2174cfc28841bdccb0a93213090663805b0cafab91afd32e21d87475afed00  contractAddress_registration :  0xfe6d7bB13BC7F553ac7C6A948A6AB0AE398F447e 
+
+ party : govtAuthority 2020/05/19 04:24:04 Time govtAuthority_DeployingPHA2 : 2m17.86077785s 
+
+ party : govtAuthority 2020/05/19 04:24:04 Tx govtAuthority_DeployingPHA2 :  3086941  txHash :  0x3e8d56802d1546bf1c90be05216b336a026684a92b075bb007befe22d23b88c4  contractAddress_P_HA_2 :  0x2688D6869404765eA3eaf7DdC5AB7e15bFb5c20C 
+
+ party : govtAuthority 2020/05/19 04:25:12 Time govtAuthority_DeployingPHA1 : 1m8.208962714s 
+
+ party : govtAuthority 2020/05/19 04:25:12 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0x52beb0a5ff32c8a56ce450d4fb0fdbfff971fbcacf1781a2252002e1c48ccd76  contractAddress_P_HA_1 :  0x388e2e4f949Bc7c843D8C62796b88b46532283d8 
+
+ party : govtAuthority 2020/05/19 04:27:54 Time govtAuthority_DeployingPDBO : 2m41.58117665s 
+
+ party : govtAuthority 2020/05/19 04:27:54 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x2a6c0ece93399e5c7af13fbbbeb282c608dff6344ee2a96bc49be041a3fdc96f  con_address_P_DBO :  0xCC9f8b63f33FC2aab94DAeE6F7AD37A6dFb7822a 
+
+ party : govtAuthority 2020/05/19 04:35:06 Time govtAuthority_DeploySystemUsersInfo : 4m37.336650381s 
+
+ party : govtAuthority 2020/05/19 04:35:06 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x7bc6507ff48ecc7aedfb58a0e694891034975a0deb9aa3a5bf88cb9daf62a8c4  contractAddress_registration :  0x9BE2c6761C38e494046b75Aba78B5e0e3303Cb0f 
+
+ party : govtAuthority 2020/05/19 04:43:13 Time govtAuthority_DeploySystemUsersInfo : 4m33.67994262s 
+
+ party : govtAuthority 2020/05/19 04:43:13 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x7d8194703a8adf7feffbb27346129b70bc59fa1a453167ca398505f1427d2c46  contractAddress_registration :  0x1D46aD635ee4F4ed833dA9cA61Dd3f03a843D662 
+
+ party : govtAuthority 2020/05/19 04:46:05 Time govtAuthority_DeployingPHA2 : 2m52.372979942s 
+
+ party : govtAuthority 2020/05/19 04:46:05 Tx govtAuthority_DeployingPHA2 :  3086941  txHash :  0x9affbc67393c0954397f64f2d2bc5808b2d8360b8b6d6d54566e319fed16c126  contractAddress_P_HA_2 :  0x80797dA241Ad1eB379B3C4E331ea4E50bE077c96 
+
+ party : govtAuthority 2020/05/19 04:48:18 Time govtAuthority_DeployingPHA1 : 2m12.813531575s 
+
+ party : govtAuthority 2020/05/19 04:48:18 Tx govtAuthority_DeployingPHA1 :  5260328  txHash :  0x1f0e071a06b1a83979bf86f5515936bfafb2bdec5692bf7e81a09d3dbaba26cd  contractAddress_P_HA_1 :  0x7d181d3e5e6B0C75F2Fe52cff057148a890507c4 
+
+ party : govtAuthority 2020/05/19 04:48:51 Time govtAuthority_DeployingPDBO : 32.277916273s 
+
+ party : govtAuthority 2020/05/19 04:48:51 Tx govtAuthority_DeployingPDBO :  2530807  txHash :  0x306d3fdd6c5c575335705d3a117843f4f78b6fe982a0c4b89aec6718bedbfe42  con_address_P_DBO :  0x7D43aF4772055b8d93E2ccD808F63a2f0003Be5e 
+
+ party : govtAuthority 2020/05/19 04:55:48 Time govtAuthority_DeployingPIC : 6m57.467117055s 
+
+ party : govtAuthority 2020/05/19 04:55:48 Tx govtAuthority_DeployingPIC :  2756607  txHash :  0x29572de6da201423c235f41b041e42e32914d9b31976ee35d458c82f4f701aff  con_address_P_IC :  0x611E841983C794625f175251B1eCC0894C83BFc0 
+
+ party : GovtAuthority 2020/05/19 04:57:33 Time GovtAuthority_DeployingSCRCDBO : 1m44.957059939s 
+
+ party : GovtAuthority 2020/05/19 04:57:33 Tx GovtAuthority_DeploySCRCDBO :  602310  txHash :  0x8634577a44b032f95a499843ff98afe94f66152c2b18886efa474b2f2a35cf35  con_address_RC_DBO :  0xf770f33ffFC1c48B055d16ad910b3C83b37d6F09 
+
+ party : Patient 2020/05/19 04:58:17 Time Patient_Registration : 43.826180657s 
+
+ party : Patient 2020/05/19 04:58:17 Tx Patient_Registration :  212253  txHash :  0x8610c19ff74faf14cf666528af80e58088ab62a7b4c5c5fe7d36414d1bff49a2 
+
+ party : Hospital 2020/05/19 04:59:08 Time Hospital_Registration : 50.893420295s 
+
+ party : Hospital 2020/05/19 04:59:08 Tx Hospital_Registration :  147977  txHash :  0xb4a2a99ee1b7eb2946e64ea3999e8a1de8d32a60f603bc6f594a6b2e62117e91 
+
+ party : GovtAuthority 2020/05/19 04:59:49 Time DataBaseOwner_Registration : 41.594307677s 
+
+ party : GovtAuthority 2020/05/19 04:59:49 Tx DataBaseOwner_Registration :  150081  txHash :  0x5cc2e934d116e7e894626739cedd1e4b9f4e6fb24b224e5a5ea3bcdfba687f10 
+
+ party : GovtAuthority 2020/05/19 05:00:08 Time InsuranceCompany_Registration : 18.821090061s 
+
+ party : GovtAuthority 2020/05/19 05:00:08 Tx InsuranceCompany_Registration :  149388  txHash :  0xd8a2d963ae171ddec7140e3472b88920e1bf9ad33735e8cfff54e0d9a48d3cf4 
+
+ party : GovtAuthority 2020/05/19 05:00:28 Time ResearchCommunity_registration : 20.235511068s 
+
+ party : GovtAuthority 2020/05/19 05:00:28 Tx ResearchCommunity_registration :  150054  txHash :  0x37259cf3ea945d188cee25392c793b2f049ef1e1760e8a01c9a67c29c5d05c88 
+
+ party : govtAuthority 2020/05/19 05:52:17 Time govtAuthority_DeploySystemUsersInfo : 59.944912576s 
+
+ party : govtAuthority 2020/05/19 05:52:17 Tx govtAuthority_DeploySystemUsersInfo :  1868556  txHash :  0x7e446080b18698a0373ee63829f4e55bab35fa65db7a185151dac586307e8767  contractAddress_registration :  0x760db79b5b8e8472844e24C1d3482117C0e02d84 
+
+ party : govtAuthority 2020/05/19 05:52:42 Time govtAuthority_DeployingPHA2 : 25.394661751s 
+
+ party : govtAuthority 2020/05/19 05:52:42 Tx govtAuthority_DeployingPHA2 :  3086941  txHash :  0xf1eda546547755a4c9f98e373ec4a2850605ab863ff149f7cf9aec1ae2cb93b2  contractAddress_P_HA_2 :  0x9F89428f2815F0cbcBd41416feFbECC30a96BA60 
+
+2020/05/19 19:35:50 no contract code after deployment

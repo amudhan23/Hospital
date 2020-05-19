@@ -1,0 +1,993 @@
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 03:16:20 Time InsuranceCompany_SecurityDeposist : 1m7.346853993s
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 03:16:20 Tx InsuranceCompany_SecurityDeposit :  45914
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 03:16:21 Time PatientIC_buyPolicyPhaseOne : 1m8.09664493s
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 03:16:21 Tx PatientIC_buyPolicyPhaseOne :  77788
+  txHash :  0x9b09c93933305ba623e3f6a3fd73d2e481d5c366a063fdb15779143227179ecc
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 03:16:57 Time InsuranceCompany_LockPolicyPhaseTwo : 36.169718759s
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 03:16:57 Tx InsuranceCompany_LockPolicyPhaseTwo :  246153
+  txHash :  0xc3ca10ccd31ed233c83ca2c0431ec2bda259da513e1eba7329b6eec5f50ddb88
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 03:16:58 Time PatientIC_WaitingForICtoLockMoney : 37.273074517s
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 03:17:42 Time PatientIC_GeneratingClaim : 44.246809276s
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 03:17:42 Tx PatientIC_GenerateClaim :  556881
+  txHash :  0x6ea1ed6527ff50bd4844a18c61417d9dd3fdaccebe81822753594567ea1d8694
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 03:17:42 Time PatientIC_SendClaimIdToIC : 298.361872ms
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 03:17:42 Time PatientIC_sendClaimIdToDataBaseOwner : 70.742µs
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 03:17:42 Time InsuranceCompany_WaitingForPatientToSendClaimId : 45.648573508s
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 03:17:43 Time DbIC_computing_signature : 307.912326ms
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 03:18:20 Time DbIC_KeepSignature : 37.067426694s
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 03:18:20 Tx DbIC_KeepSigOnHashOfEncFile :  114237
+  txHash :  0x94dd066472501e9b6cbb31602b44fbfaac3c4b1c62350e0d3f09c171b65e6eb4
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 03:18:20 Time DbIC_sendingEcncryptedFilesToIC : 69.807µs
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 03:18:20 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 37.733465929s
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 03:18:56 Time InsuranceCompany_lockingClaimeddMoney : 36.354450247s
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 03:18:56 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0x8357eda4e5ec1c978906ba76964cfacc08973d79a5355b8cc30dac298fe1973c
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 03:18:57 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 1m14.307911567s
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 03:19:20 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 23.088829719s
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 03:19:20 Time PatientIC_RevealKey : 22.966964741s
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 03:19:20 Tx PatientIC_RevealSecretKey :  830287
+  txHash :  0x14cbd76ce64b0c8cd1a8773bb7b53d1a5a9c5a37b1c2c9f3b97f59755ea2f9ba
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 03:19:39 Time PatientIC_waitingForICtoApprove : 19.052044427s
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 03:19:39 Time InsuranceCompany_ApproveClaimedMoney : 18.842248447s
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 03:19:39 Tx InsuranceCompany_ApproveClaimedMoney :  92147
+  txHash :  0xd88426edf3da6e2946c1c0989fb73587432dfa2a6962727a9032f8f0acccf9a8
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:16:28 Time InsuranceCompany_SecurityDeposist : 8.174520023s
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:16:28 Tx InsuranceCompany_SecurityDeposit :  45914
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:16:29 Time PatientIC_buyPolicyPhaseOne : 8.435942839s
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:16:29 Tx PatientIC_buyPolicyPhaseOne :  77788
+  txHash :  0x34ba8f7b04ba0dc5f583458448428c4bac672410be59c0da72fb92fb2d17ed6a
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:16:36 Time InsuranceCompany_LockPolicyPhaseTwo : 6.923258306s
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:16:36 Tx InsuranceCompany_LockPolicyPhaseTwo :  246153
+  txHash :  0x2d41ba056e08a32c8cf5c38f494720db05273a4177ffee56222ae6f04b6cfd72
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:16:36 Time PatientIC_WaitingForICtoLockMoney : 7.230858149s
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:16:45 Time PatientIC_GeneratingClaim : 9.214910095s
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:16:45 Tx PatientIC_GenerateClaim :  556857
+  txHash :  0x5e194f65e84d94ad92a464bbe83e6d806a585fde27d1c8b6eb560fea18a8a05d
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:16:45 Time PatientIC_SendClaimIdToIC : 307.00117ms
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:16:45 Time PatientIC_sendClaimIdToDataBaseOwner : 76.666µs
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:16:45 Time InsuranceCompany_WaitingForPatientToSendClaimId : 9.829698239s
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:16:46 Time DbIC_computing_signature : 308.259279ms
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:17:56 Time DbIC_KeepSignature : 1m10.140543438s
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:17:56 Tx DbIC_KeepSigOnHashOfEncFile :  95025
+  txHash :  0x0c472e8e4910d5ddb73f1e0fb54e30f88f69f750af585a42ecb57e812247e1c8
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:17:56 Time DbIC_sendingEcncryptedFilesToIC : 70.844µs
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:17:56 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 1m10.753712805s
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:18:21 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 1m35.844290576s
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:18:22 Time InsuranceCompany_lockingClaimeddMoney : 25.706025178s
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:18:22 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0x5d407b12c6e716801f8dd69583eea0202b73e73e0d7de61c5a46b613e447b577
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:18:44 Time PatientIC_RevealKey : 23.039238307s
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:18:44 Tx PatientIC_RevealSecretKey :  831083
+  txHash :  0x0f092987dd8cdf3fa7ea77e9eb6ee0be8517b64fe0d9a495245190b0fc507645
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:18:46 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 23.960049846s
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:19:42 Time InsuranceCompany_ApproveClaimedMoney : 55.173081875s
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:19:42 Tx InsuranceCompany_ApproveClaimedMoney :  92147
+  txHash :  0xd7f77b91abdad49a0e284321e56bcdc14f6cc6367c9397b30e0047cfb75a4ecb
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:19:43 Time PatientIC_waitingForICtoApprove : 58.242710967s
+
+ buffer_size : 64 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:23:41 Time InsuranceCompany_SecurityDeposist : 30.290510035s
+
+ buffer_size : 64 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:23:41 Tx InsuranceCompany_SecurityDeposit :  30914
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:23:41 Time PatientIC_buyPolicyPhaseOne : 30.57340358s
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:23:41 Tx PatientIC_buyPolicyPhaseOne :  62788
+  txHash :  0x2d158bf965bd5d2798e1f62699c06b5cefba453d7b1646965dfa614f8932b229
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:23:42 Time PatientIC_WaitingForICtoLockMoney : 699.114015ms
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:23:56 Time PatientIC_GeneratingClaim : 14.072323492s
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:23:56 Tx PatientIC_GenerateClaim :  663331
+  txHash :  0xc263354c64a5e5eaad3c05777a86f4669be3c0328c787304dd70bb1c9d0a84e0
+
+ buffer_size : 64 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:23:56 Time InsuranceCompany_LockPolicyPhaseTwo : 15.052549708s
+
+ buffer_size : 64 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:23:56 Tx InsuranceCompany_LockPolicyPhaseTwo :  186153
+  txHash :  0xce0a0427bd1f2c6b058bd66a8dc669f55ba9a7a7658156a05a0dd878951222a9
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:23:56 Time PatientIC_SendClaimIdToIC : 286.139318ms
+
+ buffer_size : 64 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:23:56 Time InsuranceCompany_WaitingForPatientToSendClaimId : 5.146601ms
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:23:56 Time PatientIC_sendClaimIdToDataBaseOwner : 95.823µs
+
+ buffer_size : 64 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:23:57 Time DbIC_computing_signature : 302.743488ms
+
+ buffer_size : 64 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:24:25 Time DbIC_KeepSignature : 28.81349176s
+
+ buffer_size : 64 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:24:25 Tx DbIC_KeepSigOnHashOfEncFile :  114225
+  txHash :  0x918abd8b2c19f4c98c1beda41edd519e066b5ef838107355e4acffc8dfaa2939
+
+ buffer_size : 64 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:24:25 Time DbIC_sendingEcncryptedFilesToIC : 76.141µs
+
+ buffer_size : 64 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:24:26 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 29.485181156s
+
+ buffer_size : 64 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:24:35 Time InsuranceCompany_lockingClaimeddMoney : 9.317259779s
+
+ buffer_size : 64 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:24:35 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0x43d2bf630c4f6eed5b5e5f40730f85af17c2a69de38707171cf503f1a8310c93
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:24:35 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 38.802750926s
+
+ buffer_size : 64 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:24:42 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 6.964532728s
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:24:42 Time PatientIC_RevealKey : 6.984608143s
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:24:42 Tx PatientIC_RevealSecretKey :  1493313
+  txHash :  0x49d367f49453c9eab4f373fc0942ba1efde6625f531b02337ab22f0aa4d92a22
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:25:09 Time PatientIC_waitingForICtoApprove : 26.806497753s
+
+ buffer_size : 64 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:25:09 Time InsuranceCompany_ApproveClaimedMoney : 25.943389389s
+
+ buffer_size : 64 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:25:09 Tx InsuranceCompany_ApproveClaimedMoney :  92147
+  txHash :  0xbad3df69a98ee60025f742245348ff40d4e18c33edb4449833e87cc7da05e920
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:29:46 Time PatientIC_buyPolicyPhaseOne : 55.154588967s
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:29:46 Tx PatientIC_buyPolicyPhaseOne :  62788
+  txHash :  0xc55c403e5a4e222d34f7723493b423d85842a9ee37c34458782848db0eb0ee3e
+
+ buffer_size : 128 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:29:46 Time InsuranceCompany_SecurityDeposist : 55.448920281s
+
+ buffer_size : 128 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:29:46 Tx InsuranceCompany_SecurityDeposit :  30914
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:29:47 Time PatientIC_WaitingForICtoLockMoney : 662.129591ms
+
+ buffer_size : 128 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:30:57 Time InsuranceCompany_LockPolicyPhaseTwo : 1m10.878108047s
+
+ buffer_size : 128 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:30:57 Tx InsuranceCompany_LockPolicyPhaseTwo :  186153
+  txHash :  0x3d9cb664a2436f0ad034a4d5f8bd261b59a430b61307f800bbf301406613872f
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:32:03 Time PatientIC_GeneratingClaim : 2m15.904907296s
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:32:03 Tx PatientIC_GenerateClaim :  857468
+  txHash :  0x5a23d4759bda2fc0decdc9f31b7b781aa2a3f1c45472365416a67323e367b50a
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:32:03 Time PatientIC_SendClaimIdToIC : 306.781977ms
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:32:03 Time PatientIC_sendClaimIdToDataBaseOwner : 74.619µs
+
+ buffer_size : 128 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:32:03 Time InsuranceCompany_WaitingForPatientToSendClaimId : 1m5.995960172s
+
+ buffer_size : 128 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:32:03 Time DbIC_computing_signature : 336.136679ms
+
+ buffer_size : 128 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:32:20 Time DbIC_KeepSignature : 16.871176956s
+
+ buffer_size : 128 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:32:20 Tx DbIC_KeepSigOnHashOfEncFile :  95025
+  txHash :  0x4e0004471bf59efdaa6404ed432b7e4c940ec1c6da8eeb1f3f816b7396ff7c8e
+
+ buffer_size : 128 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:32:20 Time DbIC_sendingEcncryptedFilesToIC : 91.304µs
+
+ buffer_size : 128 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:32:21 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 17.513807821s
+
+ buffer_size : 128 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:32:46 Time InsuranceCompany_lockingClaimeddMoney : 25.296647358s
+
+ buffer_size : 128 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:32:46 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0x9f49a9b779fe0c89e0910e6fce9f872436539ff256249de0492be15c9115ef48
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:32:47 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 43.425239155s
+
+ buffer_size : 128 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:33:26 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 39.764519851s
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:33:26 Time PatientIC_RevealKey : 39.534203516s
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:33:26 Tx PatientIC_RevealSecretKey :  2795197
+  txHash :  0x2ea250384a53274544c7b87cf746e0a1d879e5f353593e6203cee90a05af3475
+
+ buffer_size : 128 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:33:55 Time InsuranceCompany_ApproveClaimedMoney : 28.115993116s
+
+ buffer_size : 128 noOfInputGates : 4 party : InsuranceCompany 2020/05/07 04:33:55 Tx InsuranceCompany_ApproveClaimedMoney :  92147
+  txHash :  0x88d73e79154cc5066dc8c20648fb9d9511a28819fa1c7a8971d5835f807f0de6
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/07 04:33:55 Time PatientIC_waitingForICtoApprove : 29.393146102s
+
+ buffer_size : 32 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 04:52:08 Time InsuranceCompany_SecurityDeposist : 44.233813838s
+
+ buffer_size : 32 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 04:52:08 Tx InsuranceCompany_SecurityDeposit :  30914
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 04:52:08 Time PatientIC_buyPolicyPhaseOne : 44.272665208s
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 04:52:08 Tx PatientIC_buyPolicyPhaseOne :  62788
+  txHash :  0xa7ffa80463bac3427c9138269c0542db3e0f14c27f52dcc30f1ea709ffad21de
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 04:52:09 Time PatientIC_WaitingForICtoLockMoney : 700.730025ms
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 04:52:27 Time PatientIC_GeneratingClaim : 18.244180931s
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 04:52:27 Tx PatientIC_GenerateClaim :  507669
+  txHash :  0x3f364295ec4a8990dc3723c4bad6a5cbbb1d66b40c2d95102169dc6ac3094d41
+
+ buffer_size : 32 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 04:52:27 Time InsuranceCompany_LockPolicyPhaseTwo : 18.969377103s
+
+ buffer_size : 32 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 04:52:27 Tx InsuranceCompany_LockPolicyPhaseTwo :  186153
+  txHash :  0x2e9def13d4567b6252bb1a84f4ca6eeadfee1ca9ce28a556643a48575488fd68
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 04:52:28 Time PatientIC_SendClaimIdToIC : 578.216944ms
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 04:52:28 Time PatientIC_sendClaimIdToDataBaseOwner : 77.063µs
+
+ buffer_size : 32 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 04:52:28 Time InsuranceCompany_WaitingForPatientToSendClaimId : 553.805579ms
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:52:28 Time DbIC_computing_signature : 319.988314ms
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:53:20 Time DbIC_KeepSignature : 51.904301182s
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:53:20 Tx DbIC_KeepSigOnHashOfEncFile :  114237
+  txHash :  0xc0276e78031a58753720bba61ae7880be72588d12f0e7608ac067dd170c1bf85
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner_InsuranceCompany 2020/05/07 04:53:20 Time DbIC_sendingEcncryptedFilesToIC : 97.677µs
+
+ buffer_size : 32 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 04:53:20 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 52.532301949s
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 04:53:37 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 1m9.511624771s
+
+ buffer_size : 32 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 04:53:38 Time InsuranceCompany_lockingClaimeddMoney : 17.203072593s
+
+ buffer_size : 32 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 04:53:38 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0xc77380e333ccb9edd372e733d47369405b51bd63c6d34c386ebb1645e5ce749c
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 04:53:45 Time PatientIC_RevealKey : 8.007685108s
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 04:53:45 Tx PatientIC_RevealSecretKey :  830287
+  txHash :  0x976c9861eb410c95d03f57d6fea4cfc62687bb44f061e1fe220e0dc6f759cd30
+
+ buffer_size : 32 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 04:53:46 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 8.294773481s
+
+ buffer_size : 32 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 04:54:07 Time InsuranceCompany_ApproveClaimedMoney : 19.864716948s
+
+ buffer_size : 32 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 04:54:07 Tx InsuranceCompany_ApproveClaimedMoney :  92147
+  txHash :  0xaacf6f2a482a5f02fa2cb3d73e22a32c28caa9309ff077f653808cfea0390edd
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 04:54:07 Time PatientIC_waitingForICtoApprove : 22.014872079s
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:22:57 Time PatientIC_buyPolicyPhaseOne : 9.589748289s
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:22:57 Tx PatientIC_buyPolicyPhaseOne :  62788
+  txHash :  0xb20cf32a12ec0bf9bb532acd1e8394629561b4f121a5d383fb9c0fe49d441bfa
+
+ buffer_size : 64 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:22:58 Time InsuranceCompany_SecurityDeposist : 10.713043255s
+
+ buffer_size : 64 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:22:58 Tx InsuranceCompany_SecurityDeposit :  30914
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:22:59 Time PatientIC_WaitingForICtoLockMoney : 716.27664ms
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:23:07 Time PatientIC_GeneratingClaim : 7.982702814s
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:23:07 Tx PatientIC_GenerateClaim :  631043
+  txHash :  0x6024d6af45b573b1b2ee550eccd885899a30793df08dc37919aeefb6eaccb505
+
+ buffer_size : 64 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:23:07 Time InsuranceCompany_LockPolicyPhaseTwo : 8.764440187s
+
+ buffer_size : 64 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:23:07 Tx InsuranceCompany_LockPolicyPhaseTwo :  186153
+  txHash :  0xd88e492f88334ad638649a443209b36cf3f5011e909f062d8b9f0094fa9d3291
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:23:07 Time PatientIC_SendClaimIdToIC : 311.019906ms
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:23:07 Time PatientIC_sendClaimIdToDataBaseOwner : 76.014µs
+
+ buffer_size : 64 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:23:07 Time InsuranceCompany_WaitingForPatientToSendClaimId : 245.811008ms
+
+ buffer_size : 64 noOfInputGates : 8 party : DataBaseOwner_InsuranceCompany 2020/05/07 05:23:07 Time DbIC_computing_signature : 310.094672ms
+
+ buffer_size : 64 noOfInputGates : 8 party : DataBaseOwner_InsuranceCompany 2020/05/07 05:23:50 Time DbIC_KeepSignature : 43.067054848s
+
+ buffer_size : 64 noOfInputGates : 8 party : DataBaseOwner_InsuranceCompany 2020/05/07 05:23:50 Tx DbIC_KeepSigOnHashOfEncFile :  95025
+  txHash :  0xfb0070c076516ff0019723c6902008831c164e509a3d9f3f4411e6d83bbedeea
+
+ buffer_size : 64 noOfInputGates : 8 party : DataBaseOwner_InsuranceCompany 2020/05/07 05:23:50 Time DbIC_sendingEcncryptedFilesToIC : 152.475µs
+
+ buffer_size : 64 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:23:51 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 43.725269616s
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:24:09 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 1m1.652838276s
+
+ buffer_size : 64 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:24:09 Time InsuranceCompany_lockingClaimeddMoney : 18.128444402s
+
+ buffer_size : 64 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:24:09 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0x026566f1188de6eb7ecc760959969b8d8a781fdeaad24d4c2278d925a2bc4c15
+
+ buffer_size : 64 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:24:35 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 26.135052098s
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:24:36 Time PatientIC_RevealKey : 27.024132916s
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:24:36 Tx PatientIC_RevealSecretKey :  1492517
+  txHash :  0x9837fa85addb9ba2f8e796f61c4216af5ad32f8e0824bc7434946380d47acada
+
+ buffer_size : 64 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:24:54 Time InsuranceCompany_ApproveClaimedMoney : 18.123977313s
+
+ buffer_size : 64 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:24:54 Tx InsuranceCompany_ApproveClaimedMoney :  92147
+  txHash :  0x2a09980bce3cbd7dd6a3b852221c968703b43409b3ad4ad95f9b5561d3108e63
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:24:55 Time PatientIC_waitingForICtoApprove : 19.455641342s
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:49:33 Time PatientIC_buyPolicyPhaseOne : 35.137437896s
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:49:33 Tx PatientIC_buyPolicyPhaseOne :  62788
+  txHash :  0x344a2fd3c3faccd8f79e4f49ea0399ce644a52b13572c659c0d7bd169005615f
+
+ buffer_size : 128 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:49:33 Time InsuranceCompany_SecurityDeposist : 35.689692213s
+
+ buffer_size : 128 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:49:33 Tx InsuranceCompany_SecurityDeposit :  30914
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:49:34 Time PatientIC_WaitingForICtoLockMoney : 757.948001ms
+
+ buffer_size : 128 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:50:35 Time InsuranceCompany_LockPolicyPhaseTwo : 1m1.497243976s
+
+ buffer_size : 128 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:50:35 Tx InsuranceCompany_LockPolicyPhaseTwo :  186153
+  txHash :  0x2c06f6e0942b8815bc58b46a0b3816f3b61e8fce797b48d38c275d2b06457fe7
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:50:35 Time PatientIC_GeneratingClaim : 1m0.929334712s
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:50:35 Tx PatientIC_GenerateClaim :  857480
+  txHash :  0x8e489922028dc3c5cda89ef5a58c8107055f00012c518c60023dd288063214b3
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:50:35 Time PatientIC_SendClaimIdToIC : 332.739093ms
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:50:35 Time PatientIC_sendClaimIdToDataBaseOwner : 77.529µs
+
+ buffer_size : 128 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:50:35 Time InsuranceCompany_WaitingForPatientToSendClaimId : 523.13397ms
+
+ buffer_size : 128 noOfInputGates : 8 party : DataBaseOwner_InsuranceCompany 2020/05/07 05:50:36 Time DbIC_computing_signature : 298.896796ms
+
+ buffer_size : 128 noOfInputGates : 8 party : DataBaseOwner_InsuranceCompany 2020/05/07 05:51:08 Time DbIC_KeepSignature : 32.804568596s
+
+ buffer_size : 128 noOfInputGates : 8 party : DataBaseOwner_InsuranceCompany 2020/05/07 05:51:08 Tx DbIC_KeepSigOnHashOfEncFile :  95025
+  txHash :  0x6d26fc48946b2b91c2088c5e8367ee38753c54a09afcee2d6fdacee77e6c8e45
+
+ buffer_size : 128 noOfInputGates : 8 party : DataBaseOwner_InsuranceCompany 2020/05/07 05:51:08 Time DbIC_sendingEcncryptedFilesToIC : 97.523µs
+
+ buffer_size : 128 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:51:09 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 33.3886975s
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:51:52 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 1m16.263082971s
+
+ buffer_size : 128 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:51:52 Time InsuranceCompany_lockingClaimeddMoney : 43.393223577s
+
+ buffer_size : 128 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:51:52 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0xe361820dc610109743928c4cdbd6b0c76fc169e2924a656912dd071537e9f00f
+
+ buffer_size : 128 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:52:29 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 36.910438634s
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:52:29 Time PatientIC_RevealKey : 37.786233704s
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:52:29 Tx PatientIC_RevealSecretKey :  2795993
+  txHash :  0x8af30a41d92ebe72e78bbf3b04ad91beb5ded820326c7ad8ea946867d8ca4937
+
+ buffer_size : 128 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:53:33 Time InsuranceCompany_ApproveClaimedMoney : 1m2.425984655s
+
+ buffer_size : 128 noOfInputGates : 8 party : InsuranceCompany 2020/05/07 05:53:33 Tx InsuranceCompany_ApproveClaimedMoney :  92147
+  txHash :  0xd004c265ec39f253d739cde3193ff8e599801dfea87b387ec96eb9d12d8c5cda
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithInsuranceCompany 2020/05/07 05:53:33 Time PatientIC_waitingForICtoApprove : 1m3.796131645s
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:28:13 Time PatientIC_buyPolicyPhaseOne : 27.133675273s
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:28:13 Tx PatientIC_buyPolicyPhaseOne :  62788
+  txHash :  0x35469bba57f7ec12210d4bac7fabf04279e7ec812548467c0e9e905abe34d297
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:28:13 Time InsuranceCompany_SecurityDeposist : 27.439447492s
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:28:13 Tx InsuranceCompany_SecurityDeposit :  30914
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:28:14 Time PatientIC_WaitingForICtoLockMoney : 614.264394ms
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:28:40 Time InsuranceCompany_LockPolicyPhaseTwo : 26.829533585s
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:28:40 Tx InsuranceCompany_LockPolicyPhaseTwo :  186153
+  txHash :  0xfe143dbcfe88ba4d8fd4b660153cd77d68251e7bbf86ecd1edca3ee5af0d0b02
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:28:57 Time PatientIC_GeneratingClaim : 42.829959259s
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:28:57 Tx PatientIC_GenerateClaim :  507669
+  txHash :  0x71e34bd032c57a440e8980d8a4ab0e2f51ff36c18f3d7e3d8cd38637b9a91eb3
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:28:57 Time PatientIC_SendClaimIdToIC : 383.550325ms
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:28:57 Time InsuranceCompany_WaitingForPatientToSendClaimId : 16.998403321s
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:28:57 Time PatientIC_sendClaimIdToDataBaseOwner : 42.379µs
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 02:28:57 Time DbIC_computing_signature : 308.910919ms
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 02:29:37 Time DbIC_KeepSignature : 39.927354017s
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 02:29:37 Tx DbIC_KeepSigOnHashOfEncFile :  114237
+  txHash :  0x48970cf870326c2bf097897bfc234f5a9e0e3b42b8bcf5c5107b4d3ff8aef900
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 02:29:37 Time DbIC_sendingEcncryptedFilesToIC : 73.108µs
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:29:38 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 40.556476591s
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:29:45 Time InsuranceCompany_lockingClaimeddMoney : 7.354990967s
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:29:45 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0x92ab8512ba841e6d07141152cfcef8707f21f017f9de9c31e161452388667401
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:29:46 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 48.463879961s
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:30:30 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 45.376104231s
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:30:31 Time PatientIC_RevealKey : 45.040035589s
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:30:31 Tx PatientIC_RevealSecretKey :  830287
+  txHash :  0xf59f607bf111ce6d2a0c93ed00e0f8619b60e96b372b95ae696faaae5908b385
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:32:44 Time PatientIC_waitingForICtoApprove : 2m13.244093799s
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:33:04 Time InsuranceCompany_ApproveClaimedMoney : 2m32.884664723s
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:33:04 Tx InsuranceCompany_ApproveClaimedMoney :  92147
+  txHash :  0xff45de46e0c26862da256ee52969caa2bb5a0592d00d909468721404cb5b988a
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:34:30 Time PatientIC_selfApproval : 1m45.834662735s
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:34:30 Tx PatientIC_SelfApproval :  96218
+  txHash :  0x1bf0b365b7a76df3fb5fcf5aac9fcab8e8ba231d86ba992b63b076b15f00f78f
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:41:35 Time PatientIC_buyPolicyPhaseOne : 1m8.657085482s
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:41:35 Tx PatientIC_buyPolicyPhaseOne :  62788
+  txHash :  0x421f0def8e3008c973513ec2c54994ee5cd3b1afb349ae0d9e4dd43afbe765df
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:41:36 Time InsuranceCompany_SecurityDeposist : 1m9.21854905s
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:41:36 Tx InsuranceCompany_SecurityDeposit :  30914
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:41:36 Time PatientIC_WaitingForICtoLockMoney : 610.406724ms
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:41:42 Time InsuranceCompany_LockPolicyPhaseTwo : 5.839544193s
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:41:42 Tx InsuranceCompany_LockPolicyPhaseTwo :  186153
+  txHash :  0x8bc2ebe7f05b64bac65fb05afecaf87c6bc99935c9ada906d643db40fe225b61
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:41:48 Time PatientIC_GeneratingClaim : 11.98504145s
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:41:48 Tx PatientIC_GenerateClaim :  507669
+  txHash :  0x153667c2029ed28762182344952fd01eede6708f60b3ad33fc40e27965b2bb74
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:41:49 Time PatientIC_SendClaimIdToIC : 305.824042ms
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:41:49 Time InsuranceCompany_WaitingForPatientToSendClaimId : 7.061981903s
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:41:49 Time PatientIC_sendClaimIdToDataBaseOwner : 81.013µs
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 02:41:49 Time DbIC_computing_signature : 293.10755ms
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 02:43:00 Time DbIC_KeepSignature : 1m10.841851814s
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 02:43:00 Tx DbIC_KeepSigOnHashOfEncFile :  114225
+  txHash :  0x98fed190e261ff74acf75914f54312582e644a06b064205a58f6634f74749062
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 02:43:00 Time DbIC_sendingEcncryptedFilesToIC : 93.662µs
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:43:00 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 1m11.429955782s
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:43:34 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 1m45.223491455s
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:43:34 Time InsuranceCompany_lockingClaimeddMoney : 34.163166346s
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:43:34 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0xef0725b15281d29ec89f8f3104ec434e1811960c2ec714fd46b12d111041ff23
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:45:07 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 1m32.581388147s
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:45:07 Time PatientIC_RevealKey : 1m33.494302851s
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:45:07 Tx PatientIC_RevealSecretKey :  830287
+  txHash :  0x445e8782f06b9ed10b0cb3c081b2cc577a2a5782210289a15b2696164c177f87
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:45:20 Time InsuranceCompany_ApproveClaimedMoney : 11.998419335s
+
+ buffer_size : 32 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 02:45:20 Tx InsuranceCompany_ApproveClaimedMoney :  92147
+  txHash :  0xb1850df772950fd3039af533c22eac3027a13b89236064859aae106ec06214ff
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 02:45:21 Time PatientIC_waitingForICtoApprove : 13.558477915s
+
+ buffer_size : 64 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:03:22 Time InsuranceCompany_SecurityDeposist : 27.185027694s
+
+ buffer_size : 64 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:03:22 Tx InsuranceCompany_SecurityDeposit :  30914
+
+ buffer_size : 64 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:03:22 Time PatientIC_buyPolicyPhaseOne : 27.186072832s
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:03:22 Tx PatientIC_buyPolicyPhaseOne :  62788
+  txHash :  0x296e40585b310a5b421cdcec17d4eb3dd5656ce6932c39854528ba3be5161c79
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:03:23 Time PatientIC_WaitingForICtoLockMoney : 770.137406ms
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:03:37 Time PatientIC_GeneratingClaim : 14.065258566s
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:03:37 Tx PatientIC_GenerateClaim :  631043
+  txHash :  0xc3f4d03ffd7ade6788cfa22f83214cdf3373cbb44e1be18d93db057e27b6149a
+
+ buffer_size : 64 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:03:37 Time InsuranceCompany_LockPolicyPhaseTwo : 14.953595043s
+
+ buffer_size : 64 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:03:37 Tx InsuranceCompany_LockPolicyPhaseTwo :  186153
+  txHash :  0x926fd6bcd4919a8785ac89f8e577024d8a8aa7538cf547104d6c3fe505a0e1b4
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:03:37 Time PatientIC_SendClaimIdToIC : 372.009387ms
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:03:37 Time PatientIC_sendClaimIdToDataBaseOwner : 69.501µs
+
+ buffer_size : 64 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:03:37 Time InsuranceCompany_WaitingForPatientToSendClaimId : 252.95674ms
+
+ buffer_size : 64 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 03:03:38 Time DbIC_computing_signature : 308.633089ms
+
+ buffer_size : 64 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 03:03:51 Time DbIC_KeepSignature : 13.838784899s
+
+ buffer_size : 64 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 03:03:51 Tx DbIC_KeepSigOnHashOfEncFile :  114237
+  txHash :  0x5bddb0e3655fcb94ef6829cac49345104ca21fd28af88648dae92473ecabee6e
+
+ buffer_size : 64 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 03:03:51 Time DbIC_sendingEcncryptedFilesToIC : 88.088µs
+
+ buffer_size : 64 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:03:52 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 14.432450473s
+
+ buffer_size : 64 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:04:25 Time InsuranceCompany_lockingClaimeddMoney : 33.114374309s
+
+ buffer_size : 64 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:04:25 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0x387954ba7802bb50323aec0853ce76e21451909af5df2a7910fecbc32ee3efaa
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:04:25 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 47.903175775s
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:05:18 Time PatientIC_RevealKey : 53.061650592s
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:05:18 Tx PatientIC_RevealSecretKey :  1493313
+  txHash :  0xbe17f901c164c163c21a0dc203881941b4fef5eb145286b3ee498f06af8d6085
+
+ buffer_size : 64 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:05:19 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 54.032369678s
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:05:44 Time PatientIC_waitingForICtoApprove : 25.453645887s
+
+ buffer_size : 64 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:05:44 Time InsuranceCompany_ApproveClaimedMoney : 23.832284298s
+
+ buffer_size : 64 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:05:44 Tx InsuranceCompany_ApproveClaimedMoney :  92147
+  txHash :  0xe1d5e62dee8a08689e325196fce879d21eaea19ac6e9c29e24d55a599b4b3967
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:16:27 Time InsuranceCompany_SecurityDeposist : 1m1.022970881s
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:16:27 Tx InsuranceCompany_SecurityDeposit :  30914
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:16:27 Time PatientIC_buyPolicyPhaseOne : 1m1.038428254s
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:16:27 Tx PatientIC_buyPolicyPhaseOne :  62788
+  txHash :  0x42534b7dcfc768fe4454b6dd0e8f3a1e9d1a3bc3d840d800e03f26440350e22e
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:16:28 Time PatientIC_WaitingForICtoLockMoney : 589.696848ms
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:16:42 Time InsuranceCompany_LockPolicyPhaseTwo : 14.837502714s
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:16:42 Tx InsuranceCompany_LockPolicyPhaseTwo :  186153
+  txHash :  0x23d1eb151f10b305545d86e0a18ea20287bb4f91aaa343e803cec25a489e68b8
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:16:43 Time PatientIC_GeneratingClaim : 14.615486614s
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:16:43 Tx PatientIC_GenerateClaim :  857480
+  txHash :  0x53ae7c0c417f2dc9cf6332207f27b77b52187078b50a3217ed10673c1905f671
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:16:43 Time PatientIC_SendClaimIdToIC : 546.055402ms
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:16:43 Time InsuranceCompany_WaitingForPatientToSendClaimId : 913.710074ms
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:16:43 Time PatientIC_sendClaimIdToDataBaseOwner : 37.427µs
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 03:16:43 Time DbIC_computing_signature : 328.707951ms
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 03:17:09 Time DbIC_KeepSignature : 25.790606267s
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 03:17:09 Tx DbIC_KeepSigOnHashOfEncFile :  114237
+  txHash :  0x870844b90e1791d844b1903da2af59154a16db5c38bee2fdfb3667705897a9b9
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/10 03:17:09 Time DbIC_sendingEcncryptedFilesToIC : 62.464µs
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:17:09 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 26.42764409s
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:17:22 Time InsuranceCompany_lockingClaimeddMoney : 12.600729756s
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:17:22 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0x6d9f2bc4800533052149573f0510644adcf35c91df29b156c00da081468c2b10
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:17:23 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 39.433208791s
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:17:50 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 27.846233297s
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:17:50 Time PatientIC_RevealKey : 27.749159089s
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:17:50 Tx PatientIC_RevealSecretKey :  2795197
+  txHash :  0xd4e2aba4006ba2a24e78519323954284abe5f81413460966cf33c7f5b37910da
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/10 03:18:01 Time PatientIC_waitingForICtoApprove : 10.444958499s
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:18:01 Time InsuranceCompany_ApproveClaimedMoney : 9.705577921s
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/10 03:18:01 Tx InsuranceCompany_ApproveClaimedMoney :  92147
+  txHash :  0x9c8f0e02b7894619503e96bcc6fa22d5db2bdf0312af07d48f31a72bff16310f
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/14 22:10:07 Time InsuranceCompany_SecurityDeposist : 49.613810674s
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/14 22:10:07 Tx InsuranceCompany_SecurityDeposit :  45914
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/14 22:10:08 Time PatientIC_buyPolicyPhaseOne : 49.890949587s
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/14 22:10:08 Tx PatientIC_buyPolicyPhaseOne :  77788
+  txHash :  0x938f4772a5b6d66cf4d93f5ad02b55178e2e74c5ccdb5334c82c12853b0a60d4
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/14 22:11:00 Time InsuranceCompany_LockPolicyPhaseTwo : 52.80125473s
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/14 22:11:00 Tx InsuranceCompany_LockPolicyPhaseTwo :  246153
+  txHash :  0xe7949d794fd39ba62a120b0ffb99acfed504d59b2b0d0e2d80104cac7d621a3c
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/14 22:11:01 Time PatientIC_WaitingForICtoLockMoney : 53.07107459s
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/14 22:11:21 Time PatientIC_GeneratingClaim : 20.63267054s
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/14 22:11:21 Tx PatientIC_GenerateClaim :  906692
+  txHash :  0x842f5c02d350a7a24e5026af807373244edcc9019cf15d490edb511b7a506433
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/14 22:11:22 Time PatientIC_SendClaimIdToIC : 407.897536ms
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/14 22:11:22 Time PatientIC_sendClaimIdToDataBaseOwner : 90.336µs
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/14 22:11:22 Time InsuranceCompany_WaitingForPatientToSendClaimId : 21.310314393s
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/14 22:11:22 Time DbIC_computing_signature : 366.998186ms
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/14 22:11:53 Time DbIC_KeepSignature : 31.088590664s
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/14 22:11:53 Tx DbIC_KeepSigOnHashOfEncFile :  114237
+  txHash :  0x62b6e59720fb101f423cde17fedc908f8bbf0cd7a3cfcabf683cd1e183a42ba0
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner_InsuranceCompany 2020/05/14 22:11:53 Time DbIC_sendingEcncryptedFilesToIC : 153.347µs
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/14 22:11:53 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 31.84077427s
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/14 22:12:13 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 51.743018321s
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/14 22:12:14 Time InsuranceCompany_lockingClaimeddMoney : 20.262944708s
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/14 22:12:14 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0x95abd5cf86374535a966e18fce3b9cb0558b5d8ee77d399f487640ff0c01a402
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/14 22:12:31 Time PatientIC_RevealKey : 17.507074718s
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/14 22:12:31 Tx PatientIC_RevealSecretKey :  2795197
+  txHash :  0x2700f6b59feccf80395ceabb467bdbc921f933d82f07f647613add4a9e732327
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/14 22:12:31 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 17.469429602s
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithInsuranceCompany 2020/05/14 22:12:45 Time PatientIC_waitingForICtoApprove : 14.586975401s
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/14 22:12:46 Time InsuranceCompany_ApproveClaimedMoney_zero : 13.844658761s
+
+ buffer_size : 128 noOfInputGates : 16 party : InsuranceCompany 2020/05/14 22:12:46 Tx InsuranceCompany_ApproveClaimedMoney_zero :  72935
+  txHash :  0x50088f7250116ed6094ae1316fcdd1d03aa9ee5b7509cb1e3aa5b4c84c9d2a9b
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 22:22:29 Time InsuranceCompany_SecurityDeposist : 35.223020904s
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 22:22:29 Tx InsuranceCompany_SecurityDeposit :  30914
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 22:22:30 Time PatientIC_buyPolicyPhaseOne : 35.901515799s
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 22:22:30 Tx PatientIC_buyPolicyPhaseOne :  62788
+  txHash :  0x8cfc668f36f0709911d453e3425473a79952b6634e9d1bdb40e5bdd94535d0d2
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 22:22:31 Time PatientIC_WaitingForICtoLockMoney : 632.026495ms
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 22:22:50 Time PatientIC_GeneratingClaim : 18.97752299s
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 22:22:50 Tx PatientIC_GenerateClaim :  967481
+  txHash :  0x1aed322e88c60c1c0184bb5dcccf41c731bb8d91347c9e5e50b175a2dcfe9838
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 22:22:50 Time InsuranceCompany_LockPolicyPhaseTwo : 19.706285124s
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 22:22:50 Tx InsuranceCompany_LockPolicyPhaseTwo :  186153
+  txHash :  0x6b5bdb3e1de732795bd95f8b1647293fd88d5ab1016b49f685eb0a4c4036dcd6
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 22:22:50 Time PatientIC_SendClaimIdToIC : 258.967915ms
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 22:22:50 Time InsuranceCompany_WaitingForPatientToSendClaimId : 162.369913ms
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 22:22:50 Time PatientIC_sendClaimIdToDataBaseOwner : 108.418µs
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/14 22:22:50 Time DbIC_computing_signature : 292.627831ms
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/14 22:23:16 Time DbIC_KeepSignature : 25.767321424s
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/14 22:23:16 Tx DbIC_KeepSigOnHashOfEncFile :  95025
+  txHash :  0x365db2104649173ef318c54437dff18608af83c35edad55011a4ac917138add2
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/14 22:23:16 Time DbIC_sendingEcncryptedFilesToIC : 177.319µs
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 22:23:16 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 26.339051203s
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 22:23:34 Time InsuranceCompany_lockingClaimeddMoney : 18.035357202s
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 22:23:34 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0xc5df89c384c09f66dcc4e034d876b43db593a64c6c5fe32435be59b3a3e94719
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 22:23:35 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 45.617329604s
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 22:24:05 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 31.145405978s
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 22:24:06 Time PatientIC_RevealKey : 30.183701378s
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 22:24:06 Tx PatientIC_RevealSecretKey :  2795197
+  txHash :  0x94a4c3701741ebd15ffa9558730b746f1dc50a68515e2a9d1d3be1d9caff46d6
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 22:24:32 Time PatientIC_waitingForICtoApprove : 26.085889009s
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 22:24:32 Time InsuranceCompany_ApproveClaimedMoney : 25.811593432s
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 22:24:32 Tx InsuranceCompany_ApproveClaimedMoney :  92147
+  txHash :  0xf9e58413c014e64341d083bb391c643b04e795e9bebceff5afecfedbd7ac72e8
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:21:00 Time InsuranceCompany_SecurityDeposist : 32.093829048s
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:21:00 Tx InsuranceCompany_SecurityDeposit :  30914
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:21:00 Time PatientIC_buyPolicyPhaseOne : 32.44579563s
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:21:00 Tx PatientIC_buyPolicyPhaseOne :  62788
+  txHash :  0x61e215101e8954b32cd052f14d44424196fee9337959c8096e02b530da5289a5
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:21:01 Time PatientIC_WaitingForICtoLockMoney : 594.409193ms
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:21:13 Time InsuranceCompany_LockPolicyPhaseTwo : 12.843750511s
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:21:13 Tx InsuranceCompany_LockPolicyPhaseTwo :  186153
+  txHash :  0xa17b45dc6a32bb547e8c88568c9928c1a8fd874a1cfe01108d3fd361dbb9996b
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:21:30 Time PatientIC_GeneratingClaim : 29.502137106s
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:21:30 Tx PatientIC_GenerateClaim :  857492
+  txHash :  0x5fedea29d75c378bc1ad8d6f7976361b7327d58a21e0a305556bc0b17b44f586
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:21:30 Time PatientIC_SendClaimIdToIC : 336.929237ms
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:21:30 Time PatientIC_sendClaimIdToDataBaseOwner : 57.662µs
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:21:30 Time InsuranceCompany_WaitingForPatientToSendClaimId : 17.589734104s
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/14 23:21:31 Time DbIC_computing_signature : 314.277001ms
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/14 23:21:34 Time DbIC_KeepSignature : 3.792807947s
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/14 23:21:34 Tx DbIC_KeepSigOnHashOfEncFile :  95013
+  txHash :  0x81f6aedee2538edb7a414edcebf32c932a9d1fb251ae103e342f26de01c2761c
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/14 23:21:34 Time DbIC_sendingEcncryptedFilesToIC : 226.741µs
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:21:35 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 4.408020658s
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:22:28 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 57.463105508s
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:22:28 Time InsuranceCompany_lockingClaimeddMoney : 53.248648206s
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:22:28 Tx InsuranceCompany_LockClaimedMoney :  70938
+  txHash :  0xb5ab314d0b9e7fce8664d475522b0f9cd4bb2fa8fc55ccbeece71783c461681c
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:23:12 Time PatientIC_RevealKey : 44.138950721s
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:23:12 Tx PatientIC_RevealSecretKey :  2795993
+  txHash :  0xc2532c92dc210074aa40021c51cf4afbfb864fb1834337912161257f8b829fd2
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:23:13 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 44.485453035s
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:24:07 Time InsuranceCompany_ApproveClaimedMoney_zero : 52.972301545s
+
+ buffer_size : 128 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:24:07 Tx InsuranceCompany_ApproveClaimedMoney_zero :  72935 
+  txHash :  0xdef2ab877216b09060a3fbc53ba11aec24dd07d3b97b555629b6ad2a77343837
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:24:08 Time PatientIC_waitingForICtoApprove : 55.866209565s
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:46:13 Time PatientIC_buyPolicyPhaseOne : 27.188863457s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:46:13 Tx PatientIC_buyPolicyPhaseOne :  62788 
+  txHash :  0x5405c496dfed9815e4e4198cdadd2cffc38f7230a04a97ead615ba4d4f592e81 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:46:13 Time InsuranceCompany_SecurityDeposist : 27.206962123s 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:46:13 Tx InsuranceCompany_SecurityDeposit :  30914 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:46:14 Time PatientIC_WaitingForICtoLockMoney : 880.374851ms 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:46:23 Time PatientIC_GeneratingClaim : 8.844508973s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:46:23 Tx PatientIC_GenerateClaim :  507681 
+  txHash :  0xc511716d5a6093d60e51eaad34747da63f806bf04874b6e52b3d1ce7ec4e12b5 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:46:23 Time InsuranceCompany_LockPolicyPhaseTwo : 9.824291695s 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:46:23 Tx InsuranceCompany_LockPolicyPhaseTwo :  186153 
+  txHash :  0x7f1214b591cb57e790d9300ae7bf0bb1a2d214b13b4877a3aef6e0f10e0dd660 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:46:23 Time PatientIC_SendClaimIdToIC : 286.471416ms 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:46:23 Time PatientIC_sendClaimIdToDataBaseOwner : 74.188µs 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:46:23 Time InsuranceCompany_WaitingForPatientToSendClaimId : 187.249395ms 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/14 23:46:24 Time DbIC_computing_signature : 333.384043ms 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/14 23:46:46 Time DbIC_KeepSignature : 21.881365724s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/14 23:46:46 Tx DbIC_KeepSigOnHashOfEncFile :  114237 
+  txHash :  0xdf3cca0645f095b22b846842b9ed4915f9fa0372b82e79ca4f92c0cbd7e829d7 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/14 23:46:46 Time DbIC_sendingEcncryptedFilesToIC : 138.357µs 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:46:46 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 22.515974481s 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:47:12 Time InsuranceCompany_lockingClaimeddMoney : 26.249344113s 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:47:12 Tx InsuranceCompany_LockClaimedMoney :  70938 
+  txHash :  0x840ed12e5e115913b6a355dc7e4aa51ad8f4f203d69e49a194d41bb818889780 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:47:13 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 49.592736441s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:47:28 Time PatientIC_RevealKey : 14.826495086s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:47:28 Tx PatientIC_RevealSecretKey :  830287 
+  txHash :  0xefde124805531b392f4a49de10adf2a89eee280f63a64402197e81f9b81c2af0 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:47:28 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 15.882872173s 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:47:34 Time InsuranceCompany_ApproveClaimedMoney : 4.922045128s 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:47:34 Tx InsuranceCompany_ApproveClaimedMoney :  92147 
+  txHash :  0xd66a76b9c6e516b62f521310acb35ef4a9f85423d3b9d8a9ab602ee7b711039f 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:47:35 Time PatientIC_waitingForICtoApprove : 6.775956234s 
+
+ buffer_size : 64 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:59:41 Time InsuranceCompany_SecurityDeposist : 41.074244054s 
+
+ buffer_size : 64 noOfInputGates : 32 party : InsuranceCompany 2020/05/14 23:59:41 Tx InsuranceCompany_SecurityDeposit :  30914 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:59:41 Time PatientIC_buyPolicyPhaseOne : 41.34482538s 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:59:41 Tx PatientIC_buyPolicyPhaseOne :  62788 
+  txHash :  0x1dba8a7cc80f4b93a2295c4af362aeaa9ecf5463675bec173aa35aab93d2ed3f 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/14 23:59:42 Time PatientIC_WaitingForICtoLockMoney : 599.979958ms 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/15 00:00:20 Time PatientIC_GeneratingClaim : 37.854518844s 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/15 00:00:20 Tx PatientIC_GenerateClaim :  631055 
+  txHash :  0xd09d99fa232d4f98dab4193f4b07e6c684e5fa6c762f4a099538e137d0fb1cc6 
+
+ buffer_size : 64 noOfInputGates : 32 party : InsuranceCompany 2020/05/15 00:00:20 Time InsuranceCompany_LockPolicyPhaseTwo : 38.737442477s 
+
+ buffer_size : 64 noOfInputGates : 32 party : InsuranceCompany 2020/05/15 00:00:20 Tx InsuranceCompany_LockPolicyPhaseTwo :  186153 
+  txHash :  0x2dfa47469abb1f72b14c99a7d07313d87a9f34c7c89458c78b163dd2c055bb2b 
+
+ buffer_size : 64 noOfInputGates : 32 party : InsuranceCompany 2020/05/15 00:00:20 Time InsuranceCompany_WaitingForPatientToSendClaimId : 17.015µs 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/15 00:00:20 Time PatientIC_SendClaimIdToIC : 283.023567ms 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/15 00:00:20 Time PatientIC_sendClaimIdToDataBaseOwner : 82.303µs 
+
+ buffer_size : 64 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/15 00:00:20 Time DbIC_computing_signature : 281.737458ms 
+
+ buffer_size : 64 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/15 00:00:40 Time DbIC_KeepSignature : 19.832251296s 
+
+ buffer_size : 64 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/15 00:00:40 Tx DbIC_KeepSigOnHashOfEncFile :  95025 
+  txHash :  0x58b62404df05feac73d99a32e27b47cca3487c7d719d1acafe999cc49587887a 
+
+ buffer_size : 64 noOfInputGates : 32 party : DataBaseOwner_InsuranceCompany 2020/05/15 00:00:40 Time DbIC_sendingEcncryptedFilesToIC : 184.508µs 
+
+ buffer_size : 64 noOfInputGates : 32 party : InsuranceCompany 2020/05/15 00:00:41 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 20.386809617s 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/15 00:01:16 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 55.767750795s 
+
+ buffer_size : 64 noOfInputGates : 32 party : InsuranceCompany 2020/05/15 00:01:17 Time InsuranceCompany_lockingClaimeddMoney : 36.026412591s 
+
+ buffer_size : 64 noOfInputGates : 32 party : InsuranceCompany 2020/05/15 00:01:17 Tx InsuranceCompany_LockClaimedMoney :  70938 
+  txHash :  0x03665d5fb206166f56184618d55c6b16bbb889c9562a86572e872f650cc35b03 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/15 00:01:31 Time PatientIC_RevealKey : 14.822396565s 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/15 00:01:31 Tx PatientIC_RevealSecretKey :  1492517 
+  txHash :  0xc3119268a7f8a0cb7cc71f3d7382cb62a29853184f6da87af9e021d89d715494 
+
+ buffer_size : 64 noOfInputGates : 32 party : InsuranceCompany 2020/05/15 00:01:31 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 14.413173899s 
+
+ buffer_size : 64 noOfInputGates : 32 party : InsuranceCompany 2020/05/15 00:01:42 Time InsuranceCompany_ApproveClaimedMoney : 10.64414021s 
+
+ buffer_size : 64 noOfInputGates : 32 party : InsuranceCompany 2020/05/15 00:01:42 Tx InsuranceCompany_ApproveClaimedMoney :  92147 
+  txHash :  0xdce5f3279841d658b7c79778129b1c9dbce0e532db47ee0be89e614396279be7 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/15 00:01:43 Time PatientIC_waitingForICtoApprove : 12.013445689s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/18 20:02:09 Time InsuranceCompany_SecurityDeposist : 8.185390962s 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/18 20:02:09 Tx InsuranceCompany_SecurityDeposit :  45936 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/18 20:02:09 Time PatientIC_buyPolicyPhaseOne : 8.187378055s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/18 20:02:09 Tx PatientIC_buyPolicyPhaseOne :  77810 
+  txHash :  0x095ceb122c16accf5cbf566960de65ec324974caa5f579a64ca7327b4815ff45 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/18 20:02:33 Time InsuranceCompany_LockPolicyPhaseTwo : 24.084170384s 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/18 20:02:33 Tx InsuranceCompany_LockPolicyPhaseTwo :  246175 
+  txHash :  0x830c1b639b8fed41847b89c260eab3751aabda41f3e901797f305722129a8ebe 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/18 20:02:34 Time PatientIC_WaitingForICtoLockMoney : 24.9782589s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/18 20:02:36 failed to estimate gas needed: gas required exceeds allowance (8000029) or always failing transaction
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/18 20:03:10 Time PatientIC_buyPolicyPhaseOne : 13.352980586s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/18 20:03:10 Tx PatientIC_buyPolicyPhaseOne :  62810 
+  txHash :  0xa39ec0dcd864bfc5d09ccefe52745cbc7ca5cd6e4af01340715a643d3c529e8a 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/18 20:03:10 Time InsuranceCompany_SecurityDeposist : 13.69034752s 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/18 20:03:10 Tx InsuranceCompany_SecurityDeposit :  30936 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/18 20:03:11 Time PatientIC_WaitingForICtoLockMoney : 650.45506ms 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/18 20:03:12 failed to estimate gas needed: gas required exceeds allowance (8000029) or always failing transaction
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/18 20:35:41 Time PatientIC_buyPolicyPhaseOne : 19.458867758s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/18 20:35:41 Tx PatientIC_buyPolicyPhaseOne :  77810 
+  txHash :  0xd9e97c56d4066daccc412c63bf7ee9de4b33572032078736991713cd734b23e5 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/18 20:35:42 Time InsuranceCompany_SecurityDeposist : 19.752515966s 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/18 20:35:42 Tx InsuranceCompany_SecurityDeposit :  45936 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithInsuranceCompany 2020/05/18 20:36:10 Time PatientIC_WaitingForICtoLockMoney : 28.798308875s 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/18 20:36:11 Time InsuranceCompany_LockPolicyPhaseTwo : 29.280587875s 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/18 20:36:11 Tx InsuranceCompany_LockPolicyPhaseTwo :  246175 
+  txHash :  0x1f0f24459c293308887543376a4b6e98d303bf3c162e0b9e7697934c676f9f91 
+
+ buffer_size : 32 noOfInputGates : 32 party : InsuranceCompany 2020/05/18 20:36:12 failed to estimate gas needed: gas required exceeds allowance (8000029) or always failing transaction

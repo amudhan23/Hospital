@@ -1,0 +1,28 @@
+2020/05/07 03:20:22 failed to estimate gas needed: gas required exceeds allowance (8000029) or always failing transaction
+2020/05/16 00:24:45 failed to estimate gas needed: gas required exceeds allowance (8000029) or always failing transaction
+2020/05/16 01:03:18 failed to estimate gas needed: gas required exceeds allowance (8000029) or always failing transaction
+2020/05/16 01:05:19 failed to estimate gas needed: gas required exceeds allowance (8000029) or always failing transaction
+2020/05/16 01:05:47 failed to estimate gas needed: gas required exceeds allowance (8000029) or always failing transaction
+2020/05/16 01:07:06 failed to estimate gas needed: gas required exceeds allowance (8000029) or always failing transaction
+2020/05/16 03:14:12 failed to estimate gas needed: gas required exceeds allowance (8000029) or always failing transaction
+2020/05/16 03:23:14 failed to estimate gas needed: gas required exceeds allowance (8000029) or always failing transaction
+ party : ResearchCommunity 2020/05/16 03:24:34 Time ResearchCommunity_requestDatat : 26.816077973s 
+
+ party : ResearchCommunity 2020/05/16 03:24:34 Tx ResearchCommunity_requestDatat :  177498  txHash :  0x04a3f526b6464816e97887e9e2d2adab3075ba765a4d830c86c4d7674fbd17c0 
+
+ party : DataBaseOwner_withResearchCommunity 2020/05/16 03:25:02 Time DataBaseOwnerResCom_GiveData : 28.054299267s 
+
+ party : DataBaseOwner_withResearchCommunity 2020/05/16 03:25:02 Tx DataBaseOwnerResCom_GiveData :  152699  txHash :  0x3b99480d7f76d1d2bbb4d9cf7a6cd6fa00751c9020589354b9b2251293270cd3 
+
+ party : ResearchCommunity 2020/05/16 03:25:03 Time ResearchCommunity_VerifyingFile : 402.696989ms 
+
+ party : ResearchCommunity 2020/05/16 03:26:38 Time ResearchCommunity_requestDatat : 31.132604243s 
+
+ party : ResearchCommunity 2020/05/16 03:26:38 Tx ResearchCommunity_requestDatat :  132498  txHash :  0x85e3dff348697ff984be33f8e4813f1a3246591f5316c953a5113ff70b35459b 
+
+ party : DataBaseOwner_withResearchCommunity 2020/05/16 03:26:50 Time DataBaseOwnerResCom_GiveData : 11.981705916s 
+
+ party : DataBaseOwner_withResearchCommunity 2020/05/16 03:26:50 Tx DataBaseOwnerResCom_GiveData :  152699  txHash :  0x36e72b1bcd3acd198d32356c70aaed4b0ccf296c53356c7e7fcf71faabf28b84 
+
+ party : ResearchCommunity 2020/05/16 03:26:51 Time ResearchCommunity_VerifyingFile : 573.801796ms 
+

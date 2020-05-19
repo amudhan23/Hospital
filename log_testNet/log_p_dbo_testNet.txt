@@ -1,0 +1,576 @@
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 03:12:41 Time PatientDO_keepData : 20.380026621s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 03:12:41 Tx KeepDataPatient :  299948 
+  txHash :  0xfeabad5922bf661610666ffdfe82d25662e312c9d073bec4ebf29731e8d12429 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 03:12:41 Time DataBaseOwner_waitingForAppIdAndEncFile : 21.041964735s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 03:12:41 Time PatientDO_sendingAppIdToDO : 339.216307ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 03:13:23 Time PatientDO_WaitingForDbToVerifyEncFile : 41.541405171s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 03:13:24 Time DataBaseOwner_VerifyingEncFile : 41.853404866s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 03:13:24 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0xb0e41439a5ef5ecf47f0d14ac58e076252f7002c3ef6b46d0e64335e08818551 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 03:13:33 Time PatientDO_KeyReveal : 9.833028038s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 03:13:33 Tx PatientDO_KeyReveal :  113689 
+  txHash :  0x5f2a2ec418ae6b53220bb88ea0ad109349d18c2d4e091c542dc7cd9aa0b71670 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 03:13:33 Time DataBaseOwner_waitingForPatientToKeyReveal : 9.50603429s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 03:13:33 Time DataBaseOwner_decodingEncodedVectors : 351.788743ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 03:13:39 Time DataBaseOwner_approval : 5.815839218s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 03:13:39 Tx DataBaseOwner_approval :  77579 
+  txHash :  0x99fed0b5342ae4c4df5f3560c63e968eda195d2f07dbe6418d709901b872fb55 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 03:13:40 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 6.85838167s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:06:56 Time PatientDO_keepData : 40.345304129s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:06:56 Tx KeepDataPatient :  254948 
+  txHash :  0x0a382104894f65a7a31fcb406abe2456ea3434851d9f000c78beffd0be3d32a3 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:06:57 Time DataBaseOwner_waitingForAppIdAndEncFile : 40.95721731s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:06:57 Time PatientDO_sendingAppIdToDO : 305.57949ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:07:15 Time PatientDO_WaitingForDbToVerifyEncFile : 18.533380523s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:07:15 Time DataBaseOwner_VerifyingEncFile : 18.283690686s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:07:15 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0x0ee4a66533dadad3d140fe2dbf215feffab8115c784c738876cd1f2f59f31460 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:07:56 Time PatientDO_KeyReveal : 40.8559151s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:07:56 Tx PatientDO_KeyReveal :  113689 
+  txHash :  0xb405ee5521dfdc01d16b212094ff62cfff4d17fcf4b74189f3999ddfe318f193 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:07:56 Time DataBaseOwner_waitingForPatientToKeyReveal : 41.125141152s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:07:57 Time DataBaseOwner_decodingEncodedVectors : 302.50511ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:08:31 Time DataBaseOwner_approval : 34.069056559s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:08:31 Tx DataBaseOwner_approval :  77579 
+  txHash :  0xf527d710ad423f4e3404dd91e76ce9bead1cb9fb57135773a3264dff72b909fa 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:08:31 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 34.893191309s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:11:40 Time PatientDO_keepData : 27.545105445s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:11:40 Tx KeepDataPatient :  299936 
+  txHash :  0x22e2cfd242ea4d5c39f5b92f2f5b0d27aa3f28cb3a708d64698f5c4a55d9cad3 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:11:40 Time DataBaseOwner_waitingForAppIdAndEncFile : 28.298665123s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:11:40 Time PatientDO_sendingAppIdToDO : 446.695087ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:12:31 Time PatientDO_WaitingForDbToVerifyEncFile : 50.444153657s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:12:31 Time DataBaseOwner_VerifyingEncFile : 50.133490777s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:12:31 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0x25d46c8a577155e82e729a613cb076e4d5f2b03607c1d0daceeaddacf2586c6a 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:12:40 Time DataBaseOwner_waitingForPatientToKeyReveal : 9.153704935s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:12:40 Time PatientDO_KeyReveal : 9.342361172s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:12:40 Tx PatientDO_KeyReveal :  113677 
+  txHash :  0x4fc65dc3c4131042d8e03e9f6c97cd78db89e6aca98082e4d27e2ac04d0c65a3 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:12:41 Time DataBaseOwner_decodingEncodedVectors : 819.752504ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:13:25 Time DataBaseOwner_approval : 43.849327877s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:13:25 Tx DataBaseOwner_approval :  77579 
+  txHash :  0xbc1b3d1709038f5f11b178bd92558ff937484651e1098872bbf226a9c0e0f210 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:13:25 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 44.927650794s 
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:20:38 Time PatientDO_keepData : 12.185677876s 
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:20:38 Tx KeepDataPatient :  254936 
+  txHash :  0x561fa8a5f6f8ea5ea5509146b7bb4d009aae17a63421782efa736f3233376007 
+
+ buffer_size : 64 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:20:38 Time DataBaseOwner_waitingForAppIdAndEncFile : 12.782942867s 
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:20:38 Time PatientDO_sendingAppIdToDO : 290.262127ms 
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:21:29 Time PatientDO_WaitingForDbToVerifyEncFile : 50.805893287s 
+
+ buffer_size : 64 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:21:29 Time DataBaseOwner_VerifyingEncFile : 50.829361988s 
+
+ buffer_size : 64 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:21:29 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0x02e183fa532193a9427d7b0ddbdf1d2cf9c846d9bfb62679cda9cd005b0a1efc 
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:21:51 Time PatientDO_KeyReveal : 21.935348602s 
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:21:51 Tx PatientDO_KeyReveal :  113677 
+  txHash :  0x3a2b73084d84219bd883f9e4214c46ab48ff8cc34ab6860c8db153d98365a906 
+
+ buffer_size : 64 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:21:51 Time DataBaseOwner_waitingForPatientToKeyReveal : 21.8394097s 
+
+ buffer_size : 64 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:21:51 Time DataBaseOwner_decodingEncodedVectors : 340.040693ms 
+
+ buffer_size : 64 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:22:09 Time DataBaseOwner_approval : 17.898708183s 
+
+ buffer_size : 64 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:22:09 Tx DataBaseOwner_approval :  77579 
+  txHash :  0x3b544fa2559232370ab0f31e6687bdab8bf24bc5ea29e8e00d263fc3bb2847c4 
+
+ buffer_size : 64 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:22:09 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 18.779945541s 
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:26:06 Time PatientDO_keepData : 28.235625679s 
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:26:06 Tx KeepDataPatient :  254936 
+  txHash :  0xca709fc4524e9c03a65a6aeacbd576da887cefce3c4dcfe09d2ea19784761b91 
+
+ buffer_size : 128 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:26:06 Time DataBaseOwner_waitingForAppIdAndEncFile : 28.886710578s 
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:26:06 Time PatientDO_sendingAppIdToDO : 333.282821ms 
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:27:09 Time PatientDO_WaitingForDbToVerifyEncFile : 1m2.792897207s 
+
+ buffer_size : 128 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:27:09 Time DataBaseOwner_VerifyingEncFile : 1m3.081801294s 
+
+ buffer_size : 128 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:27:09 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0xba623186a386356383aca84f5b52f3bafebac076cbdfe7fda9fee0c300efec34 
+
+ buffer_size : 128 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:27:29 Time DataBaseOwner_waitingForPatientToKeyReveal : 19.23686372s 
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:27:29 Time PatientDO_KeyReveal : 20.134098624s 
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:27:29 Tx PatientDO_KeyReveal :  113677 
+  txHash :  0x3d906f848909e06978da1cf0afd1d4e4fe18ab937a9d9fd217c40860fdd05b39 
+
+ buffer_size : 128 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:27:29 Time DataBaseOwner_decodingEncodedVectors : 353.843018ms 
+
+ buffer_size : 128 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:28:12 Time DataBaseOwner_approval : 42.940614064s 
+
+ buffer_size : 128 noOfInputGates : 4 party : DataBaseOwner 2020/05/07 04:28:12 Tx DataBaseOwner_approval :  77579 
+  txHash :  0xc67ce2142a110ffb3639fa790a856f18e92a1a7db32675665a60771eefc08190 
+
+ buffer_size : 128 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/07 04:28:12 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 43.329133912s 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:45:50 Time PatientDO_keepData : 44.341014186s 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:45:50 Tx KeepDataPatient :  254936 
+  txHash :  0xcbeedb134d04a387de1ec38fc09c62d4f561e4a5997ebadd8ee388e859615d22 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:45:50 Time DataBaseOwner_waitingForAppIdAndEncFile : 44.955194966s 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:45:50 Time PatientDO_sendingAppIdToDO : 307.271637ms 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:46:51 Time PatientDO_WaitingForDbToVerifyEncFile : 1m0.314961006s 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:46:51 Time DataBaseOwner_VerifyingEncFile : 1m0.025501156s 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:46:51 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0xa7b801b7607080b63f1528c16964570733057935bc71b505de7d922ea54ce582 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:47:16 Time PatientDO_KeyReveal : 24.987490256s 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:47:16 Tx PatientDO_KeyReveal :  113677 
+  txHash :  0x107883736aeb541df36592a8300f5d07110db6fb45c70b6e5b13631641affe70 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:47:16 Time DataBaseOwner_waitingForPatientToKeyReveal : 24.969070741s 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:47:16 Time DataBaseOwner_decodingEncodedVectors : 305.911353ms 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:47:35 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 18.943677546s 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:47:35 Time DataBaseOwner_approval : 18.961447907s 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:47:35 Tx DataBaseOwner_approval :  77579 
+  txHash :  0x5085ed57cb2ff2607fce7510e80c888515562e3f91b6e7adbd160a5c2c5a4f11 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:56:53 Time PatientDO_keepData : 9.216170354s 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:56:53 Tx KeepDataPatient :  254936 
+  txHash :  0x4eb9c6b0248b5b5e6e90feec678d9a96095a20e606666321528099ef5590a507 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:56:54 Time DataBaseOwner_waitingForAppIdAndEncFile : 9.8300831s 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:56:54 Time PatientDO_sendingAppIdToDO : 307.157668ms 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:57:12 Time DataBaseOwner_VerifyingEncFile : 17.918483913s 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:57:12 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0xfe8acc353294a41caa358547cbd288ee5f6c4f589e95eeefece361a8d7276b16 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:57:13 Time PatientDO_WaitingForDbToVerifyEncFile : 19.222770952s 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:57:58 Time PatientDO_KeyReveal : 44.963534043s 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:57:58 Tx PatientDO_KeyReveal :  113665 
+  txHash :  0x845c036485cf7bb8897d42baeecb41f34925d98dca11be0e3e8aef2eb98a567f 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:57:58 Time DataBaseOwner_waitingForPatientToKeyReveal : 46.250612266s 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:57:59 Time DataBaseOwner_decodingEncodedVectors : 299.793772ms 
+
+ buffer_size : 32 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 04:58:04 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 5.753864591s 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:58:04 Time DataBaseOwner_approval : 5.179726396s 
+
+ buffer_size : 32 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 04:58:04 Tx DataBaseOwner_approval :  77579 
+  txHash :  0x7ff880c7f058be16e9dd044091b2f59b4fb9aa5d2d60f350a8d58fad26484b2a 
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:11:33 Time PatientDO_keepData : 10.177816629s 
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:11:33 Tx KeepDataPatient :  254936 
+  txHash :  0xe8cac6227b452b0cca667de5e9146f27ff2595b09a534c184a0ae7fdb51aa7fb 
+
+ buffer_size : 64 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:11:34 Time DataBaseOwner_waitingForAppIdAndEncFile : 10.755502837s 
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:11:34 Time PatientDO_sendingAppIdToDO : 266.262541ms 
+
+ buffer_size : 64 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:11:53 Time DataBaseOwner_VerifyingEncFile : 18.73789881s 
+
+ buffer_size : 64 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:11:53 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0xafd40819289f45220b145aa206bf15c29376b2f47989eb3ff4e5aa0c029b0583 
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:11:53 Time PatientDO_WaitingForDbToVerifyEncFile : 19.044861296s 
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:12:10 Time PatientDO_KeyReveal : 16.998020383s 
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:12:10 Tx PatientDO_KeyReveal :  113677 
+  txHash :  0xcc57e1e1ae22a5cf78af813475fc3ebd928a21ec5ed99d1e800f220e2661d2b1 
+
+ buffer_size : 64 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:12:10 Time DataBaseOwner_waitingForPatientToKeyReveal : 17.305599202s 
+
+ buffer_size : 64 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:12:10 Time DataBaseOwner_decodingEncodedVectors : 306.527061ms 
+
+ buffer_size : 64 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:12:21 Time DataBaseOwner_approval : 10.852935335s 
+
+ buffer_size : 64 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:12:21 Tx DataBaseOwner_approval :  77579 
+  txHash :  0x1989cc08399655cde641d03faf6594ba37771d426f61bb27a881b1bc0fed0bdc 
+
+ buffer_size : 64 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:12:22 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 12.081764042s 
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:46:10 Time PatientDO_keepData : 13.205836852s 
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:46:10 Tx KeepDataPatient :  254936 
+  txHash :  0xe062bac7aba3fe26399405d6c0689370d522c9cc7a05eb0616482afa265132fc 
+
+ buffer_size : 128 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:46:11 Time PatientDO_sendingAppIdToDO : 324.34031ms 
+
+ buffer_size : 128 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:46:11 Time DataBaseOwner_waitingForAppIdAndEncFile : 13.841318299s 
+
+ buffer_size : 128 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:46:54 Time DataBaseOwner_VerifyingEncFile : 42.79912683s 
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:46:54 Time PatientDO_WaitingForDbToVerifyEncFile : 43.094526858s 
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:46:54 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0x941932f89fd01c15387a413918ee839d37c212b2ce1a848e3924f3024cb6a6b4 
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:47:25 Time PatientDO_KeyReveal : 31.488711325s 
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:47:25 Tx PatientDO_KeyReveal :  113677 
+  txHash :  0x550704e8bfe089bbdb67811fb3e0a6e3e1e4489709e4e24def6e386dec79d68d 
+
+ buffer_size : 128 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:47:26 Time DataBaseOwner_waitingForPatientToKeyReveal : 32.050855625s 
+
+ buffer_size : 128 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:47:26 Time DataBaseOwner_decodingEncodedVectors : 300.419983ms 
+
+ buffer_size : 128 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:48:08 Time DataBaseOwner_approval : 41.88825157s 
+
+ buffer_size : 128 noOfInputGates : 8 party : DataBaseOwner 2020/05/07 05:48:08 Tx DataBaseOwner_approval :  77579 
+  txHash :  0x835f66e4bc5793a72d8c12cd4af0e22eb2dd711a184c8d31c0aff8c5df5c1562 
+
+ buffer_size : 128 noOfInputGates : 8 party : Patient_WithDataBaseOwner 2020/05/07 05:48:08 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 43.161455263s 
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 02:24:59 Time PatientDO_keepData : 11.161924939s 
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 02:24:59 Tx KeepDataPatient :  254936 
+  txHash :  0x4e67099ab9a0ccc78773be0e714573338a26ae951bc3ab5c874d0127d2e2fa8b 
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 02:24:59 Time DataBaseOwner_waitingForAppIdAndEncFile : 11.779064497s 
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 02:24:59 Time PatientDO_sendingAppIdToDO : 310.396735ms 
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 02:25:04 Time PatientDO_WaitingForDbToVerifyEncFile : 5.484384001s 
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 02:25:05 Time DataBaseOwner_VerifyingEncFile : 5.834532112s 
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 02:25:05 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0x28c43dd2fb244ee1bb4fb8841409d5620c66d45586313c117d03e818430cfa04 
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 02:25:25 Time DataBaseOwner_waitingForPatientToKeyReveal : 20.070475366s 
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 02:25:25 Time PatientDO_KeyReveal : 20.783907383s 
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 02:25:25 Tx PatientDO_KeyReveal :  113677 
+  txHash :  0xd53075f9022df7cd2e1a67ecd0d81515701f06219462d6a2c76c728a7cdc0f31 
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 02:25:25 Time DataBaseOwner_decodingEncodedVectors : 300.093191ms 
+
+ buffer_size : 32 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 02:25:45 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 20.218659879s 
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 02:25:45 Time DataBaseOwner_approval : 20.036272214s 
+
+ buffer_size : 32 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 02:25:45 Tx DataBaseOwner_approval :  77579 
+  txHash :  0x7a9ddf2c35340cfdf74520db967f52ae3bd2427c92192e400ed884805328affe 
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:01:35 Time PatientDO_keepData : 1m0.199453312s 
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:01:35 Tx KeepDataPatient :  254936 
+  txHash :  0xa17e9440ecf8acc7b3ae2a1c1c2d2df8b34dc79b31c305b3914ae16e608b8085 
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:01:35 Time PatientDO_sendingAppIdToDO : 286.830339ms 
+
+ buffer_size : 64 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:01:35 Time DataBaseOwner_waitingForAppIdAndEncFile : 1m0.805054462s 
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:01:41 Time PatientDO_WaitingForDbToVerifyEncFile : 6.062861195s 
+
+ buffer_size : 64 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:01:42 Time DataBaseOwner_VerifyingEncFile : 6.06329191s 
+
+ buffer_size : 64 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:01:42 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0x1920959f1d53a1a2ad428973b223f5bc855d2063db7a13df6d255d7fe04d3355 
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:01:50 Time PatientDO_KeyReveal : 8.80369526s 
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:01:50 Tx PatientDO_KeyReveal :  113677 
+  txHash :  0xe8f66d534a7baa48a6e65b3c32b6f304880bb216cb4c114b0974b58d2d32adba 
+
+ buffer_size : 64 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:01:51 Time DataBaseOwner_waitingForPatientToKeyReveal : 9.535447114s 
+
+ buffer_size : 64 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:01:52 Time DataBaseOwner_decodingEncodedVectors : 355.440431ms 
+
+ buffer_size : 64 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:02:05 Time DataBaseOwner_approval : 12.878798743s 
+
+ buffer_size : 64 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:02:05 Tx DataBaseOwner_approval :  77579 
+  txHash :  0x8b64a6b69dbc1bea66b58abb58ab5f13e874a753c0d9abfd3d56268b09389255 
+
+ buffer_size : 64 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:02:05 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 15.218261673s 
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:12:43 Time PatientDO_keepData : 15.497764237s 
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:12:43 Tx KeepDataPatient :  254936 
+  txHash :  0x168ab6a0faa1e851c053bbbe794e532ad57d77e219cd4361df861884fe5b5cd0 
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:12:43 Time PatientDO_sendingAppIdToDO : 287.4529ms 
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:12:43 Time DataBaseOwner_waitingForAppIdAndEncFile : 16.179752489s 
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:12:51 Time DataBaseOwner_VerifyingEncFile : 7.862937478s 
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:12:51 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0x5778e5a7d9248e8ad58fff2a5bb574c40507e4d06b823566c1081a93f13e97c3 
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:12:52 Time PatientDO_WaitingForDbToVerifyEncFile : 8.415714027s 
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:13:06 Time PatientDO_KeyReveal : 14.867675388s 
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:13:06 Tx PatientDO_KeyReveal :  113677 
+  txHash :  0xa783481cb7671a426e7a7f225bb584e4832350fc61176a51220a16b9972c2f62 
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:13:07 Time DataBaseOwner_waitingForPatientToKeyReveal : 15.840564061s 
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:13:07 Time DataBaseOwner_decodingEncodedVectors : 297.632048ms 
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:13:38 Time DataBaseOwner_approval : 30.821084122s 
+
+ buffer_size : 128 noOfInputGates : 16 party : DataBaseOwner 2020/05/10 03:13:38 Tx DataBaseOwner_approval :  77579 
+  txHash :  0xf625bda4d0cab3f3c4fe9c5a02ae7051575d6cfc5bacdeef7623bcebea755996 
+
+ buffer_size : 128 noOfInputGates : 16 party : Patient_WithDataBaseOwner 2020/05/10 03:13:39 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 32.439454999s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/12 19:59:57 Time PatientDO_keepData : 50.234227989s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/12 19:59:57 Tx KeepDataPatient :  254936 
+  txHash :  0xd3c12fb947eb28689f413a8276441d43a16a736a2b4a0591596e75d3d5d5d079 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/12 19:59:58 Time DataBaseOwner_waitingForAppIdAndEncFile : 50.855942318s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/12 19:59:58 Time PatientDO_sendingAppIdToDO : 309.160079ms 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/12 20:02:14 Time PatientDO_WaitingForDbToVerifyEncFile : 2m15.755368243s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/12 20:02:36 not found
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/12 20:09:07 Time PatientDO_keepData : 9.209477594s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/12 20:09:07 Tx KeepDataPatient :  254936 
+  txHash :  0x19ccac17cf15cbff6aa116ff88ab8dd57bf19a9284519a12c059337e9fee2c30 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/12 20:09:07 Time PatientDO_sendingAppIdToDO : 307.625605ms 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/12 20:09:07 Time DataBaseOwner_waitingForAppIdAndEncFile : 9.820951562s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/12 20:10:06 Time DataBaseOwner_VerifyingEncFile : 58.979228438s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/12 20:10:06 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0xaadb756e2dd564e6d04cb54afae281f2529f0c4107b3442e1d3ccdbfbb36cffc 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/12 20:10:07 Time PatientDO_WaitingForDbToVerifyEncFile : 59.906218177s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/12 20:10:08 failed to estimate gas needed: gas required exceeds allowance (8000000) or always failing transaction
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:05:00 Time PatientDO_keepData : 32.195533476s 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:05:00 Tx KeepDataPatient :  299948 
+  txHash :  0xfaa0319697ecc4ef58811ef4b19eff1bcf51b6897de89aab4c2728bb2a9d3aa6 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:05:00 Time PatientDO_sendingAppIdToDO : 286.573093ms 
+
+ buffer_size : 64 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:05:00 Time DataBaseOwner_waitingForAppIdAndEncFile : 32.78211519s 
+
+ buffer_size : 64 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:05:14 Time DataBaseOwner_VerifyingEncFile : 14.098668879s 
+
+ buffer_size : 64 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:05:14 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0xb6dd0299a269d786d298ceee4959e7b60f119eb7dc8f0562c59ac47d2ccc8c11 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:05:15 Time PatientDO_WaitingForDbToVerifyEncFile : 14.698488641s 
+
+ buffer_size : 64 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:06:04 Time DataBaseOwner_waitingForPatientToKeyReveal : 49.724876796s 
+
+ buffer_size : 64 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:06:04 Time DataBaseOwner_decodingEncodedVectors : 297.651379ms 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:06:05 Time PatientDO_KeyReveal : 49.831622495s 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:06:05 Tx PatientDO_KeyReveal :  113689 
+  txHash :  0x6c81ca1b0059e0d681f4c20aa79a853dec6e2bce75afc433ea825798c38ef464 
+
+ buffer_size : 64 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:06:26 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 21.807373625s 
+
+ buffer_size : 64 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:06:26 Time DataBaseOwner_approval : 21.899340075s 
+
+ buffer_size : 64 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:06:26 Tx DataBaseOwner_approval :  77579 
+  txHash :  0x105dfb8fe749c901f2eb2d4e59be0faf1d16649810a82683deb2811110115c4d 
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:19:22 Time PatientDO_keepData : 28.23151928s 
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:19:22 Tx KeepDataPatient :  254948 
+  txHash :  0x5cba8a9dace0149a69e3d99a62528a34ba36fe72e0c956c5537af9e22151f21c 
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:19:22 Time PatientDO_sendingAppIdToDO : 372.089893ms 
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:19:22 Time DataBaseOwner_waitingForAppIdAndEncFile : 28.914164068s 
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:20:05 Time PatientDO_WaitingForDbToVerifyEncFile : 42.470982486s 
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:20:06 Time DataBaseOwner_VerifyingEncFile : 42.846692274s 
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:20:06 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0xa36c1b705d536590516c6542d46afb0b41215df944e335d1cf9ee2c47a0c3c13 
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:20:11 Time PatientDO_KeyReveal : 5.908431074s 
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:20:11 Tx PatientDO_KeyReveal :  113689 
+  txHash :  0xa8f6d18ca544071875e12bf9bd258b968be288c18385f8723fddace985654691 
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:20:11 Time DataBaseOwner_waitingForPatientToKeyReveal : 5.613832533s 
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:20:11 Time DataBaseOwner_decodingEncodedVectors : 295.426251ms 
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:20:18 Time DataBaseOwner_approval : 6.966456269s 
+
+ buffer_size : 128 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 22:20:18 Tx DataBaseOwner_approval :  77579 
+  txHash :  0xd2ffe5e024d51dd9dc21a881ae8756036d18da13591eeb49f76e494ad11d4dee 
+
+ buffer_size : 128 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 22:20:19 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 8.172814152s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 23:18:32 Time PatientDO_keepData : 13.094683044s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 23:18:32 Tx KeepDataPatient :  254948 
+  txHash :  0xd248c2fbe0dfb0220d6c389d00384b4ca3c571df0940f95e7dedd8c3257b4221 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 23:18:32 Time PatientDO_sendingAppIdToDO : 290.932674ms 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 23:18:32 Time DataBaseOwner_waitingForAppIdAndEncFile : 13.686466887s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 23:19:01 Time PatientDO_WaitingForDbToVerifyEncFile : 28.026491653s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 23:19:01 Time DataBaseOwner_VerifyingEncFile : 27.951160452s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 23:19:01 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0x647ecb56b030291ab20efcd57fb187ec7fcbbdc6abc41d8445e9f8e1c13391ef 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 23:19:16 Time PatientDO_KeyReveal : 15.842176708s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 23:19:16 Tx PatientDO_KeyReveal :  113689 
+  txHash :  0x945d4d8f3cb9922dccffc2dc8be66f2a6e200a0f75aa023ec76ff98ed03f906e 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 23:19:17 Time DataBaseOwner_waitingForPatientToKeyReveal : 16.206579764s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 23:19:17 Time DataBaseOwner_decodingEncodedVectors : 336.85656ms 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 23:19:29 Time DataBaseOwner_approval : 11.755010659s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/14 23:19:29 Tx DataBaseOwner_approval :  77579 
+  txHash :  0x070672ad213cd4b03f64224743e3b483c86e9be3dff805fe38d1229d9605d94a 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/14 23:19:30 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 13.452918128s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 19:59:31 Time PatientDO_keepData : 32.573318301s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 19:59:31 Tx KeepDataPatient :  299948 
+  txHash :  0x784972da49efc9de2316a4ebd9dd286bca81a00175011859df6bda6a7a3e84de 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 19:59:32 Time PatientDO_sendingAppIdToDO : 328.999331ms 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 19:59:32 Time DataBaseOwner_waitingForAppIdAndEncFile : 33.220455816s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 19:59:53 Time DataBaseOwner_VerifyingEncFile : 20.963758475s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 19:59:53 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0xa504a59197eac128c5ef47810aabcff4c6ba0747f259894b3eda93076662c12e 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 19:59:53 Time PatientDO_WaitingForDbToVerifyEncFile : 21.632881031s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 20:00:35 Time PatientDO_KeyReveal : 41.812546096s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 20:00:35 Tx PatientDO_KeyReveal :  113689 
+  txHash :  0xeda3902e6ed883dc8da530aafea340c31f0de32e9fb6c3db70223a18dcf077c2 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 20:00:35 Time DataBaseOwner_waitingForPatientToKeyReveal : 42.171543093s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 20:00:36 Time DataBaseOwner_decodingEncodedVectors : 416.069646ms 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 20:00:48 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 12.69036335s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 20:00:48 Time DataBaseOwner_approval : 12.575863749s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 20:00:48 Tx DataBaseOwner_approval :  77579 
+  txHash :  0xe3b06c0a7a6b6e8e1822902d34adb2bb715c9f7f99226d2006d8315b12d6bef0 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 20:30:52 Time PatientDO_keepData : 38.324976151s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 20:30:52 Tx KeepDataPatient :  299948 
+  txHash :  0x18c3326fc53354081d3a159cdad2415d2aa16cc60f396071c56567670ecbdd96 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 20:30:52 Time PatientDO_sendingAppIdToDO : 300.661353ms 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 20:30:52 Time DataBaseOwner_waitingForAppIdAndEncFile : 38.915010769s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 20:31:45 Time DataBaseOwner_VerifyingEncFile : 52.879407851s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 20:31:45 Tx DataBaseOwnerVerifyingEncFile :  49201 
+  txHash :  0x3beeeea4aeb4185cd626cc2e714a172787e973dc101ed4e75fe605eba0435bcc 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 20:31:45 Time PatientDO_WaitingForDbToVerifyEncFile : 53.352296565s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 20:32:02 Time PatientDO_KeyReveal : 17.090060491s 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 20:32:02 Tx PatientDO_KeyReveal :  113689 
+  txHash :  0xbd485d7c7a74be5ab0b310a9e85e2764d0dd6ca2a85cbfe4d01cfdca2f9bc5e5 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 20:32:03 Time DataBaseOwner_waitingForPatientToKeyReveal : 17.56461809s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 20:32:03 Time DataBaseOwner_decodingEncodedVectors : 294.607485ms 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 20:32:14 Time DataBaseOwner_approval : 11.258632936s 
+
+ buffer_size : 32 noOfInputGates : 32 party : DataBaseOwner 2020/05/18 20:32:14 Tx DataBaseOwner_approval :  77579 
+  txHash :  0xd7e35fe842774bc9cf3446dedffbb8a0537490ba3d95c03f4a7ae7dc5aa9661c 
+
+ buffer_size : 32 noOfInputGates : 32 party : Patient_WithDataBaseOwner 2020/05/18 20:32:14 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 12.088378359s 
+
+2020/05/19 04:13:31 abi: unmarshalling empty output
+2020/05/19 04:13:39 abi: unmarshalling empty output
+2020/05/19 04:14:07 abi: unmarshalling empty output
