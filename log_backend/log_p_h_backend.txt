@@ -2399,3 +2399,63 @@
 
  buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 04:22:51 Tx PatientFinalConsent :  55928 
 
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:51 Time hospital_GenerateEstimateBill : 12.720567ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:51 Tx HospitalGenerateEstimateBill :  233163 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:51 Time Hospital_SendingEstimateBill : 217.561µs 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:51 Time Patient_LockingEstimatedAmount : 14.170707ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:51 Tx Patient_LockingEstimatedAmount :  56599 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:52 Time Hospital_WaitingForPatientToLockEstimateAmount : 1.00126516s 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:52 Time Hospital_StartTreatment : 22.884862ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:52 Tx HospitalStartTreatment :  52330 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:52 Time Hospital_CalculatingVariables : 2.916352ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:52 Time Hospital_KeepingSignedHashToBlockchain : 22.888431ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:52 Tx HospitalKeepSignedHashToBlockchain :  52330 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:53 Time Patient_WaitingForHospitalToStartTreatment : 2.009156723s 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:53 Time Patient_WaitingForHospitalToSendMultiSignIdAndEncryptedFiles : 1.2931ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:53 Time Hospital_SendingMultiSignIdAndEncodedOuptuts : 974.742025ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:53 Time Patient_CheckingMerkleRootAndVerifySignature : 4.81868ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:53 Time Patient_VerifyingSignatureAndMerkleRoot : 59.699701ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:53 Tx PatientVerifyAndGiveConsent :  98625 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:54 Time Hospital_WaitingForPatientToVerifySignatureAndMerkleRoot : 1.002268428s 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:54 Time Hospital_DischargeAndGenerateFinalBill : 48.345616ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:54 Tx HospitalDischargeAndGenerateFinalCostBill :  237512 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:54 Time Patient_WaitingForHospitalToCommitFinalBill : 1.001022972s 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:54 Time Patient_GiveConsentFinalBill : 42.566007ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:54 Tx PatientGiveConsentFinalBill :  62143 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:55 Time Hospital_WaitingForPatientToGiveConsentFinalBill : 1.001303385s 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:55 Time Hospital_KeyReveal : 27.532594ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Hospital 2020/05/20 21:52:55 Tx hospitalKeyReveal :  88550 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:55 Time Patient_WaitingForHospitalToRevealKey : 1.000720141s 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:55 Time Patient_DecryptingEncodedGateOutputs : 4.204788ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:55 Time Patient_FinalConsent : 17.370239ms 
+
+ buffer_size : 128 noOfInputGates : 128 party : Patient 2020/05/20 21:52:55 Tx PatientFinalConsent :  55885 
+

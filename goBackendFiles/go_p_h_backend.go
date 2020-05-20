@@ -612,7 +612,7 @@ func main(){
 
 					patient_FinalConsent_start:=time.Now()
 
-								tx,err:=instance_P_HA.PatientFinalConsent(&bind.TransactOpts{
+								tx,err:=instance_P_HA.SatisfyAndCompleteTheProcess(&bind.TransactOpts{
 										From:patient.From,
 										Signer:patient.Signer,
 								},con_address_registration,big.NewInt(int64(estimatedBillId)),big.NewInt(int64(hospitalId)))
@@ -1237,7 +1237,7 @@ func main(){
 				hospital_KeyReveal_start:=time.Now()
 
 
-							tx,err=instance_P_HA.KeyReveal(&bind.TransactOpts{
+							tx,err=instance_P_HA.RevealKey(&bind.TransactOpts{
 										From:hospital.From,
 										Signer:hospital.Signer,
 							},con_address_registration,key,estimatedBillId,big.NewInt(int64(patientId)))

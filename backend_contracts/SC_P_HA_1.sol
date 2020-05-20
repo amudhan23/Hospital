@@ -37,7 +37,7 @@ contract SC_P_HA_1
 		}
 
 		struct FileProperties{
-			uint _noOfInputGates; //size of the file..
+			uint noOfInputGates; //size of the file..
 		 	uint fileChunkSize; //size of each file chunk..
 		 	uint depth; //root at depth 0..(Merkle tree: hash computation of file
 			uint maxLinesToGate;
@@ -333,7 +333,7 @@ contract SC_P_HA_1
 		function storeFileProperties(uint multiSigID,uint _noOfInputGates,uint _fileChunkSize,uint _maxInputLinesToAGate) internal
 		{
 				FileProperties memory x;
-				x._noOfInputGates=_noOfInputGates;
+				x.noOfInputGates=_noOfInputGates;
 				x.fileChunkSize=_fileChunkSize;
 				x.depth=log2(2*_noOfInputGates)+1;
 				x.maxLinesToGate=_maxInputLinesToAGate;
@@ -475,7 +475,7 @@ contract SC_P_HA_1
 
 
 
-		function keyReveal(address System_Users_Info_address,bytes32 _key,uint _estimatedBillID,uint _pId) public
+		function revealKey(address System_Users_Info_address,bytes32 _key,uint _estimatedBillID,uint _pId) public
 		{
 				uint _hID;
 				uint _finalBillID;
@@ -516,7 +516,7 @@ contract SC_P_HA_1
 		}
 
 
-		function patient_final_consent(address System_Users_Info_address,uint _estimatedBillID,uint _hID) public
+		function satisfyAndCompleteTheProcess(address System_Users_Info_address,uint _estimatedBillID,uint _hID) public
 		{
   			uint _pID;
   			uint _finalBillID;

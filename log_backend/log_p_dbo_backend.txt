@@ -2041,3 +2041,95 @@
 
  buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 04:23:08 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 2.011367163s 
 
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:18 Time hospital_GenerateEstimateBill : 12.141508ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:18 Tx HospitalGenerateEstimateBill :  233163 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:18 Time Hospital_SendingEstimateBill : 152.004µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:18 Time Patient_LockingEstimatedAmount : 11.876532ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:18 Tx Patient_LockingEstimatedAmount :  56599 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:19 Time Hospital_WaitingForPatientToLockEstimateAmount : 1.001195783s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:19 Time Hospital_StartTreatment : 32.094647ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:19 Tx HospitalStartTreatment :  52330 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:19 Time Hospital_CalculatingVariables : 665.649µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:19 Time Hospital_KeepingSignedHashToBlockchain : 35.575171ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:19 Tx HospitalKeepSignedHashToBlockchain :  52330 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:20 Time Patient_WaitingForHospitalToStartTreatment : 2.018834063s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:20 Time Patient_WaitingForHospitalToSendMultiSignIdAndEncryptedFiles : 969.373µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:20 Time Hospital_SendingMultiSignIdAndEncodedOuptuts : 962.243974ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:20 Time Patient_CheckingMerkleRootAndVerifySignature : 836.698µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:20 Time Patient_VerifyingSignatureAndMerkleRoot : 65.553292ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:20 Tx PatientVerifyAndGiveConsent :  98689 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:21 Time Hospital_WaitingForPatientToVerifySignatureAndMerkleRoot : 1.002541803s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:21 Time Hospital_DischargeAndGenerateFinalBill : 24.224502ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:21 Tx HospitalDischargeAndGenerateFinalCostBill :  237512 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:21 Time Patient_WaitingForHospitalToCommitFinalBill : 1.00077645s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:21 Time Patient_GiveConsentFinalBill : 38.337578ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:21 Tx PatientGiveConsentFinalBill :  62143 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:22 Time Hospital_WaitingForPatientToGiveConsentFinalBill : 1.001248724s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:22 Time Hospital_KeyReveal : 27.290704ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:55:22 Tx hospitalKeyReveal :  88550 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:22 Time Patient_WaitingForHospitalToRevealKey : 1.000981464s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:22 Time Patient_DecryptingEncodedGateOutputs : 664.631µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:22 Time Patient_FinalConsent : 34.845217ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:55:22 Tx PatientFinalConsent :  55885 
+
+2020/05/20 21:55:23 Time GovtAuthority_DBO_Registration : 18.76502ms 
+
+2020/05/20 21:55:23 Tx GovtAuthority_DBO_Registration :  146797 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:55:24 Time PatientDO_keepData : 55.228442ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:55:24 Tx KeepDataPatient :  300892 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:55:24 Time DataBaseOwner_waitingForAppIdAndEncFile : 55.875063ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:55:24 Time PatientDO_sendingAppIdToDO : 218.761µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:55:24 Time DataBaseOwner_VerifyingEncFile : 3.940429ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:55:24 Tx DataBaseOwnerVerifyingEncFile :  44083 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:55:25 Time PatientDO_WaitingForDbToVerifyEncFile : 1.003815985s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:55:25 Time PatientDO_KeyReveal : 49.797002ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:55:25 Tx PatientDO_KeyReveal :  89983 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:55:26 Time DataBaseOwner_waitingForPatientToKeyReveal : 2.048031849s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:55:26 Time DataBaseOwner_decodingEncodedVectors : 989.32µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:55:26 Time DataBaseOwner_approval : 14.659409ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:55:26 Tx DataBaseOwner_approval :  72393 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:55:27 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 2.011821225s 
+

@@ -18,10 +18,10 @@ contract SC_P_IC_DBO
 
     struct PolicyDetails
     {
-        uint pid; //policy ID..
+        uint poID; //policy ID..
         address payable buyerAddr; //buyerAddr address..
         address payable icAddr; //insurance company address..
-        uint timestamp; //timestamp..
+        uint timestamp_policyBuying; //timestamp_policyBuying..
         uint policyPrice; //price of the policy..
         bytes32 hashOfTermsAndCon; //hash of terms&con file..
         uint[] claimIDs;
@@ -29,18 +29,18 @@ contract SC_P_IC_DBO
 
     struct ClaimDetails
     {
-        uint cid; //claim
-        uint estimatedBillId;
-        uint timestamp_patientGenerateClaim; //timestamp..
+        uint cID; //claim
+        uint estimatedBillID;
+        uint timestamp_patientGenerateClaim; //timestamp_policyBuying..
         uint claimedAmount; //claimed amount..\
         uint approvedAmount;
         bytes publicKey;
         bytes32 commitmentOfSecretKey;
         bytes secretKey;
         uint timestamp_keyReveal;
-        uint timestamp_IcLocking;
-        uint timestamp_IcUnlocking;
-        uint timestamp_Approval;
+        uint timestamp_icLocking;
+        uint timestamp_icUnlocking;
+        uint timestamp_approval;
         bool isSelfApproved;
         bool isICMalicious;
     }
@@ -98,7 +98,7 @@ contract SC_P_IC_DBO
     function addSecurityMoney(address System_Users_Info_address,uint _amount) public payable
     {
         System_Users_Info System_Users_Info_instance = System_Users_Info(System_Users_Info_address);
-      	require(System_Users_Info_instance.icAddressToicId(msg.sender)!=0); //checking for valid ic id
+      	require(System_Users_Info_instance.mapFromAddrToID_IC(msg.sender)!=0); //checking for valid ic id
         require(msg.value>=_amount);
       	securityMoney_IC[msg.sender] += _amount;
     }
@@ -106,7 +106,7 @@ contract SC_P_IC_DBO
     function withdrawSecurityMoney(address System_Users_Info_address,uint _amount) public
     {
         System_Users_Info System_Users_Info_instance = System_Users_Info(System_Users_Info_address);
-        require(System_Users_Info_instance.icAddressToicId(msg.sender)!=0); //checking for valid ic id
+        require(System_Users_Info_instance.mapFromAddrToID_IC(msg.sender)!=0); //checking for valid ic id
         require(securityMoney_IC[msg.sender]-_amount>=0);
       	securityMoney_IC[msg.sender] -= _amount;
       	msg.sender.transfer(_amount);
@@ -159,10 +159,10 @@ contract SC_P_IC_DBO
 
         pidGenerator += 1;
         PolicyDetails memory pd;
-        pd.pid=pidGenerator;
+        pd.poID=pidGenerator;
         pd.buyerAddr=_buyerAddr;
         pd.icAddr=msg.sender;
-        pd.timestamp=now;
+        pd.timestamp_policyBuying=now;
         pd.policyPrice=_price;
         pd.hashOfTermsAndCon=_hashOfTermsAndCon;
         policyDetails.push(pd);
@@ -211,9 +211,9 @@ contract SC_P_IC_DBO
         {
           cd=claimDetails[pd.claimIDs[i]-1];
 
-          if(cd.estimatedBillId==_estimatedBillId)
+          if(cd.estimatedBillID==_estimatedBillId)
           {
-            require(cd.timestamp_Approval==0);
+            require(cd.timestamp_approval==0);
             require(now-cd.timestamp_patientGenerateClaim>timeLimitForIcLocking);
           }
 
@@ -272,7 +272,7 @@ contract SC_P_IC_DBO
       {
 
           require(claimIDToDBODetails[_claimId].dboAddress==msg.sender);
-          require(claimDetails[_claimId-1].timestamp_IcLocking==0);
+          require(claimDetails[_claimId-1].timestamp_icLocking==0);
           require(claimDetails[_claimId-1].timestamp_patientGenerateClaim!=0);
 
           claimIDToDBODetails[_claimId].signature_DBO_hashOfEncryptedFile=_signature_DBO_hashOfEncryptedFile;
@@ -305,10 +305,10 @@ contract SC_P_IC_DBO
 
 
           require(now-claimDetails[_cID-1].timestamp_patientGenerateClaim<=timeLimitForIcLocking);
-          require(claimDetails[_cID-1].timestamp_IcLocking==0);
+          require(claimDetails[_cID-1].timestamp_icLocking==0);
           require(msg.value>=claimDetails[_cID-1].claimedAmount);
 
-          claimDetails[_cID-1].timestamp_IcLocking=now;
+          claimDetails[_cID-1].timestamp_icLocking=now;
 
       }
 
@@ -326,7 +326,7 @@ contract SC_P_IC_DBO
 
           require(policyDetails[_poID-1].icAddr == _icAddr);
           require(policyDetails[_poID-1].buyerAddr == msg.sender);
-          require(claimDetails[_cID-1].timestamp_IcLocking==0);
+          require(claimDetails[_cID-1].timestamp_icLocking==0);
           require(now-claimDetails[_cID-1].timestamp_patientGenerateClaim > timeLimitForIcLocking);
 
 
@@ -368,10 +368,10 @@ contract SC_P_IC_DBO
           require(policyDetails[_pid-1].buyerAddr==_buyerAddr);
 
 
-          require(claimDetails[_cID-1].timestamp_IcLocking!=0);
-          require(now-claimDetails[_cID-1].timestamp_IcLocking>timeLimitForKeyReveal);
+          require(claimDetails[_cID-1].timestamp_icLocking!=0);
+          require(now-claimDetails[_cID-1].timestamp_icLocking>timeLimitForKeyReveal);
           require(claimDetails[_cID-1].timestamp_keyReveal==0);
-          claimDetails[_cID-1].timestamp_IcUnlocking=now;
+          claimDetails[_cID-1].timestamp_icUnlocking=now;
           msg.sender.transfer(claimDetails[_cID-1].claimedAmount);
 
       }
@@ -391,9 +391,9 @@ contract SC_P_IC_DBO
 
 
 
-          require(now-claimDetails[_cID-1].timestamp_IcLocking<=timeLimitForKeyReveal);
+          require(now-claimDetails[_cID-1].timestamp_icLocking<=timeLimitForKeyReveal);
           require(claimDetails[_cID-1].timestamp_keyReveal==0);
-          require(claimDetails[_cID-1].timestamp_Approval==0);
+          require(claimDetails[_cID-1].timestamp_approval==0);
           require(Hash(_secretKey)==claimDetails[_cID-1].commitmentOfSecretKey);
 
           claimDetails[_cID-1].secretKey=_secretKey;
@@ -419,12 +419,12 @@ contract SC_P_IC_DBO
 
 
             require(now-claimDetails[_cID-1].timestamp_keyReveal<=timeLimitForFinalApproval);
-            require(claimDetails[_cID-1].timestamp_Approval==0);
+            require(claimDetails[_cID-1].timestamp_approval==0);
             require(claimDetails[_cID-1].timestamp_keyReveal!=0);
             require(msg.value>=_approvedAmount);
 
             claimDetails[_cID-1].approvedAmount=_approvedAmount;
-            claimDetails[_cID-1].timestamp_Approval=now;
+            claimDetails[_cID-1].timestamp_approval=now;
             /* _buyerAddr.transfer(claimDetails[_cID-1].approvedAmount); */
 
 
@@ -443,11 +443,11 @@ contract SC_P_IC_DBO
           require(policyDetails[_pid-1].buyerAddr==msg.sender);
 
           require(now-claimDetails[_cID-1].timestamp_keyReveal>timeLimitForFinalApproval);
-          require(claimDetails[_cID-1].timestamp_Approval==0);
+          require(claimDetails[_cID-1].timestamp_approval==0);
           require(claimDetails[_cID-1].timestamp_keyReveal!=0);
 
 
-          claimDetails[_cID-1].timestamp_Approval=now;
+          claimDetails[_cID-1].timestamp_approval=now;
           claimDetails[_cID-1].isSelfApproved=true;
           msg.sender.transfer(claimDetails[_cID-1].claimedAmount);
 

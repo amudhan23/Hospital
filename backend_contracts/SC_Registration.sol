@@ -26,7 +26,7 @@ contract System_Users_Info
 
     struct Patient
     {
-        address payable paddr;
+        address payable pAddr;
         uint patientID;
         string name;
         uint8 age;
@@ -59,15 +59,15 @@ contract System_Users_Info
     {
         require(_patientID>=1 && _patientID<=patientIDGenerator);
         uint x = _patientID-1;
-        return(patient[x].paddr,patient[x].patientID,patient[x].name,patient[x].age,patient[x].mob,patient[x].add);
+        return(patient[x].pAddr,patient[x].patientID,patient[x].name,patient[x].age,patient[x].mob,patient[x].add);
     }
 
-    function getPatientbyAddress(address _patientAdd) view public returns(address payable,uint,string memory,uint8,uint,string memory)
+    function getPatientbyAddress(address _pAddr) view public returns(address payable,uint,string memory,uint8,uint,string memory)
     {
-        uint _patientID = mapFromAddToId_P[_patientAdd];
+        uint _patientID = mapFromAddToId_P[_pAddr];
         require(_patientID>=1 && _patientID<=patientIDGenerator);
         uint x = _patientID-1;
-        return(patient[x].paddr,patient[x].patientID,patient[x].name,patient[x].age,patient[x].mob,patient[x].add);
+        return(patient[x].pAddr,patient[x].patientID,patient[x].name,patient[x].age,patient[x].mob,patient[x].add);
 
     }
 
@@ -82,7 +82,7 @@ contract System_Users_Info
 
     struct Hospital
     {
-        address payable haddr;
+        address payable hAddr;
         uint hospitalID;
         string name;
     }
@@ -108,15 +108,15 @@ contract System_Users_Info
     {
         require(_hospitalID>=1 && _hospitalID<=hospitalIDGenerator);
         uint x = _hospitalID-1;
-        return(hospital[x].haddr,hospital[x].hospitalID,hospital[x].name);
+        return(hospital[x].hAddr,hospital[x].hospitalID,hospital[x].name);
     }
 
-    function getHospitalbyAddress(address _hospitalAdd) view public returns(address payable,uint,string memory)
+    function getHospitalbyAddress(address _hAddr) view public returns(address payable,uint,string memory)
     {
-        uint _hospitalID = mapFromAddToId_H[_hospitalAdd];
+        uint _hospitalID = mapFromAddToId_H[_hAddr];
         require(_hospitalID>=1 && _hospitalID<=hospitalIDGenerator);
         uint x = _hospitalID-1;
-        return(hospital[x].haddr,hospital[x].hospitalID,hospital[x].name);
+        return(hospital[x].hAddr,hospital[x].hospitalID,hospital[x].name);
     }
 
 
@@ -124,34 +124,34 @@ contract System_Users_Info
 
     /*InsuranceCompany Registration*/
 
-    uint public insuranceIDGenerator=0;
+    uint public insuranceCoIDGenerator=0;
 
-    struct Insurance
+    struct InsuranceCo
     {
-        address payable icaddr;
+        address payable icAddr;
         uint insuranceCompanyID;
         string name;
     }
 
-    Insurance[] public insurance;
+    InsuranceCo[] public insuranceCo;
 
-    mapping(address=>uint) public icAddressToicId; //Mapping from Insurance address to Insurance ID..
+    mapping(address=>uint) public mapFromAddrToID_IC; //Mapping from InsuranceCo address to InsuranceCo ID..
 
 
-    function insuranceCompanyRegistration(address payable _icaddr,string memory _name) public
+    function insuranceCompanyRegistration(address payable _icAddr,string memory _name) public
     {
 
-        require(icAddressToicId[_icaddr]==0);
+        require(mapFromAddrToID_IC[_icAddr]==0);
         require(!isEmptyString(_name));
-        insuranceIDGenerator+=1;
+        insuranceCoIDGenerator+=1;
 
-        Insurance memory InsuranceObject;
-        InsuranceObject.icaddr=_icaddr;
-        InsuranceObject.insuranceCompanyID=insuranceIDGenerator;
+        InsuranceCo memory InsuranceObject;
+        InsuranceObject.icAddr=_icAddr;
+        InsuranceObject.insuranceCompanyID=insuranceCoIDGenerator;
         InsuranceObject.name=_name;
-        insurance.push(InsuranceObject);
+        insuranceCo.push(InsuranceObject);
 
-        icAddressToicId[_icaddr]=insuranceIDGenerator;
+        mapFromAddrToID_IC[_icAddr]=insuranceCoIDGenerator;
 
 
     }
@@ -159,17 +159,17 @@ contract System_Users_Info
 
     function getInsuranceCompanybyID(uint _insuranceID) view public returns(address payable,uint,string memory)
     {
-        require(_insuranceID>=1 && _insuranceID<=insuranceIDGenerator);
+        require(_insuranceID>=1 && _insuranceID<=insuranceCoIDGenerator);
         uint x = _insuranceID-1;
-        return(insurance[x].icaddr,insurance[x].insuranceCompanyID,insurance[x].name);
+        return(insuranceCo[x].icAddr,insuranceCo[x].insuranceCompanyID,insuranceCo[x].name);
     }
 
     function getInsuranceCompanybyAddress(address _insuranceAdd) view public returns(address payable,uint,string memory)
     {
-        uint _insuranceID = icAddressToicId[_insuranceAdd];
-        require(_insuranceID>=1 && _insuranceID<=insuranceIDGenerator);
+        uint _insuranceID = mapFromAddrToID_IC[_insuranceAdd];
+        require(_insuranceID>=1 && _insuranceID<=insuranceCoIDGenerator);
         uint x = _insuranceID-1;
-        return(insurance[x].icaddr,insurance[x].insuranceCompanyID,insurance[x].name);
+        return(insuranceCo[x].icAddr,insuranceCo[x].insuranceCompanyID,insuranceCo[x].name);
     }
 
 
@@ -184,43 +184,43 @@ contract System_Users_Info
 
     struct DataBaseOwner
     {
-        address payable dboAddress;
+        address payable dboAddr;
         uint dboID;
-        string dboName;
+        string name;
     }
 
 
     DataBaseOwner[] public dataBaseOwner;
-    mapping(address=>uint) public dboAddressTodboID;
+    mapping(address=>uint) public mapFromAddrToID_DBO;
 
 
-    function dboRegistration(address payable _dboAddress,string memory _dboName) public onlyGovtAuthority(msg.sender)
+    function dboRegistration(address payable _dboAddr,string memory _name) public onlyGovtAuthority(msg.sender)
     {
-        require(dboAddressTodboID[_dboAddress]==0);
-        require(!isEmptyString(_dboName));
+        require(mapFromAddrToID_DBO[_dboAddr]==0);
+        require(!isEmptyString(_name));
         dboIDGenerator+=1;
 
         DataBaseOwner memory DataBaseOwnerStruct;
-        DataBaseOwnerStruct.dboAddress=_dboAddress;
+        DataBaseOwnerStruct.dboAddr=_dboAddr;
         DataBaseOwnerStruct.dboID=dboIDGenerator;
-        DataBaseOwnerStruct.dboName=_dboName;
+        DataBaseOwnerStruct.name=_name;
         dataBaseOwner.push(DataBaseOwnerStruct);
 
-        dboAddressTodboID[_dboAddress]=dboIDGenerator;
+        mapFromAddrToID_DBO[_dboAddr]=dboIDGenerator;
 
     }
 
     function dboById(uint _dboID) public view returns(address payable,uint,string memory)
     {
         require(_dboID>=1 && _dboID<=dboIDGenerator);
-        return (dataBaseOwner[_dboID-1].dboAddress,dataBaseOwner[_dboID-1].dboID,dataBaseOwner[_dboID-1].dboName);
+        return (dataBaseOwner[_dboID-1].dboAddr,dataBaseOwner[_dboID-1].dboID,dataBaseOwner[_dboID-1].name);
     }
 
-    function dboByAddress(address _dboAddress) public view returns(address payable,uint,string memory)
+    function dboByAddress(address _dboAddr) public view returns(address payable,uint,string memory)
     {
-        uint _dboID=dboAddressTodboID[_dboAddress];
+        uint _dboID=mapFromAddrToID_DBO[_dboAddr];
         require(_dboID>=1 && _dboID<=dboIDGenerator);
-        return (dataBaseOwner[_dboID-1].dboAddress,dataBaseOwner[_dboID-1].dboID,dataBaseOwner[_dboID-1].dboName);
+        return (dataBaseOwner[_dboID-1].dboAddr,dataBaseOwner[_dboID-1].dboID,dataBaseOwner[_dboID-1].name);
 
     }
 
@@ -233,44 +233,44 @@ contract System_Users_Info
 
     struct ResearchCommunity
     {
-        address payable rcAddress;
+        address payable rcAddr;
         uint rcID;
-        string rcName;
+        string name;
     }
 
 
     ResearchCommunity[] public researchCommunity;
-    mapping(address=>uint) public rcAddressTorcID;
+    mapping(address=>uint) public mapFromAddrToID_RC;
 
 
-    function rcRegistration(address payable _rcAddress,string memory _rcName) onlyGovtAuthority(msg.sender) public
+    function rcRegistration(address payable _rcAddr,string memory _name) onlyGovtAuthority(msg.sender) public
     {
-        require(rcAddressTorcID[_rcAddress]==0);
-        require(!isEmptyString(_rcName));
+        require(mapFromAddrToID_RC[_rcAddr]==0);
+        require(!isEmptyString(_name));
         rcIDGenerator+=1;
 
         ResearchCommunity memory ResearchCommunityStruct;
-        ResearchCommunityStruct.rcAddress=_rcAddress;
+        ResearchCommunityStruct.rcAddr=_rcAddr;
         ResearchCommunityStruct.rcID=rcIDGenerator;
-        ResearchCommunityStruct.rcName=_rcName;
+        ResearchCommunityStruct.name=_name;
         researchCommunity.push(ResearchCommunityStruct);
 
-        rcAddressTorcID[_rcAddress]=rcIDGenerator;
+        mapFromAddrToID_RC[_rcAddr]=rcIDGenerator;
     }
 
 
     function rcById(uint _rcID) public view returns(address payable,uint,string memory)
     {
         require(_rcID>=1 && _rcID<=rcIDGenerator);
-        return(researchCommunity[_rcID-1].rcAddress,researchCommunity[_rcID-1].rcID,researchCommunity[_rcID-1].rcName);
+        return(researchCommunity[_rcID-1].rcAddr,researchCommunity[_rcID-1].rcID,researchCommunity[_rcID-1].name);
     }
 
 
-    function rcByAddress(address payable _rcAddress) public view returns(address payable,uint,string memory)
+    function rcByAddress(address payable _rcAddr) public view returns(address payable,uint,string memory)
     {
-        uint _rcID=rcAddressTorcID[_rcAddress];
+        uint _rcID=mapFromAddrToID_RC[_rcAddr];
         require(_rcID>=1 && _rcID<=rcIDGenerator);
-        return(researchCommunity[_rcID-1].rcAddress,researchCommunity[_rcID-1].rcID,researchCommunity[_rcID-1].rcName);
+        return(researchCommunity[_rcID-1].rcAddr,researchCommunity[_rcID-1].rcID,researchCommunity[_rcID-1].name);
 
     }
 
@@ -297,17 +297,17 @@ contract System_Users_Info
 
     function grant_permission_patient_To_IC(address callingPatientAddress,uint _IC) public
     {
-        address payable icaddr;
-        (icaddr, , )=getInsuranceCompanybyID(_IC);
-        read_permission_to_IC[callingPatientAddress][icaddr]=true;
+        address payable icAddr;
+        (icAddr, , )=getInsuranceCompanybyID(_IC);
+        read_permission_to_IC[callingPatientAddress][icAddr]=true;
     }
 
 
     function deny_permission_patient_To_IC(address callingPatientAddress,uint _IC) public
     {
-        address payable icaddr;
-        (icaddr, , )=getInsuranceCompanybyID(_IC);
-        read_permission_to_IC[callingPatientAddress][icaddr]=false;
+        address payable icAddr;
+        (icAddr, , )=getInsuranceCompanybyID(_IC);
+        read_permission_to_IC[callingPatientAddress][icAddr]=false;
     }
 
 

@@ -3201,3 +3201,151 @@
 
  buffer_size : 128 noOfInputGates : 128 party : Patient_WithInsuranceCompany 2020/05/20 04:23:59 Time PatientIC_waitingForICtoApprove : 3.010222881s 
 
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:51 Time hospital_GenerateEstimateBill : 12.340103ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:51 Tx HospitalGenerateEstimateBill :  233099 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:51 Time Hospital_SendingEstimateBill : 309.83µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:51 Time Patient_LockingEstimatedAmount : 12.698023ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:51 Tx Patient_LockingEstimatedAmount :  56535 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:52 Time Hospital_WaitingForPatientToLockEstimateAmount : 1.001346882s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:52 Time Hospital_StartTreatment : 14.205176ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:52 Tx HospitalStartTreatment :  52266 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:52 Time Hospital_CalculatingVariables : 338.9µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:53 Time Hospital_KeepingSignedHashToBlockchain : 19.555098ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:53 Tx HospitalKeepSignedHashToBlockchain :  52266 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:53 Time Patient_WaitingForHospitalToStartTreatment : 2.002002157s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:53 Time Patient_WaitingForHospitalToSendMultiSignIdAndEncryptedFiles : 1.117726ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:53 Time Hospital_SendingMultiSignIdAndEncodedOuptuts : 980.562195ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:53 Time Patient_CheckingMerkleRootAndVerifySignature : 897.759µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:54 Time Patient_VerifyingSignatureAndMerkleRoot : 40.594257ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:54 Tx PatientVerifyAndGiveConsent :  98497 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:54 Time Hospital_WaitingForPatientToVerifySignatureAndMerkleRoot : 1.00254072s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:55 Time Hospital_DischargeAndGenerateFinalBill : 23.668486ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:55 Tx HospitalDischargeAndGenerateFinalCostBill :  237448 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:55 Time Patient_WaitingForHospitalToCommitFinalBill : 1.000551173s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:55 Time Patient_GiveConsentFinalBill : 17.195431ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:55 Tx PatientGiveConsentFinalBill :  62079 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:56 Time Hospital_WaitingForPatientToGiveConsentFinalBill : 1.001193226s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:56 Time Hospital_KeyReveal : 49.473487ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Hospital 2020/05/20 21:58:56 Tx hospitalKeyReveal :  88486 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:57 Time Patient_WaitingForHospitalToRevealKey : 2.016262534s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:57 Time Patient_DecryptingEncodedGateOutputs : 726.684µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:57 Time Patient_FinalConsent : 37.763836ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient 2020/05/20 21:58:57 Tx PatientFinalConsent :  55821 
+
+2020/05/20 21:58:57 Time GovtAuthority_DBO_Registration : 7.786097ms 
+
+2020/05/20 21:58:57 Tx GovtAuthority_DBO_Registration :  146797 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:58:57 Time PatientDO_keepData : 29.792632ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:58:57 Tx KeepDataPatient :  300828 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:58:57 Time DataBaseOwner_waitingForAppIdAndEncFile : 30.252724ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:58:57 Time PatientDO_sendingAppIdToDO : 257.535µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:58:57 Time DataBaseOwner_VerifyingEncFile : 4.099821ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:58:57 Tx DataBaseOwnerVerifyingEncFile :  44083 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:58:58 Time PatientDO_WaitingForDbToVerifyEncFile : 1.004116717s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:58:58 Time PatientDO_KeyReveal : 25.624979ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:58:58 Tx PatientDO_KeyReveal :  89919 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:58:59 Time DataBaseOwner_waitingForPatientToKeyReveal : 2.024027017s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:58:59 Time DataBaseOwner_decodingEncodedVectors : 871.805µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:58:59 Time DataBaseOwner_approval : 16.816283ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner 2020/05/20 21:58:59 Tx DataBaseOwner_approval :  72393 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithDataBaseOwner 2020/05/20 21:59:00 Time PatientDO_WaitingForDbToGiveApprovalOrComplain : 2.01274775s 
+
+2020/05/20 21:59:00 Time GovtAuthority_IC_Registration : 16.235614ms 
+
+2020/05/20 21:59:00 Tx GovtAuthority_IC_Registration :  146506 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/20 21:59:00 Time PatientIC_buyPolicyPhaseOne : 44.995277ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/20 21:59:00 Tx PatientIC_buyPolicyPhaseOne :  75049 
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/20 21:59:00 Time InsuranceCompany_SecurityDeposist : 47.388351ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/20 21:59:00 Tx InsuranceCompany_SecurityDeposit :  45971 
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/20 21:59:00 Time InsuranceCompany_LockPolicyPhaseTwo : 22.204705ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/20 21:59:00 Tx InsuranceCompany_LockPolicyPhaseTwo :  238987 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/20 21:59:01 Time PatientIC_WaitingForICtoLockMoney : 1.020638496s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/20 21:59:01 Time PatientIC_GeneratingClaim : 76.291179ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/20 21:59:01 Tx PatientIC_GenerateClaim :  587422 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/20 21:59:01 Time PatientIC_SendClaimIdToIC : 129.747µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/20 21:59:01 Time PatientIC_sendClaimIdToDataBaseOwner : 20.759µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/20 21:59:01 Time InsuranceCompany_WaitingForPatientToSendClaimId : 1.075067157s 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/20 21:59:01 Time DbIC_computing_signature : 807.075µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/20 21:59:01 Time DbIC_KeepSignature : 5.973863ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/20 21:59:01 Tx DbIC_KeepSigOnHashOfEncFile :  121121 
+
+ buffer_size : 32 noOfInputGates : 4 party : DataBaseOwner_InsuranceCompany 2020/05/20 21:59:01 Time DbIC_sendingEcncryptedFilesToIC : 65.025µs 
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/20 21:59:06 Time InsuranceCompany_GettingEncFileAndVerifyingDbSignature : 5.008202902s 
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/20 21:59:06 Time InsuranceCompany_lockingClaimeddMoney : 14.528657ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/20 21:59:06 Tx InsuranceCompany_LockClaimedMoney :  55388 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/20 21:59:07 Time PatientIC_waitingForInsuranceCompanyToApprovedAmount : 6.008063584s 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/20 21:59:07 Time PatientIC_RevealKey : 205.288682ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/20 21:59:07 Tx PatientIC_RevealSecretKey :  863417 
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/20 21:59:08 Time InsuranceCompany_waitingForPatientToRevealSecretKey : 2.180781834s 
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/20 21:59:08 Time InsuranceCompany_ApproveClaimedMoney : 19.752614ms 
+
+ buffer_size : 32 noOfInputGates : 4 party : InsuranceCompany 2020/05/20 21:59:08 Tx InsuranceCompany_ApproveClaimedMoney :  75939 
+
+ buffer_size : 32 noOfInputGates : 4 party : Patient_WithInsuranceCompany 2020/05/20 21:59:09 Time PatientIC_waitingForICtoApprove : 2.018237744s 
+

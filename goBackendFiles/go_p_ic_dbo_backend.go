@@ -83,7 +83,7 @@ type PatientToDataBaseOwner struct {
 
 type PatientICToDataBaseOwner struct {
 		InsuranceComapanyId int
-		EstimatedBillId int
+		EstimatedBillID int
 		ClaimId int
 }
 
@@ -595,7 +595,7 @@ func main(){
 				patientIC_sendClaimIdToDataBaseOwner_start:=time.Now()
 
 								PatientICToDataBaseOwner_object.InsuranceComapanyId=insuranceCompanyId
-								PatientICToDataBaseOwner_object.EstimatedBillId=estimatedBillId
+								PatientICToDataBaseOwner_object.EstimatedBillID=estimatedBillId
 								PatientICToDataBaseOwner_object.ClaimId=int(claimId)
 
 								byteArrayFromPatientToDateBaseOwner,err := json.Marshal(PatientICToDataBaseOwner_object)
@@ -1050,7 +1050,7 @@ func main(){
 										rsa_secretKey:=BytesToPrivateKey(secret_key)
 										fileChunks:=DecryptFileChunks(DataBaseOwnerToInsuranceCompany_object.EncryptedOutputOfGates,rsa_secretKey)
 										MR_filechunks:=createMerkleRootForInputVectors(fileChunks)
-										estimatedBillId:=claimDetails_object.EstimatedBillId
+										estimatedBillId:=claimDetails_object.EstimatedBillID
 
 
 										multiSigID,err:=instance_P_HA_1.EstimatedCostBillIDToMultiSigOnMedicalDataID(nil,estimatedBillId)
@@ -2336,7 +2336,7 @@ func main(){
 
 					patient_FinalConsent_start:=time.Now()
 
-								tx,err:=instance_P_HA_1.PatientFinalConsent(&bind.TransactOpts{
+								tx,err:=instance_P_HA_1.SatisfyAndCompleteTheProcess(&bind.TransactOpts{
 										From:patient.From,
 										Signer:patient.Signer,
 								},con_address_registration,big.NewInt(int64(estimatedBillId)),big.NewInt(int64(hospitalId)))
@@ -2958,7 +2958,7 @@ func main(){
 				hospital_KeyReveal_start:=time.Now()
 
 
-							tx,err=instance_P_HA_1.KeyReveal(&bind.TransactOpts{
+							tx,err=instance_P_HA_1.RevealKey(&bind.TransactOpts{
 										From:hospital.From,
 										Signer:hospital.Signer,
 							},con_address_registration,key,estimatedBillId,big.NewInt(int64(patientId)))
