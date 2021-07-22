@@ -184,7 +184,7 @@ contract SC_P_IC_DBO
     }
 
 
-    function claimMoney(address System_Users_Info_address,address SC_P_HA_1_address,address SC_P_DBO_address,uint _policyID, uint _claimedAmount,uint _estimatedBillId,bytes memory _publicKey, bytes32 _comm_k,address _dboAddr,uint _appID) public
+    function claimMoney(address System_Users_Info_address,address SC_P_HA_1_address,address SC_P_DBO_address,uint _policyID, uint _claimedAmount,uint _estimatedBillId, bytes32 _comm_k,address _dboAddr,uint _appID) public
     {
 
 
