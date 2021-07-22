@@ -34,9 +34,8 @@ contract SC_P_IC_DBO
         uint timestamp_patientGenerateClaim; //timestamp_policyBuying..
         uint claimedAmount; //claimed amount..\
         uint approvedAmount;
-        bytes publicKey;
-        bytes32 commitmentOfSecretKey;
-        bytes secretKey;
+        bytes32 comm_k;
+        bytes32 K;
         uint timestamp_keyReveal;
         uint timestamp_icLocking;
         uint timestamp_icUnlocking;
@@ -190,7 +189,7 @@ contract SC_P_IC_DBO
     }
 
 
-    function claimMoney(address System_Users_Info_address,address SC_P_HA_1_address,address SC_P_DBO_address,uint _policyID, uint _claimedAmount,uint _estimatedBillId,bytes memory _publicKey, bytes32 _commitmentOfSecretKey,address _dboAddr,uint _appID) public
+    function claimMoney(address System_Users_Info_address,address SC_P_HA_1_address,address SC_P_DBO_address,uint _policyID, uint _claimedAmount,uint _estimatedBillId, bytes32 _comm_k,address _dboAddr,uint _appID) public
     {
 
 
@@ -225,7 +224,7 @@ contract SC_P_IC_DBO
         (,icId,)=System_Users_Info_instance.getInsuranceCompanybyAddress(pd.icAddr);
 
 
-        cd=ClaimDetails(cidGenerator,_estimatedBillId,now,_claimedAmount,0,_publicKey,_commitmentOfSecretKey,'',0,0,0,0,false,false);
+        cd=ClaimDetails(cidGenerator,_estimatedBillId,now,_claimedAmount,0,_comm_k,'',0,0,0,0,false,false);
         claimDetails.push(cd);
 
         DBODetails memory dboDetails;
@@ -378,7 +377,7 @@ contract SC_P_IC_DBO
 
 
 
-      function revealSecretKey(address System_Users_Info_address,bytes memory _secretKey,uint _cID,uint _icID) public
+      function revealSecretKey(address System_Users_Info_address,bytes32 _K,uint _cID,uint _icID) public
       {
           address _icAddr;
           System_Users_Info System_Users_Info_instance = System_Users_Info(System_Users_Info_address);
@@ -394,9 +393,9 @@ contract SC_P_IC_DBO
           require(now-claimDetails[_cID-1].timestamp_icLocking<=timeLimitForKeyReveal);
           require(claimDetails[_cID-1].timestamp_keyReveal==0);
           require(claimDetails[_cID-1].timestamp_approval==0);
-          require(Hash(_secretKey)==claimDetails[_cID-1].commitmentOfSecretKey);
+          require(Hash(_K)==claimDetails[_cID-1].comm_k);
 
-          claimDetails[_cID-1].secretKey=_secretKey;
+          claimDetails[_cID-1].K=_K;
           claimDetails[_cID-1].timestamp_keyReveal=now;
 
       }

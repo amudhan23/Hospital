@@ -53,7 +53,7 @@ func main(){
 
 
 
-			client, err := ethclient.Dial("https://ropsten.infura.io/v3/c196cc55405844f69b80c2dbd7f734a8")
+			client, err := ethclient.Dial("Infura Key Point")
 			if err != nil {
 				log.Fatal(err)
 			}
